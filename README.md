@@ -5,7 +5,7 @@
 ![iFlip Framework](figures/iFlip_overview.png)
 
 
-**iFlip** is an iterative refinement framework for generating high-validity counterfactual examples that overcome the limitations of single-pass generation. The method alternates between a generator and an explained model through three stages: (1) Generation - the generator produces initial counterfactual candidates; (2) Verification - the explained model validates whether the candidate changes the prediction; (3) Refinement - if verification fails, we leverage feedback signals to refine the counterfactual candidate until the label flips. iFlip leverages three types of feedback: confidence-based feedback, feature attribution-based feedback (SHAP, AttnLRP, LIME, Gradient × Input), and natural language feedback. 
+**iFlip** is an iterative refinement framework for generating high-validity counterfactual examples that overcome the limitations of single-pass generation. The method consists of three stages involving a generator and an explained model: (1) Generation - the generator produces initial counterfactual candidates; (2) Verification - the explained model validates whether the candidate changes the prediction; (3) Refinement - if verification fails, we leverage feedback signals to refine the counterfactual candidate until the label flips. iFlip leverages three types of feedback: confidence-based feedback, feature attribution-based feedback (SHAP, AttnLRP, LIME, Gradient × Input), and natural language feedback. 
 
 
 ## Models and Datasets
