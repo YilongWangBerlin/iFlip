@@ -1,0 +1,5 @@
+file,dataset,setting,flip_rate,edit_distance,perplexity
+distilbert-ag_news-allenai_OLMo-2-1124-7B-Instruct-cf-explanations.csv,agnews,default,0.308,0.963,77.38
+distilbert-imdb-allenai_OLMo-2-1124-7B-Instruct-cf-explanations.csv,imdb,default,0.585,0.879,38.71
+distilbert-snli-hypothesis-allenai_OLMo-2-1124-7B-Instruct-cf-explanations.csv,snli,hypothesis_replaced,0.404,0.343,56.31
+distilbert-snli-premise-allenai_OLMo-2-1124-7B-Instruct-cf-explanations.csv,snli,premise_replaced,0.305,0.295,45.54

@@ -1,0 +1,1501 @@
+original_review,counterfactual,thinking_content,original_label,ground_truth_label,refinement_rounds,pred_labels_history,orig_token_count,stalled_rounds
+"Premise: Three army soldiers are holding guns and peering around a corner of a building.
+Hypothesis: Soldiers are guarding a building.","Premise: The city's traffic patterns are being analyzed by urban planners, and a new bakery is opening on the outskirts of town, offering a variety of pastries.
+Hypothesis: Soldiers are guarding a building.",,contradiction,-1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,30,[]
+"Premise: A nighttime street scene of a restaurant.
+Hypothesis: The restaurant is open at night.","Premise: A nighttime street scene of a restaurant that has been permanently shut down and is now a vacant lot.
+Hypothesis: The restaurant is open at night.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,23,[]
+"Premise: A small girl with short brown hair is pushing a pink scooter over grass with brown leaves with threes in the background
+Hypothesis: The girl is outside.","Premise: A small girl with short brown hair is sitting on a couch in a living room with no windows, surrounded by indoor decorations and furniture.
+Hypothesis: The girl is outside.",,neutral,0,0,contradiction,37,[]
+"Premise: A child dressed in purple clothing and a hat runs in splashing water while a man and a small boy walk nearby.
+Hypothesis: a child enjoys summer vacation","Premise: A child dressed in winter clothing and a hat stays indoors while a man and a small boy shovel snow nearby.
+Hypothesis: a child enjoys summer vacation",,neutral,1,0,contradiction,37,[]
+"Premise: A man in a business suit screaming at the camera.
+Hypothesis: A business man is giving a heated interview for the local news.","Premise: A man in a business suit is silently reading a book to the camera.
+Hypothesis: A business man is giving a heated interview for the local news.",,neutral,1,0,contradiction,32,[]
+"Premise: A ballerina standing on the toes of one food with one arm up in the air and one leg lifted behind her.
+Hypothesis: The ballerina hates this.","Premise: The weather forecast for the upcoming weekend is expected to be sunny with a high chance of gentle breezes, and a local farmer is preparing for the annual harvest festival by arranging a variety of colorful flowers and fresh produce.
+Hypothesis: The ballerina hates this.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,40,[]
+"Premise: Two men are sitting in a restaurant while one of them holds a piece of paper up to the camera.
+Hypothesis: Two men are sitting watching a movie.","Premise: A nearby library has an extensive collection of books on various subjects, including astronomy and botany.
+Hypothesis: Two men are sitting watching a movie.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,37,[]
+"Premise: Expert snowboard is trying a new trick.
+Hypothesis: The person is snowboarding.","Premise: The city's new traffic system has reduced congestion during rush hour.
+Hypothesis: The person is snowboarding.",,contradiction,0,1,contradiction|entailment,23,[]
+"Premise: A boy plays his trumpet during a performance with his band.
+Hypothesis: A human with a trumpet","Premise: A boy does not own or play any musical instrument, including a trumpet, and has never been known to be with one.
+Hypothesis: A human with a trumpet",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|contradiction,25,[]
+"Premise: The man in the black shirt is skateboarding on the front steps of the building.
+Hypothesis: A person with a dark top is outside doing something active.","Premise: The nearby park has a beautiful garden with over 50 species of flowers and a large pond with swans.
+Hypothesis: A person with a dark top is outside doing something active.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,37,[]
+"Premise: Many people sit, some stand outside of a large brick building.
+Hypothesis: people are throwing rocks at each other","Premise: Many people sit, some stand outside of a large brick building, where a strict no-rock policy is enforced and there hasn't been a single reported incident of rock-throwing in years.
+Hypothesis: people are throwing rocks at each other",,entailment,2,1,entailment|contradiction,28,[]
+"Premise: A small girl with braids blowing bubbles.
+Hypothesis: A young boy plays with his yo-yo.","Premise: A young boy with a big smile, who has just put down his yo-yo, watches as a small girl with braids blows bubbles.
+Hypothesis: A young boy plays with his yo-yo.",,contradiction,2,0,neutral,27,[]
+"Premise: Man in robe making designs on dirt ground.
+Hypothesis: A man making designs in the dirt outside.","Premise: Man in suit working on a computer indoors.
+Hypothesis: A man making designs in the dirt outside.",,neutral,0,0,contradiction,26,[]
+"Premise: A girl is about to hit a tennis ball coming from above her with a racket
+Hypothesis: A girl is playing tennis.","Premise: A girl is about to hit a golf ball with a golf club, and she has never played tennis in her life, nor does she even know the rules of the game, and in fact, she is at a golf course, not a tennis court.
+Hypothesis: A girl is playing tennis.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,31,[]
+"Premise: A man in military uniform points as three other men watch.
+Hypothesis: the man is training some guys","Premise: The weather forecast for the area is expected to be sunny with a high of 75 degrees as a man in military uniform points at something while three other men watch nearby children playing soccer.
+Hypothesis: the man is training some guys",,contradiction,1,0,neutral,26,[]
+"Premise: A little boy with an orange backpack walks under a tree through the woods.
+Hypothesis: A boy walks through the woods.","Premise: The weather forecast for the upcoming holiday weekend is expected to be sunny, and a local artist is preparing for an exhibition of her paintings.
+Hypothesis: A boy walks through the woods.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,30,[]
+"Premise: Two young boys wearing shorts and sandals throw pebbles from a dirt path into a body of water.
+Hypothesis: The two young boys are playing kickball at the park.","Premise: Two young boys wearing athletic shoes and holding kickballs are running around a grassy field marked with a kickball diamond at the park.
+Hypothesis: The two young boys are playing kickball at the park.",,contradiction,2,0,neutral,41,[]
+"Premise: A woman sweeping in front of a ladder on a busy street.
+Hypothesis: A woman cleans up near a ladder","Premise: The city's botanical garden is preparing for its annual flower exhibition, and a local artist is creating a sculpture for the event.
+Hypothesis: A woman cleans up near a ladder",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,28,[]
+"Premise: A dirty, shirtless homeless man sits on the sidewalk, holding his cup up to passerby asking for change.
+Hypothesis: A homeless man begs.","Premise: The city's botanical garden is preparing for its annual flower exhibition, featuring a wide variety of orchids and roses from local nurseries.
+Hypothesis: A homeless man begs.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,36,[]
+"Premise: A young man appears bored in a restaurant.
+Hypothesis: A young person appears bored in a restaurant.","Premise: No young person appears bored in a restaurant because an elderly woman appears enthusiastic in the same restaurant.
+Hypothesis: A young person appears bored in a restaurant.",,neutral,0,1,neutral|contradiction,26,[]
+"Premise: A boy in a blue shirt plays in a jumping tent.
+Hypothesis: Rent your own bouncy house today","Premise: A boy in a blue shirt already has a bouncy house at home and therefore does not need to rent one.
+Hypothesis: Rent your own bouncy house today",,neutral,1,3,neutral|neutral|neutral|contradiction,27,[]
+"Premise: A man looks mysterious in a blue shirt and a red truck for a company called Wilbert.
+Hypothesis: A woman cuts eggplant.","Premise: A man who is the husband of a woman looks mysterious in a blue shirt and a red truck for a company called Wilbert as he waits for her to finish cutting eggplant for their dinner.
+Hypothesis: A woman cuts eggplant.",,contradiction,2,0,neutral,33,[]
+"Premise: This off-roading driver has tipped his truck.
+Hypothesis: A Ferrari goes through the drive-thru.","Premise: This Ferrari driver, after a morning of off-roading, has now decided to go through the drive-thru in his vehicle.
+Hypothesis: A Ferrari goes through the drive-thru.",,contradiction,2,0,neutral,27,[]
+"Premise: Two young girls, one wearing a pink jacket and the other in a dark-colored jacket, are playing in the snow and having a snowball fight in a clearing outside of a wooded area.
+Hypothesis: Two girls are sleeping","Premise: Two girls are sleeping in a quiet room, not playing outside.
+Hypothesis: Two girls are sleeping",,entailment,2,0,neutral,50,[]
+"Premise: This man is working with an I-pad.
+Hypothesis: the man is typing a paper","Premise: This man is working with an I-pad and typing away on its keyboard to complete his document.
+Hypothesis: the man is typing a paper",,contradiction,1,0,neutral,23,[]
+"Premise: Three people are sitting at a small table near a screen with the words, ""DEMOS, The Business of Care.""
+Hypothesis: A trio of humans is sitting.","Premise: There is no one sitting near a screen with the words, ""DEMOS, The Business of Care"", because the area is completely empty and has been that way all day.
+Hypothesis: A trio of humans is sitting.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,39,[]
+"Premise: A snowboarder on a wide plain of snow
+Hypothesis: A snowboarder gliding over a field of snow","Premise: A person ice-skating on a frozen lake
+Hypothesis: A snowboarder gliding over a field of snow",,neutral,1,0,contradiction,30,[]
+"Premise: Men at a party hanging out on the front porch.
+Hypothesis: They are smoking cigarettes on the porch.","Premise: The weather forecast is predicting a sunny weekend for the coastal towns, and a group of friends are planning a beach trip.
+Hypothesis: They are smoking cigarettes on the porch.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,27,[]
+"Premise: A person crossing a bridge with train tracks.
+Hypothesis: A person jumped off the side of the bridge.","Premise: A person jumped off the side of the bridge while crossing it.
+Hypothesis: A person jumped off the side of the bridge.",,contradiction,2,0,neutral,27,[]
+"Premise: A beach boardwalk during summertime.
+Hypothesis: A wooden path towards the shore.","Premise: The local botanical garden is home to a wide variety of exotic plant species.
+Hypothesis: A wooden path towards the shore.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,23,[]
+"Premise: A woman is carrying two children in the middle of a large crowd.
+Hypothesis: the woman is lying down sleeping","Premise: The woman is lying down and asleep in the middle of a large crowd.
+Hypothesis: the woman is lying down sleeping",,entailment,2,1,entailment|neutral,28,[]
+"Premise: a wet golden retriever is walking through a lake
+Hypothesis: A wet golden retriever is in a lake.","Premise: a dry golden retriever is running on the beach
+Hypothesis: A wet golden retriever is in a lake.",,neutral,0,0,contradiction,29,[]
+"Premise: A woman wearing a striped wrap is bent over in a cornfield while looking at the camera.
+Hypothesis: A woman wearing a striped wrap is looking at the camera.","Premise: A woman wearing a solid-colored dress is standing upright in a city street while looking away from the camera.
+Hypothesis: A woman wearing a striped wrap is looking at the camera.",,neutral,0,0,contradiction,39,[]
+"Premise: This is a very large vegetable stand under a white tent.
+Hypothesis: People are eating fast food.","Premise: The weather forecast predicts a mild winter this year, with average temperatures expected to be slightly higher than usual in the region.
+Hypothesis: People are eating fast food.",,contradiction,2,4,contradiction|contradiction|contradiction|contradiction|neutral,26,[]
+"Premise: A person standing next to an old dark building.
+Hypothesis: A person standing near a building.","Premise: A person standing in a field with no buildings nearby, and it is impossible for any building to be constructed there due to strict environmental regulations.
+Hypothesis: A person standing near a building.",,neutral,0,2,neutral|neutral|contradiction,25,[]
+"Premise: a man sitting on a motorcycle with a sunset directly behind him
+Hypothesis: A man sitting on his motorcycle with the sunset directly behind him outside.","Premise: a man is standing next to a motorcycle with a sunrise directly in front of him, and he is not sitting on it because it is morning
+Hypothesis: A man sitting on his motorcycle with the sunset directly behind him outside.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,35,[]
+"Premise: Two men wearing dirty clothing are sitting on a sidewalk with their dog and begging for money using a cardboard sign.
+Hypothesis: These two illiterate men convinced their dog to write a panhandling sign for them.","Premise: The city's new library is hosting a book reading event, featuring a renowned author who writes about historical fiction.
+Hypothesis: These two illiterate men convinced their dog to write a panhandling sign for them.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,47,[]
+"Premise: A boy in a yellow shirt running by some birds.
+Hypothesis: The boy is moving very fast.","Premise: The boy in the yellow shirt is standing still and not moving, while the birds are flying quickly around him.
+Hypothesis: The boy is moving very fast.",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,26,"[2, 3, 4]"
+"Premise: People jump over a mountain crevasse on a rope.
+Hypothesis: People are jumping outside.","Premise: People are sitting indoors.
+Hypothesis: People are jumping outside.",,neutral,0,0,entailment,25,[]
+"Premise: Many people have decided to take a rest on the steps.
+Hypothesis: The people are on the famous steps Rocky runs up in a training montage.","Premise: The city's public transportation system has recently introduced a new bus route that connects the outskirts of the city to the downtown area.
+Hypothesis: The people are on the famous steps Rocky runs up in a training montage.",,contradiction,1,2,contradiction|contradiction|neutral,35,[]
+"Premise: A group of kids is splashing in deep water nearby a rock formation.
+Hypothesis: They are wearing lifejackets","Premise: The city's new bakery is famous for its delicious pastries and has a long line of customers waiting outside on weekends.
+Hypothesis: They are wearing lifejackets",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,29,[]
+"Premise: Four men stand in a circle facing each other playing brass instruments which people watch them.
+Hypothesis: The men are watching a sports channel","Premise: Four men stand in a circle facing each other playing brass instruments which people watch them, nearby a child is eating an ice cream cone.
+Hypothesis: The men are watching a sports channel",,contradiction,2,0,neutral,32,[]
+"Premise: A drummer wearing a plaid shirt, jeans, and a purple had bangs his drum.
+Hypothesis: A trumpeter practices for an orchestra.","Premise: As the orchestra rehearses for an upcoming performance, a trumpeter, who is a key member of the orchestra, practices his solo part in preparation for the event, alongside other musicians including a drummer wearing a plaid shirt, jeans, and a purple hat.
+Hypothesis: A trumpeter practices for an orchestra.",,contradiction,2,3,contradiction|contradiction|contradiction|neutral,35,[]
+"Premise: A boy in a hat and glasses is playing a guitar.
+Hypothesis: A boy is playing piano.","Premise: A boy in a hat and glasses is playing a guitar and definitely not playing piano.
+Hypothesis: A boy is playing piano.",,entailment,2,0,neutral,26,[]
+"Premise: A female dancer wearing all white dancing while a photographer wearing all white takes her picture.
+Hypothesis: A girl is dancing and anothe man take a photo","Premise: The weather forecast for the upcoming weekend is expected to be sunny, and a new bookstore just opened downtown, while a female dancer wearing all white is dancing in a studio.
+Hypothesis: A girl is dancing and anothe man take a photo",,contradiction,1,1,contradiction|neutral,36,[]
+"Premise: Two girls wearing hats are running through snow drifts outside.
+Hypothesis: one girl running","Premise: All girls are staying inside on this snowy day.
+Hypothesis: one girl running",,neutral,2,1,neutral|contradiction,23,[]
+"Premise: A man and a child are laughing at each other.
+Hypothesis: Two people are laughing.","Premise: A man and a child are staring angrily at each other, and both are completely silent.
+Hypothesis: Two people are laughing.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|entailment,24,[]
+"Premise: The man is digging in the sand while others watch to see what he discovers.
+Hypothesis: a man is digging for gold.","Premise: The man is not digging in the sand, but rather sitting under a tree, and there are no others around, and he has never mentioned anything about digging or gold.
+Hypothesis: a man is digging for gold.",,neutral,1,3,neutral|neutral|neutral|contradiction,31,[]
+"Premise: Two NHL hockey players prepare to fight over a puck during a face off.
+Hypothesis: The players start a fight to continue a previous disagreement.","Premise: The local weather forecast predicts a clear sky with a high of 75 degrees for the upcoming weekend, and a new coffee shop is scheduled to open downtown.
+Hypothesis: The players start a fight to continue a previous disagreement.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,34,[]
+"Premise: A child in an orange outfit stands holding flowers.
+Hypothesis: The boy has a gift for his mother.","Premise: The weather forecast predicts a sunny day for the upcoming music festival, and a team of chefs are preparing a new menu for the event, while a group of friends are planning a road trip to a nearby beach.
+Hypothesis: The boy has a gift for his mother.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,27,[]
+"Premise: A policeman on a motorcycle from the rear.
+Hypothesis: An officer watching a jail cell.","Premise: No policeman is present at the scene.
+Hypothesis: An officer watching a jail cell.",,entailment,2,0,contradiction,24,[]
+"Premise: Two young boys are playing with a toy train set on a wood floor.
+Hypothesis: Two girls are playing with dolls.","Premise: Two young girls, who are sisters, are playing with dolls on a wood floor.
+Hypothesis: Two girls are playing with dolls.",,contradiction,2,1,contradiction|neutral,30,[]
+"Premise: four people standing on a hiking trail in a forest with big tree logs on the ground close to them.
+Hypothesis: Nobody is standing","Premise: there are no people standing on a hiking trail in a forest with big tree logs on the ground close to them.
+Hypothesis: Nobody is standing",,entailment,2,5,entailment|entailment|entailment|entailment|entailment|entailment,32,[]
+"Premise: A closeup of an older man with glasses speaking.
+Hypothesis: The woman is doing a speech.","Premise: There is no woman present and the only person speaking is an older man with glasses.
+Hypothesis: The woman is doing a speech.",,neutral,2,2,neutral|neutral|contradiction,26,[]
+"Premise: People sitting in a dim restaurant eating.
+Hypothesis: People are eating food.","Premise: The restaurant is closed with no people sitting or eating because it is a holiday.
+Hypothesis: People are eating food.",,neutral,0,1,neutral|contradiction,21,[]
+"Premise: Child plays with pigeon in busy public area while group of people watch him play.
+Hypothesis: A group of people take turns carrying an injured child.","Premise: The city's botanical garden is hosting a rare flower exhibition, featuring orchids from around the world, and the weather forecast predicts a sunny weekend.
+Hypothesis: A group of people take turns carrying an injured child.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,35,[]
+"Premise: A woman plays in the wind, with a furry brown dog.
+Hypothesis: The dog is a shitzu.","Premise: A woman plays in the wind, with a small, fluffy, and friendly furry brown dog that has a flat face and a long coat, characteristic of the shitzu breed.
+Hypothesis: The dog is a shitzu.",,contradiction,1,0,neutral,29,[]
+"Premise: Man sitting on bench with suitcase waiting for his source of transportation.
+Hypothesis: The man is on a treadmill.","Premise: Man sitting on bench with suitcase, having just arrived at his destination and watching as his source of transportation drives away.
+Hypothesis: The man is on a treadmill.",,entailment,2,0,neutral,28,[]
+"Premise: A black man wearing a down jacket with his arms spread and holding a pink comb.
+Hypothesis: A man was wearing a jacket in winter.","Premise: A man was wearing a t-shirt in summer.
+Hypothesis: A man was wearing a jacket in winter.",,neutral,1,0,entailment,34,[]
+"Premise: A blond little boy in an orange sweatshirt with red sleeves is using scissors to cut something.
+Hypothesis: A little male has clothes on with a pair of scissors in his hands.","Premise: A little girl with no clothes on is holding a pair of scissors, and there are no males or clothes present in the scene, and the girl is standing alone.
+Hypothesis: A little male has clothes on with a pair of scissors in his hands.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,42,"[4, 5]"
+"Premise: People in motion down a city sidewalk.
+Hypothesis: People are walking to an event.","Premise: The city's public transportation system is being upgraded with new buses and an improved schedule, which is expected to benefit commuters and tourists alike.
+Hypothesis: People are walking to an event.",,contradiction,1,2,contradiction|contradiction|neutral,23,[]
+"Premise: A scruffy man is standing in front of a red shopping cart filled with boxes.
+Hypothesis: A clean shaven man with an empty blue shopping cart.","Premise: A clean shaven man is standing in front of an empty blue shopping cart.
+Hypothesis: A clean shaven man with an empty blue shopping cart.",,entailment,2,0,neutral,37,[]
+"Premise: A woman in black walks down the street in front of a graffited wall.
+Hypothesis: A lady walks down the street.","Premise: A book club is meeting at the local library to discuss their latest novel, and the city's botanical garden is hosting a rare plant exhibition.
+Hypothesis: A lady walks down the street.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,32,[]
+"Premise: This person looks to be snowboarding on a very small pile of snow on a sunny cold day.
+Hypothesis: timmy stares at the remains of Jimmy hoffa","Premise: Timmy is currently sunbathing on a tropical beach on a warm day.
+Hypothesis: timmy stares at the remains of Jimmy hoffa",,neutral,2,2,neutral|neutral|contradiction,39,[]
+"Premise: An elderly lady holding a scruffy dog and smiling contently.
+Hypothesis: a woman holding a scruffy dog","Premise: A young man holding a cat and frowning, with no dog in sight
+Hypothesis: a woman holding a scruffy dog",,neutral,0,0,entailment,28,[]
+"Premise: A father is teaching his son how to ride a bicycle.
+Hypothesis: The boy is improving quickly.","Premise: The city's new library has an extensive collection of books on various subjects, including history and science fiction, and the local bakery is famous for its delicious pastries.
+Hypothesis: The boy is improving quickly.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,26,[]
+"Premise: The girl wearing a brown jacket whilst walking in snow.
+Hypothesis: A woman is eating pasta in a restaurant.","Premise: The woman, who is wearing a brown jacket, has just finished walking in the snow and is now sitting in a restaurant where she is eating pasta.
+Hypothesis: A woman is eating pasta in a restaurant.",,contradiction,2,0,neutral,28,[]
+"Premise: A man with a beard is playing an acoustic guitar on the street.
+Hypothesis: The man tries to make some money from tips.","Premise: A woman is walking her dog nearby while a man with a beard is playing an acoustic guitar on the street.
+Hypothesis: The man tries to make some money from tips.",,contradiction,1,0,neutral,32,[]
+"Premise: A small child with a backpack walks down a narrow road next to a painted wall.
+Hypothesis: A small child is walking on a road","Premise: A local bookstore is having a sale on fiction novels, and a group of retirees are discussing their favorite authors, while a small child with a backpack walks down a narrow road next to a painted wall.
+Hypothesis: A small child is walking on a road",,contradiction,0,3,contradiction|contradiction|contradiction|neutral,33,[]
+"Premise: A young man holding a young woman in his arms as they get splashed by water shooting up from a fountain.
+Hypothesis: A young couple is very much in love.","Premise: A young man holding a young woman in his arms as they get splashed by water shooting up from a fountain, meanwhile, a new bookstore has just opened across the street, offering a wide selection of science fiction novels, and the weather forecast predicts a sunny weekend.
+Hypothesis: A young couple is very much in love.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,40,[]
+"Premise: A man and a child are purchasing ice cream from a man with a hand pushed ice cream cart.
+Hypothesis: A father is buying his daughter ice cream.","Premise: The weather forecast predicts a sunny day tomorrow, and a new species of plant has been discovered in the Amazon rainforest.
+Hypothesis: A father is buying his daughter ice cream.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,37,[]
+"Premise: A female covering her face in laughter at the dinner table.
+Hypothesis: A woman has heard a joke.","Premise: A female sitting alone at an empty dinner table, with a serious expression and no prior exposure to any jokes or humorous conversations, having just spent the entire day in complete isolation without any interaction with others.
+Hypothesis: A woman has heard a joke.",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,27,[]
+"Premise: A mom and her boy are riding in a bumper car.
+Hypothesis: The mom and boy are at an amusement park.","Premise: A mom and her boy are riding in a bumper car in their backyard.
+Hypothesis: The mom and boy are at an amusement park.",,neutral,0,0,contradiction,30,[]
+"Premise: Police officer wearing a brown uniform talks into a wireless microphone.
+Hypothesis: A police officer is silent.","Premise: Police officer is not wearing a uniform and is not talking into a wireless microphone, instead choosing to remain silent.
+Hypothesis: A police officer is silent.",,contradiction,2,0,neutral,26,[]
+"Premise: In a snowy residential environment, a man with a brown jacket and gray mustache and beard places a hand on a felled log while another man in a blue shirt is blurry on the right side of the photo.
+Hypothesis: The log is for firewood.","Premise: The city's botanical garden is home to a wide variety of exotic plants and flowers, and a new species of orchid has recently been discovered by a team of botanists.
+Hypothesis: The log is for firewood.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,58,[]
+"Premise: A woman crosses the street with a baby in her arms.
+Hypothesis: A woman crosses the street carrying her baby boy.","Premise: A woman crosses the street with no baby in her arms.
+Hypothesis: A woman crosses the street carrying her baby boy.",,neutral,1,0,contradiction,30,[]
+"Premise: A woman in a brown jacket and jeans is kneeling on a brick road while taking a picture of another woman posing.
+Hypothesis: The woman posing is a famous model.","Premise: The city's public transportation system is being renovated, and a new species of bird has been spotted in the local park, meanwhile a woman in a brown jacket and jeans is kneeling on a brick road while taking a picture of another woman posing.
+Hypothesis: The woman posing is a famous model.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,39,[]
+"Premise: An older women tending to a garden.
+Hypothesis: The lady is cooking dinner","Premise: A group of children are playing soccer in a nearby park.
+Hypothesis: The lady is cooking dinner",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,22,[]
+"Premise: The three young children played with some toilet paper in the grass.
+Hypothesis: The three young children are throwing the toilet paper around.","Premise: The three young children carefully placed the toilet paper in a trash can in the grass.
+Hypothesis: The three young children are throwing the toilet paper around.",,neutral,1,0,contradiction,32,[]
+"Premise: Man and woman rowing on surfboards third rower in distance.
+Hypothesis: Couples rowing on surfboards.","Premise: No one is rowing on a surfboard, as all individuals are engaged in activities that do not involve surfboards, and all surfboards are currently stored away.
+Hypothesis: Couples rowing on surfboards.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,29,"[4, 5]"
+"Premise: A golden retriever nurses puppies.
+Hypothesis: Puppies next to their mother","Premise: A local bookstore is having a sale on classic novels, featuring works by famous authors from the 19th century.
+Hypothesis: Puppies next to their mother",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,21,[]
+"Premise: A performer plays an instrument for the audience.
+Hypothesis: The instrument plays a performer for an audience.","Premise: The weather forecast for the upcoming weekend looks sunny, and a performer is preparing for a show.
+Hypothesis: The instrument plays a performer for an audience.",,entailment,2,0,contradiction,26,[]
+"Premise: A man throws his young boy playfully into the air standing on a beach.
+Hypothesis: A Dad and son is playing on the beach.","Premise: The weather forecast predicts a high chance of rain in the upcoming week, meanwhile a man throws his young boy playfully into the air standing on a beach.
+Hypothesis: A Dad and son is playing on the beach.",,contradiction,0,1,contradiction|neutral,34,[]
+"Premise: A dog jumping for a Frisbee in the snow.
+Hypothesis: A cat washes his face and whiskers with his front paw.","Premise: A cat, rather than a dog, is washing his face and whiskers with his front paw in the snow.
+Hypothesis: A cat washes his face and whiskers with his front paw.",,entailment,2,0,contradiction,34,[]
+"Premise: Small girl riding in play car.
+Hypothesis: A girl is riding in a toy car.","Premise: A local bookstore is having a sale on classic novels.
+Hypothesis: A girl is riding in a toy car.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,24,[]
+"Premise: People walk outside ""The Tempe Bar"".
+Hypothesis: People move around outside.","Premise: Everybody stays inside ""The Tempe Bar"".
+Hypothesis: People move around outside.",,neutral,0,1,neutral|entailment,22,[]
+"Premise: A group of people having a conversation.
+Hypothesis: People are talking about politics.","Premise: A group of people watching a movie in complete silence.
+Hypothesis: People are talking about politics.",,neutral,1,0,contradiction,22,[]
+"Premise: A man in an army uniform speaks into a microphone.
+Hypothesis: A soldier speaks into the microphone.","Premise: A man in a business suit, who has never been in the military and is currently giving a presentation in a conference room, speaks into a microphone.
+Hypothesis: A soldier speaks into the microphone.",,neutral,0,2,neutral|neutral|contradiction,26,[]
+"Premise: A child sits in a tree holding a branch.
+Hypothesis: The adult jumped up onto the tree.","Premise: The tree has no branches and is too small for anyone to jump onto.
+Hypothesis: The adult jumped up onto the tree.",,neutral,2,0,contradiction,26,[]
+"Premise: A man with a beer in his hand listens to a woman talk.
+Hypothesis: A man has a beer with him.","Premise: A man with no drinks in his hand listens to a woman talk.
+Hypothesis: A man has a beer with him.",,neutral,0,0,contradiction,30,[]
+"Premise: Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.
+Hypothesis: The little boys are crying.","Premise: A chef is preparing a new recipe in a quiet café, where the owner is arranging flowers on the tables.
+Hypothesis: The little boys are crying.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,34,[]
+"Premise: Two men in suits standing in front of a bus, one is wearing a medal.
+Hypothesis: Two men are standing in front of a large vehicle.","Premise: There are no men standing in front of a large vehicle, and in fact, two men in casual clothes are sitting on a bench.
+Hypothesis: Two men are standing in front of a large vehicle.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,36,[]
+"Premise: A woman is cutting into a sandwich while sitting at an outdoor table.
+Hypothesis: The lady on the table is cutting her sandwhich","Premise: A woman is sitting at an outdoor table while a nearby musician is playing a melody on his guitar and the weather forecast predicts a sunny weekend.
+Hypothesis: The lady on the table is cutting her sandwhich",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,32,[]
+"Premise: Three men are working with their bikes in the shoulder of a road.
+Hypothesis: The men's bikes broke.","Premise: A librarian is organizing books on a shelf in a quiet library, where a woman is walking her dog in a nearby park, and children are playing soccer in a field across the street.
+Hypothesis: The men's bikes broke.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,28,[]
+"Premise: A boy and a girl stand in a median amongst Mike Huckabee signs.
+Hypothesis: Two people stand on a median with advertising signs.","Premise: No people stand on the median with Mike Huckabee signs, because the median has been closed off and there are no signs of any kind present.
+Hypothesis: Two people stand on a median with advertising signs.",,neutral,0,2,neutral|neutral|contradiction,32,[]
+"Premise: A man who wears glasses, a blue shirt and a Chicago White Sox cap holds a young boy who also wears a blue shirt.
+Hypothesis: The man the baseball is taking his son to a baseball game today.","Premise: A man who wears glasses, a blue shirt and a Chicago White Sox cap holds a young boy who also wears a blue shirt, meanwhile, a nearby café is serving a new seasonal coffee flavor and a local bookstore is hosting a book club meeting for a recently published novel.
+Hypothesis: The man the baseball is taking his son to a baseball game today.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,48,[]
+"Premise: Naked children play on the muddy riverbank.
+Hypothesis: THE NUDE KIDS PLAYED ON THE RIVERBANK IN THE MUD JUST TO HAVE A MUD BATH","Premise: Nearby, a group of villagers were preparing for an upcoming festival, while naked children played on the muddy riverbank.
+Hypothesis: THE NUDE KIDS PLAYED ON THE RIVERBANK IN THE MUD JUST TO HAVE A MUD BATH",,contradiction,1,0,neutral,43,[]
+"Premise: A boy runs as others play on a homemade slip and slide.
+Hypothesis: A boy is running.","Premise: A boy walks as others play on a homemade slip and slide.
+Hypothesis: A boy is running.",,neutral,0,0,contradiction,26,[]
+"Premise: A rescue worker searches with a flashlight under a slab in a ruined building.
+Hypothesis: A rescue worker searches for survivors.","Premise: A rescue worker searches with a flashlight under a slab in a building that has just been declared completely safe and empty of anyone, with all rescue operations already completed and officially closed.
+Hypothesis: A rescue worker searches for survivors.",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|contradiction,30,[]
+"Premise: People boating on a lake with the sun through the clouds in the distance.
+Hypothesis: people on boat","Premise: The lake is empty with no boats or people in sight, and the sun is hidden behind thick clouds.
+Hypothesis: people on boat",,neutral,0,0,contradiction,27,[]
+"Premise: The man white purple and white polka-dotted shirts is eating and looking to his right while the woman behind him has a confused look on her face.
+Hypothesis: The guy is eating a sandwich while a lady wonders what's in the sandwich.","Premise: The man wearing a solid black shirt is not eating and is playing a guitar while the woman behind him is sleeping.
+Hypothesis: The guy is eating a sandwich while a lady wonders what's in the sandwich.",,neutral,1,1,neutral|entailment,55,[]
+"Premise: A dog with a collar on lying on the street.
+Hypothesis: There is an animal outdoors.","Premise: The street is completely empty and there are no animals outside, which directly contradicts the existence of any animal outdoors.
+Hypothesis: There is an animal outdoors.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,25,[]
+"Premise: Performer who is wearing 2 hats a scary mask and a black and white robe.
+Hypothesis: The actor playing Voldemort is wearing a scary mask and a black and white robe.","Premise: Performer who is wearing 2 hats a friendly mask and a colorful robe.
+Hypothesis: The actor playing Voldemort is wearing a scary mask and a black and white robe.",,neutral,1,0,contradiction,42,[]
+"Premise: Sports team members practice and relax on a basketball court.
+Hypothesis: Team members of a sport is relaxing after practice.","Premise: The sports team members have just finished their season and are now on a month-long vacation, with no scheduled games or practices, and are spending their time relaxing on beaches and pursuing individual hobbies.
+Hypothesis: Team members of a sport is relaxing after practice.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,29,[]
+"Premise: A referee with a whistle in his mouth points to the right and watches as a player with the basketball bends down with a defensive player.
+Hypothesis: A referee blows a whistle","Premise: A referee with no whistle in his mouth points to the right and watches as a player with the basketball bends down with a defensive player, and it is clearly stated in the rules that a referee must blow a whistle to stop play, but this referee does not have a whistle and therefore does not blow one, and in fact, the referee explicitly says that he will not blow any whistles during the game.
+Hypothesis: A referee blows a whistle",,neutral,-1,5,neutral|neutral|neutral|neutral|neutral|neutral,40,[]
+"Premise: A man, wearing a cap, is pushing a cart, on which large display boards are kept, on a road.
+Hypothesis: The person is stealing display boards.","Premise: A man, wearing a cap, is caught on camera stealing large display boards from a store, which is evident from the removed security tags, the sounding alarm, and the witness's report of a theft in progress, as he pushes the cart away from the store with the display boards, clearly indicating an act of theft.
+Hypothesis: The person is stealing display boards.",,contradiction,1,4,contradiction|contradiction|contradiction|contradiction|neutral,39,[]
+"Premise: Six people appearing to be planting something in the ground.
+Hypothesis: People are digging up the earth","Premise: Six people appearing to be filling in holes in the ground, having just finished digging up the earth the day before.
+Hypothesis: People are digging up the earth",,neutral,0,0,contradiction,25,[]
+"Premise: A group of people are looking at photographs on a wall and speaking to each other.
+Hypothesis: A group of friends are visiting an art exhibit.","Premise: A group of friends are gathered in front of an art exhibit, having arrived together to spend the day viewing and discussing the various artworks on display as part of their planned visit to the exhibit.
+Hypothesis: A group of friends are visiting an art exhibit.",,contradiction,1,2,contradiction|contradiction|neutral,35,[]
+"Premise: Two daschunds play with a red ball
+Hypothesis: Two dogs playing together.","Premise: There are no dogs playing with any balls, including red ones, because they are all sleeping.
+Hypothesis: Two dogs playing together.",,neutral,0,1,neutral|contradiction,23,[]
+"Premise: A man standing alone in a park.
+Hypothesis: a man alone at home","Premise: The weather forecast for the weekend is expected to be sunny and warm, with a high chance of cloudless skies.
+Hypothesis: a man alone at home",,contradiction,2,3,contradiction|contradiction|contradiction|neutral,21,[]
+"Premise: Two little girls, wearing pink hanging on a tube.
+Hypothesis: Two girls wearing blue sit on a couch.","Premise: A new library is being built in the city, with a large collection of books and a quiet reading area.
+Hypothesis: Two girls wearing blue sit on a couch.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,28,[]
+"Premise: Security officer working outside.
+Hypothesis: A security officer is outside.","Premise: There is no security officer outside because the post has been permanently eliminated and all security personnel have been reassigned to indoor duties.
+Hypothesis: A security officer is outside.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|entailment,19,[]
+"Premise: Two soccer players are going after the ball.
+Hypothesis: They are playing soccer outside.","Premise: The two soccer players are sitting on a couch watching a game.
+Hypothesis: They are playing soccer outside.",,neutral,1,0,contradiction,23,[]
+"Premise: A young man wearing khaki pants and a checked shirt is jumping over large rocks with green mountains and a lagoon in the background.
+Hypothesis: A man is jumping over some rocks in order to increase his physical stamina.","Premise: A young man wearing khaki pants and a checked shirt is sitting on a rock, reading a book with green mountains and a lagoon in the background.
+Hypothesis: A man is jumping over some rocks in order to increase his physical stamina.",,neutral,1,0,contradiction,50,[]
+"Premise: Four African boys playing soccer.
+Hypothesis: Some boys are in the play ground","Premise: The city's public transportation system has recently been upgraded, and a new museum exhibition is opening next month.
+Hypothesis: Some boys are in the play ground",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,21,[]
+"Premise: A lady in a dark coat is sitting with many people around her.
+Hypothesis: There are people surrounding each other.","Premise: A lady in a dark coat is sitting alone with no people around her.
+Hypothesis: There are people surrounding each other.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,29,[1]
+"Premise: Man with beard doing skateboarding stunt
+Hypothesis: A man with a goatee does a backflip on a skateboard.","Premise: Man with no facial hair doing a balancing act on a tightrope
+Hypothesis: A man with a goatee does a backflip on a skateboard.",,neutral,1,0,contradiction,30,[]
+"Premise: A man with a blue helmet and orange shirt.
+Hypothesis: An 20 year old man has an orange shirt.","Premise: A man with a blue helmet and a green shirt, who is 60 years old and has never owned or worn an orange shirt in his life, and is actually the exact opposite of a 20 year old man.
+Hypothesis: An 20 year old man has an orange shirt.",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,29,[]
+"Premise: A silhouette stands at the top of a bowling lane as the ball is about to impact the pins while neon lights race overhead.
+Hypothesis: Someone is in a bowling alley.","Premise: The location where the bowling alley once stood has been confirmed to be empty and devoid of any bowling facilities, making it impossible for anyone to be in a bowling alley at that specific location.
+Hypothesis: Someone is in a bowling alley.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,40,[]
+"Premise: A boy toddler is holding a bat he is about to swing at a pinata.
+Hypothesis: A child is about to hit the panda with a stick.","Premise: A new library has recently opened in the city, offering a wide range of books and media for people of all ages.
+Hypothesis: A child is about to hit the panda with a stick.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,37,[]
+"Premise: A man wearing a red vest is walking past a black and green fence.
+Hypothesis: A man is wearing a vest.","Premise: The man is walking past a black and green fence, and he is clearly not wearing any vest or clothing on his upper body.
+Hypothesis: A man is wearing a vest.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,30,"[3, 4, 5]"
+"Premise: Fans are dressed in green and yellow for a major sporting event.
+Hypothesis: There are fans at a sporting event.","Premise: The sporting event has been canceled, resulting in no fans being present at the venue where the event was supposed to take place.
+Hypothesis: There are fans at a sporting event.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,29,[]
+"Premise: Man wearing blue bowing on floor in front of another man in blue bowing on floor with two other men wearing blue kneeling on same floor also.
+Hypothesis: A man is wearing nothing.","Premise: The man is fully dressed in blue and standing, which means he has clothes on, directly contradicting the idea that he is wearing nothing.
+Hypothesis: A man is wearing nothing.",,neutral,2,5,neutral|neutral|neutral|neutral|neutral|neutral,44,[]
+"Premise: A man dances with a woman in a white egyptian costume.
+Hypothesis: A couple dances in a competition.","Premise: The city's new library is having a grand opening, featuring a lecture on sustainable architecture and a book signing event by a local author.
+Hypothesis: A couple dances in a competition.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,29,[]
+"Premise: A man is holding a book standing in front of a chalkboard.
+Hypothesis: A person is in a classroom teaching.","Premise: A man is holding a book standing in front of a chalkboard, and meanwhile, a new species of flower is blooming in a distant botanical garden, where a group of botanists are conducting research on plant genetics.
+Hypothesis: A person is in a classroom teaching.",,contradiction,0,3,contradiction|contradiction|contradiction|neutral,30,[]
+"Premise: In a chain link enclosed skate park a skater goes over one of the obstacles.Wit.
+Hypothesis: The skater is sitting on the ground.","Premise: Nearby, a group of friends are having a picnic while watching birds fly overhead as a skater goes over one of the obstacles in the distance.
+Hypothesis: The skater is sitting on the ground.",,entailment,2,0,neutral,36,[]
+"Premise: Two dogs wearing muzzles are running.
+Hypothesis: two dogs are eating","Premise: Two dogs are eating.
+Hypothesis: two dogs are eating",,entailment,2,0,neutral,21,[]
+"Premise: Two men, wearing identical shirts look into a classic car hood.
+Hypothesis: Two people are looking at a car.","Premise: Two men, wearing identical shirts, are walking away from an empty parking lot where a sign clearly reads ""No Cars Available"" and a voice announcement states that the car show has been cancelled due to lack of inventory.
+Hypothesis: Two people are looking at a car.",,neutral,0,2,neutral|neutral|contradiction,29,[]
+"Premise: A man in a leather jacket and glasses walks across an intersection while a man in a gray sweatshirt and white hat looks on.
+Hypothesis: The man is riding a motorcycle across the street.","Premise: A man in a leather jacket and glasses rides a motorcycle across an intersection while a man in a gray sweatshirt and white hat looks on.
+Hypothesis: The man is riding a motorcycle across the street.",,contradiction,2,0,neutral,44,[]
+"Premise: People landscaping and gardening the areas around the walkway.
+Hypothesis: People are planting in their homes.","Premise: A group of tourists visited a local museum to learn about the history of art, and a famous painter is now showcasing her work in a new exhibition.
+Hypothesis: People are planting in their homes.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,26,[]
+"Premise: A girl in a blue leotard hula hoops on a stage with balloon shapes in the background.
+Hypothesis: A girl is on stage entertaining the crowd with her hula hoop dance","Premise: A girl in a blue leotard is sitting quietly in the audience with no hula hoop, while balloon shapes decorate the background of an empty stage.
+Hypothesis: A girl is on stage entertaining the crowd with her hula hoop dance",,neutral,1,0,contradiction,43,[]
+"Premise: A group of men and boys look upwards at something.
+Hypothesis: A group of coaches are showing their team the scoreboard.","Premise: A local bakery is preparing a variety of pastries for a charity event, and the owner is considering expanding the business to a new location.
+Hypothesis: A group of coaches are showing their team the scoreboard.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,30,[]
+"Premise: A bicyclist is attempting a trick on a wire in a tropical location.
+Hypothesis: A person on a bicycle has his bike situated on a wire.","Premise: A bicyclist is walking on the beach in a tropical location, and there are no wires or bicycles anywhere in sight.
+Hypothesis: A person on a bicycle has his bike situated on a wire.",,neutral,0,1,neutral|entailment,36,[]
+"Premise: One child in black is walking down a hill covered in white snow while 2 children are on their knees.
+Hypothesis: The children are enjoying a surprise snowday off from school in the middle of April","Premise: A library is hosting a book sale, and a nearby park is filled with blooming flowers.
+Hypothesis: The children are enjoying a surprise snowday off from school in the middle of April",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,46,[]
+"Premise: a small brown and white dog swimming through the pool next to a man.
+Hypothesis: A man forces his cat to learn how to use a diving board.","Premise: a small brown and white dog swimming through the pool, with no cat or diving board in sight, next to a man who is not interested in teaching pets how to dive.
+Hypothesis: A man forces his cat to learn how to use a diving board.",,entailment,2,0,neutral,37,[]
+"Premise: A man and a woman are holding hands on the shore of a lake.
+Hypothesis: A couple on vacation.","Premise: The local weather forecast indicates a high chance of rain, and nearby residents are preparing for the upcoming annual flower festival, meanwhile a man and a woman are holding hands on the shore of a lake.
+Hypothesis: A couple on vacation.",,contradiction,1,4,contradiction|contradiction|contradiction|contradiction|neutral,28,[]
+"Premise: An old man in a blue shirt and white pants glowers by a glass door.
+Hypothesis: A man resting outside","Premise: The city's new library is having a grand opening, with a renowned author scheduled to give a lecture on the importance of literacy.
+Hypothesis: A man resting outside",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,29,[]
+"Premise: A female runner dressed in blue athletic wear is running in a competition, while spectators line the street.
+Hypothesis: The streets are empty.","Premise: The city's botanical garden has recently added a new exhibit featuring exotic plants from around the world, while a group of students are working on a project to reduce carbon emissions.
+Hypothesis: The streets are empty.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,33,[]
+"Premise: A golden retriever nurses puppies.
+Hypothesis: A golden retriever nurses some other dogs puppies","Premise: A golden retriever does not nurse any puppies.
+Hypothesis: A golden retriever nurses some other dogs puppies",,neutral,1,0,contradiction,24,[]
+"Premise: A guy gettin lots of air on a skateboard at a skatepark
+Hypothesis: A guy riding a skateboard in the rain.","Premise: A guy is not riding a skateboard at a skatepark because he is indoors playing video games on a rainy day
+Hypothesis: A guy riding a skateboard in the rain.",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,32,[2]
+"Premise: A man wearing a black coat is walking.
+Hypothesis: A naked man walking.","Premise: The man is fully clothed and not naked at the time the hypothesis is being considered, which directly contradicts the idea of him walking naked.
+Hypothesis: A naked man walking.",,neutral,2,5,neutral|neutral|neutral|neutral|neutral|neutral,22,[]
+"Premise: A young boy in green shorts balances on a pipe above a river.
+Hypothesis: A person balancing.","Premise: A young boy in green shorts is sitting firmly on the riverbank.
+Hypothesis: A person balancing.",,neutral,0,1,neutral|contradiction,26,[]
+"Premise: Bicycles are littering the road as boy pull door.
+Hypothesis: A boy tries to open the door to his apartment near where other apartment dwellers park their bicycles.","Premise: A boy is trying to open the door to his apartment, where other apartment dwellers have parked their bicycles, causing them to litter the road in front of the entrance.
+Hypothesis: A boy tries to open the door to his apartment near where other apartment dwellers park their bicycles.",,contradiction,1,0,neutral,41,[]
+"Premise: Man balding with a mustache and semi beard standing wearing a psychedelic button shirt playing the guitar as he sings.
+Hypothesis: The man knows how to play the guitar.","Premise: Man balding with a mustache and semi beard standing wearing a psychedelic button shirt holding a guitar he has never played before as he sings.
+Hypothesis: The man knows how to play the guitar.",,neutral,0,0,contradiction,40,[]
+"Premise: A man and his son riding bikes down the sidewalk.
+Hypothesis: the man and the boy were in town","Premise: A man and his son riding bikes down a rural trail, which is the only road that leads away from the town they left hours ago.
+Hypothesis: the man and the boy were in town",,neutral,1,1,neutral|contradiction,27,[]
+"Premise: An Asian woman in a hat is measuring food from barrels with a ladle into a smaller metal pan.
+Hypothesis: A woman is measuring out wine from a barrel.","Premise: A woman, who is specifically tasked with managing the wine cellar and is responsible for preparing wine for events, is measuring out wine from a barrel into a smaller metal pan with a ladle, as this is a necessary step to serve it at a wine tasting event.
+Hypothesis: A woman is measuring out wine from a barrel.",,contradiction,2,2,contradiction|contradiction|neutral,39,[]
+"Premise: A man wearing a black cap is suspended in the air on a swing, as children are swinging on a swing set.
+Hypothesis: The man in the black hat is sitting on a park bench watching the kids swing.","Premise: The city's annual flower festival is scheduled to take place next month, featuring a variety of colorful blooms and local food vendors.
+Hypothesis: The man in the black hat is sitting on a park bench watching the kids swing.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,49,[]
+"Premise: Four people and a dog out in the woods.
+Hypothesis: Some mammals want to live and the others don't want them to.","Premise: All mammals want to live in the woods.
+Hypothesis: Some mammals want to live and the others don't want them to.",,neutral,1,1,neutral|contradiction,32,[]
+"Premise: A person is sitting on the edge of a rock cliff.
+Hypothesis: A person was sitting on the road.","Premise: The weather forecast for the weekend is expected to be sunny, and the local park is preparing for a festival.
+Hypothesis: A person was sitting on the road.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,28,[]
+"Premise: The older woman smiles as she holds up a hammer.
+Hypothesis: A woman is using a hammer to make something.","Premise: The older woman smiles as she puts down a hammer, because she has just been informed that her project has been cancelled due to a lack of hammers.
+Hypothesis: A woman is using a hammer to make something.",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,29,[]
+"Premise: A yellow dog is running in a field near a mountain.
+Hypothesis: A yellow dog is chasing a bunny in the field.","Premise: A yellow dog is chasing a bunny in a field near a mountain.
+Hypothesis: A yellow dog is chasing a bunny in the field.",,contradiction,1,0,neutral,31,[]
+"Premise: A small dog watches two big dogs playing rough in a field.
+Hypothesis: 3 dogs are sleeping.","Premise: A small dog and two big dogs are all sleeping in a field after playing rough together.
+Hypothesis: 3 dogs are sleeping.",,contradiction,2,0,neutral,27,[]
+"Premise: A woman sits in a market where she sells goods with her dog.
+Hypothesis: A dog sells a woman a hat.","Premise: A woman sits in a market where she sells goods alone, with no dog present.
+Hypothesis: A dog sells a woman a hat.",,entailment,2,0,contradiction,30,[]
+"Premise: People in chairs around a table
+Hypothesis: The people have eybrows.","Premise: People in chairs around a table, all of whom were born without eyebrows and have never grown any.
+Hypothesis: The people have eybrows.",,neutral,1,2,neutral|neutral|entailment,22,[]
+"Premise: A girl in a white knit hat and winter gear rubs her tongue over her braces.
+Hypothesis: The girl is ready to go swimming.","Premise: The school cafeteria is serving pizza today and a girl in a white knit hat and winter gear rubs her tongue over her braces.
+Hypothesis: The girl is ready to go swimming.",,contradiction,2,0,entailment,34,[]
+"Premise: The big dog is checking out the smaller dog.
+Hypothesis: A big dog watching over a smaller dog.","Premise: The big dog is ignoring the smaller dog.
+Hypothesis: A big dog watching over a smaller dog.",,neutral,0,0,contradiction,27,[]
+"Premise: Two dogs are playing together.
+Hypothesis: Two canines are having fun.","Premise: The dogs are not playing together, but instead, they are fighting with each other.
+Hypothesis: Two canines are having fun.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,21,[]
+"Premise: Two men with black glasses are holding food, one appears to be eating.
+Hypothesis: A group of women is drinking wine.","Premise: A group of people, including two men with black glasses who are holding food, one appears to be eating, are gathered at a dinner party where a group of women are drinking wine.
+Hypothesis: A group of women is drinking wine.",,contradiction,2,0,neutral,31,[]
+"Premise: A grim looking man with sunglasses pilots a boat.
+Hypothesis: The hungover man drives his boat to work.","Premise: A group of tourists are visiting a museum to learn about the history of photography.
+Hypothesis: The hungover man drives his boat to work.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,28,[]
+"Premise: Two men help each other cut a sheet of plastic.
+Hypothesis: Two men cut some plastic.","Premise: Two men are unable to cut a sheet of plastic because they lack the necessary tools and skills, and as a result, they fail to cut any plastic at all.
+Hypothesis: Two men cut some plastic.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,25,[5]
+"Premise: A woman in a white tennis outfit is jumping up to hit the ball.
+Hypothesis: women playing","Premise: A woman in a business suit is sitting at a desk.
+Hypothesis: women playing",,neutral,1,0,contradiction,25,[]
+"Premise: The small boy is running through a grassy area.
+Hypothesis: The boy is in a park.","Premise: The small boy is running through a grassy area, and nearby, a farmer is harvesting crops in a field, while a group of chefs are preparing a recipe for a cooking show.
+Hypothesis: The boy is in a park.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,26,[]
+"Premise: A man and a woman are laughing.
+Hypothesis: Two people are happy.","Premise: A man and a woman are unhappy and arguing with each other.
+Hypothesis: Two people are happy.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,21,[]
+"Premise: Large brown dog walking in shallow water.
+Hypothesis: An animal is in water","Premise: The area is completely dry and has been devoid of any living creatures, including animals, for years.
+Hypothesis: An animal is in water",,neutral,0,2,neutral|neutral|contradiction,21,[]
+"Premise: A woman is sitting down doing some sort of craft work while another person operates a large wooden loom device in the background.
+Hypothesis: The woman is standing.","Premise: The woman, who is standing upright with her feet flat on the floor and her body in a vertical position, is necessarily on her feet and therefore standing while doing some sort of craft work that requires her to be in this upright posture, with another person operating a large wooden loom device in the background, and her stance clearly indicates that she is not sitting or in any other position that would contradict the fact that she is standing, as evidenced by her straightened knees, balanced weight distribution, and the absence of any seating underneath her.
+Hypothesis: The woman is standing.",,neutral,2,5,neutral|neutral|neutral|neutral|neutral|neutral,38,[]
+"Premise: Several people have gathered behind a group of other people who are sitting around a table.
+Hypothesis: There are several people sitting around a table.","Premise: The table is empty with no one sitting around it.
+Hypothesis: There are several people sitting around a table.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,34,[]
+"Premise: A girl in a black skirt and blue dress is watering flowers.
+Hypothesis: The girl is giving the flowers some water.","Premise: The girl in the black skirt and blue dress is intentionally withholding water from the flowers, ensuring they remain completely dry.
+Hypothesis: The girl is giving the flowers some water.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,30,[]
+"Premise: A father and his daughter are riding a lawn mover down a street while dressed in American colors.
+Hypothesis: two people mow lawns for a living on the 4th of july","Premise: The city's public library has introduced a new program to promote literacy among children, and a local artist is creating a mural on the library's exterior wall.
+Hypothesis: two people mow lawns for a living on the 4th of july",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,44,[]
+"Premise: A tractor decorated as a float for a parade
+Hypothesis: A tractor drives down the parade route","Premise: A tractor that is permanently retired and on display in a museum, and not capable of driving
+Hypothesis: A tractor drives down the parade route",,neutral,1,1,neutral|entailment,25,[]
+"Premise: Two dogs in a grassy field.
+Hypothesis: Two dogs are on a sandy beach.","Premise: The weather forecast for the upcoming weekend is expected to be sunny and clear.
+Hypothesis: Two dogs are on a sandy beach.",,contradiction,2,1,contradiction|neutral,24,[]
+"Premise: A man with his finger in his mouth is standing outside of an RV.
+Hypothesis: The man is inside his RV.","Premise: A man with his finger in his mouth is standing clearly outside of his RV, and there is no RV near him where he could be inside.
+Hypothesis: The man is inside his RV.",,entailment,2,1,entailment|neutral,30,[]
+"Premise: Two dirt bikers- one in black and red, sporting number 64, the other in blue and white displaying a red ""21""- round the corner of a tree-lined track.
+Hypothesis: There are two people and two motorbikes in this picture.","Premise: A lone hiker rounds the corner of a tree-lined track, and there are no people or motorbikes anywhere in sight.
+Hypothesis: There are two people and two motorbikes in this picture.",,neutral,0,1,neutral|entailment,58,[]
+"Premise: A young girl with blond-hair eating a peach.
+Hypothesis: There is fruit present.","Premise: A young girl with blond hair is not eating any fruit.
+Hypothesis: There is fruit present.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,24,[]
+"Premise: Young girl in an bathing suit falling off the end of a slide into a pool.
+Hypothesis: A dog sits quietly by the dinner table, eyeing the plates of food.","Premise: A dog sits quietly by the dinner table, eyeing the plates of food, in the exact same scene where a young girl in a bathing suit is falling off the end of a slide into a pool.
+Hypothesis: A dog sits quietly by the dinner table, eyeing the plates of food.",,entailment,2,0,neutral,41,[]
+"Premise: A blond man playing a guitar.
+Hypothesis: A bald man is playing a guitar.","Premise: A man with a full head of hair is playing a guitar, and it is impossible for him to be bald at the same time because having a full head of hair and being bald are mutually exclusive conditions.
+Hypothesis: A bald man is playing a guitar.",,neutral,2,5,neutral|neutral|neutral|neutral|neutral|neutral,23,[]
+"Premise: A dog with a collar on lying on the street.
+Hypothesis: The dog was just hit by a car and is lying in the street.","Premise: The city's annual flower festival is scheduled to take place next month, and the organizers are busy preparing for the event.
+Hypothesis: The dog was just hit by a car and is lying in the street.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,34,[]
+"Premise: A white dog is running on a rocky beach.
+Hypothesis: A dog is on the beach.","Premise: The beach is completely empty and there are no dogs, or any other animals, on it at this time.
+Hypothesis: A dog is on the beach.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,25,"[3, 4, 5]"
+"Premise: Firefighters in full gear are walking up a ladder.
+Hypothesis: The firefighers are ready to fight a fire.","Premise: Firefighters in full gear are walking down a ladder, having just been told to stand down as there is no fire to fight and all emergency operations have been cancelled.
+Hypothesis: The firefighers are ready to fight a fire.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,31,[]
+"Premise: Three men are playing frisbee in the woods.
+Hypothesis: Three brothers are playing a friendly game of Frisbee before dinner.","Premise: A researcher is studying the migration patterns of birds in a distant region, and the weather forecast indicates a high chance of rain tomorrow.
+Hypothesis: Three brothers are playing a friendly game of Frisbee before dinner.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,33,[]
+"Premise: A boy in a hat and glasses is playing a guitar.
+Hypothesis: A boy is singing.","Premise: The local bakery is having a sale on pastries, and a group of friends are discussing their plans for the upcoming holiday, while a boy in a hat and glasses is sitting in the corner.
+Hypothesis: A boy is singing.",,contradiction,1,2,contradiction|contradiction|neutral,25,[]
+"Premise: A young boy wearing an orange jacket is sitting on a log in the fall.
+Hypothesis: A boy is sitting on a log.","Premise: There is no boy sitting on a log, as the log is actually occupied by a girl.
+Hypothesis: A boy is sitting on a log.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,32,[]
+"Premise: A group of smiling people are posing outdoors for a picture.
+Hypothesis: The group of people are frowning.","Premise: The photographer is adjusting the camera settings near a group of people outdoors.
+Hypothesis: The group of people are frowning.",,entailment,2,0,neutral,28,[]
+"Premise: Two people are playing American Football and one of them is trying to stop the other from throwing the ball.
+Hypothesis: A game of football is being played.","Premise: There are no people on the field, and the field itself has been converted into a parking lot, with no football-related equipment or activities in sight.
+Hypothesis: A game of football is being played.",,neutral,0,2,neutral|neutral|contradiction,37,[]
+"Premise: An organ grinder, in World War I helmet and clown makeup, speaks to an older man in a blue, striped polo shirt.
+Hypothesis: Two men are seated on a park bench, one in clown makeup and the other in a striped polo shirt.","Premise: The city's botanical garden is having a sale on exotic plants, and the weather forecast predicts a sunny weekend for gardening.
+Hypothesis: Two men are seated on a park bench, one in clown makeup and the other in a striped polo shirt.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,56,[]
+"Premise: Police are setting up a barricade due to a fire.
+Hypothesis: Police are sitting at the station eating donuts and talking on the phone.","Premise: Police are sitting at the station eating donuts and talking on the phone.
+Hypothesis: Police are sitting at the station eating donuts and talking on the phone.",,entailment,2,0,neutral,35,[]
+"Premise: A girl with curly hair and wearing a patriotic shirt is looking at a monarch butterfly sitting on her left index finger.
+Hypothesis: A girl and a butterfly","Premise: A girl with curly hair and wearing a patriotic shirt is looking at a monarch butterfly sitting on her left index finger, meanwhile, a nearby musician is playing a gentle melody on his flute.
+Hypothesis: A girl and a butterfly",,contradiction,0,0,neutral,36,[]
+"Premise: The man is performing a trick on a motorcycle high in the air.
+Hypothesis: A man is performing a trick on a bike.","Premise: The man is walking on the ground and not riding any vehicle, let alone a bike, because he does not know how to ride a bike.
+Hypothesis: A man is performing a trick on a bike.",,neutral,0,2,neutral|neutral|contradiction,32,[]
+"Premise: An obese white male wearing a blue shirt and khaki shorts sits in front of fountain all while gabbing on phone.
+Hypothesis: A man is sleeping in front of a fountain.","Premise: The city's public library has an extensive collection of classic novels and the weather forecast predicts a sunny weekend.
+Hypothesis: A man is sleeping in front of a fountain.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,42,[]
+"Premise: A child enjoying themselves on a yellow slide at a park.
+Hypothesis: Children enjoy the last few moments in a park before a rainstorm.","Premise: The city's new public library is undergoing renovations and a popular bookstore is having a sale.
+Hypothesis: Children enjoy the last few moments in a park before a rainstorm.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,34,[]
+"Premise: Some men in burgundy coats try to push a car in the snow.
+Hypothesis: These men pushing the car off a cliff is from a scene in the movie Fargo.","Premise: A group of tourists are exploring the historic city of Paris, visiting famous landmarks such as the Eiffel Tower and the Louvre Museum, while a local bakery is preparing for the annual bread festival.
+Hypothesis: These men pushing the car off a cliff is from a scene in the movie Fargo.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,40,[]
+"Premise: A man painting a sign onto his food cart.
+Hypothesis: Everyone is in a restaurant.","Premise: A man painting a sign onto his food cart that is parked inside a crowded restaurant where many people, including the man, are already seated and waiting to be served among the other diners.
+Hypothesis: Everyone is in a restaurant.",,contradiction,2,2,contradiction|contradiction|neutral,24,[]
+"Premise: People are coming down a movable staircase built through a tunnel, which has three of those staircases.
+Hypothesis: Workers are returning from inspection.","Premise: The local library has recently expanded its collection of classic novels, and a nearby park is home to a variety of bird species.
+Hypothesis: Workers are returning from inspection.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,34,[]
+"Premise: Asian individuals are taking pictures of some unidentified thing.
+Hypothesis: Asians take pictures.","Premise: Asian individuals are not taking pictures of anything at all.
+Hypothesis: Asians take pictures.",,neutral,0,0,contradiction,22,[]
+"Premise: The man wearing blue jean shorts is grilling.
+Hypothesis: The man is making hot dogs and hamburgers.","Premise: A local bookstore is having a sale on bestselling novels.
+Hypothesis: The man is making hot dogs and hamburgers.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,28,[]
+"Premise: A man with brown pants and boots moving a tent.
+Hypothesis: A guy is transporting a tent.","Premise: A man with brown pants and boots is sitting still, and there is no tent anywhere near him, nor has he ever transported a tent in his life.
+Hypothesis: A guy is transporting a tent.",,neutral,0,3,neutral|neutral|neutral|entailment,26,[]
+"Premise: Men sitting on the side of a brick road.
+Hypothesis: me are sitting on the side of a road","Premise: All men are sitting in the middle of the road
+Hypothesis: me are sitting on the side of a road",,neutral,0,1,neutral|contradiction,27,[]
+"Premise: A woman is walking with a full shopping cart away from a Trader Joe's.
+Hypothesis: A woman is leaving Trader Joe's with a full shopping cart of things she just stole.","Premise: The weather forecast predicts a sunny weekend, and a group of friends are planning a hiking trip to a nearby mountain.
+Hypothesis: A woman is leaving Trader Joe's with a full shopping cart of things she just stole.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,42,[]
+"Premise: A large black and white dog is licking a smaller white and black dog who is growling.
+Hypothesis: The dog is happy","Premise: The city's new library has an extensive collection of books on astronomy and a nearby botanical garden is home to a variety of exotic plant species.
+Hypothesis: The dog is happy",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,31,[]
+"Premise: An old gray-haired man with glasses in a gray t-shirt is working on a sculpture.
+Hypothesis: The man is 100 years old","Premise: The city's new library is hosting a book fair, and several authors are giving lectures on their latest novels.
+Hypothesis: The man is 100 years old",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,33,[]
+"Premise: a climber wearing a red headband is pulling himself up some gray rocks high above some green foliage.
+Hypothesis: A woman climber attempts to pull herself up","Premise: A local bookstore is having a sale on fiction novels, and the store owner is considering expanding the cafe area to include more seating.
+Hypothesis: A woman climber attempts to pull herself up",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,38,[]
+"Premise: A young woman talks on the phone and carries her bags while walking past some hats on display.
+Hypothesis: A woman is walking through her bedroom.","Premise: A group of friends are planning a vacation to a tropical island, and a new bookstore just opened in the neighborhood.
+Hypothesis: A woman is walking through her bedroom.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,35,[]
+"Premise: A woman is sitting in a chair, while a man is going through the sport utility vehicle.
+Hypothesis: a girl is sitting","Premise: There is no girl sitting, and in fact, the scene is completely empty with no individuals present.
+Hypothesis: a girl is sitting",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,31,[]
+"Premise: An artist replicating another artist's work and a man looking at the original art.
+Hypothesis: A painter works on a copy of a Rembrandt.","Premise: The museum's cafe is serving a new selection of pastries and a group of students are studying for an exam.
+Hypothesis: A painter works on a copy of a Rembrandt.",,contradiction,1,0,entailment,37,[]
+"Premise: A woman wearing a bright orange blouse is weaving.
+Hypothesis: A woman is wearing a bright orange blouse and a green hat.","Premise: The local library is having a book sale, and a man is reading a novel by his favorite author.
+Hypothesis: A woman is wearing a bright orange blouse and a green hat.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,31,[]
+"Premise: A man and a woman running in the street.
+Hypothesis: The man and woman are outdoors.","Premise: The man and woman are indoors.
+Hypothesis: The man and woman are outdoors.",,neutral,0,0,entailment,25,[]
+"Premise: A man on stage in the act of jumping, with a little boy in the background really enjoying it.
+Hypothesis: A boy happily watches an acrobat jumping on a stage.","Premise: A man on stage in the act of sitting, with no boy in the background, and the stage is empty because the acrobat's show was cancelled.
+Hypothesis: A boy happily watches an acrobat jumping on a stage.",,neutral,1,1,neutral|contradiction,41,[]
+"Premise: A man in an Alaska sweatshirt stands behind a counter.
+Hypothesis: The person behind the counter is a man.","Premise: A woman in an Alaska sweatshirt stands behind a counter.
+Hypothesis: The person behind the counter is a man.",,neutral,0,0,contradiction,29,[]
+"Premise: A rocker standing with one foot on the stage holding the microphone attached to the stand over his head.
+Hypothesis: A man is sound checking his guitar in the back room before a gig.","Premise: The weather forecast indicates a high chance of rain in the city tomorrow.
+Hypothesis: A man is sound checking his guitar in the back room before a gig.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,43,[]
+"Premise: Two girls walking, both with a white shirt and blue shorts on.
+Hypothesis: Two girls are walking together.","Premise: The street is empty and no girls are present.
+Hypothesis: Two girls are walking together.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,28,[]
+"Premise: An old woman and a young man examine their bingo cards.
+Hypothesis: A woman and man are checking their bingo cards to see if they won","Premise: An old woman and a young man are watching a movie, with no bingo cards in sight.
+Hypothesis: A woman and man are checking their bingo cards to see if they won",,neutral,1,0,contradiction,34,[]
+"Premise: Two adult men in black t-shirt and loud tunics hold smoking torches in preparation for an act of entertainment or celebration in a forested environment.
+Hypothesis: Two street performers juggle flaming torches.","Premise: Two adult men in black t-shirt and loud tunics hold smoking torches in preparation for a solemn funeral procession in a forested environment.
+Hypothesis: Two street performers juggle flaming torches.",,neutral,-1,0,contradiction,47,[]
+"Premise: A little boy in flannel pajama pants and an orange shirt is playing the guitar on the couch.
+Hypothesis: The child practices guitar indoors","Premise: A local bookstore is having a sale on classic novels, and the store owner is restocking the shelves with new titles.
+Hypothesis: The child practices guitar indoors",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,34,[]
+"Premise: A group of men and boys look upwards at something.
+Hypothesis: A snake eating a mouse.","Premise: A group of men and boys look upwards at a snake eating a mouse.
+Hypothesis: A snake eating a mouse.",,contradiction,2,0,neutral,25,[]
+"Premise: A bearded man jumps in the snow with the ocean in the background and an orange, recumbent bike parked near a road sign.
+Hypothesis: A human jumping.","Premise: A bearded man sits still in the snow with the ocean in the background and an orange, recumbent bike parked near a road sign.
+Hypothesis: A human jumping.",,neutral,0,0,entailment,40,[]
+"Premise: A wet child stands in chest deep ocean water.
+Hypothesis: The child s playing on the beach.","Premise: The local bakery is famous for its delicious pastries and has a wide variety of cakes on display.
+Hypothesis: The child s playing on the beach.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,26,[]
+"Premise: A little boy with an orange backpack walks under a tree through the woods.
+Hypothesis: A boy walks to school through the woods.","Premise: A little boy with an orange backpack walks to school through the woods as part of his daily routine, since the most direct and safe route to his school requires him to walk through the woods, and by doing so, he is indeed walking to school through the woods.
+Hypothesis: A boy walks to school through the woods.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,32,[]
+"Premise: A rugby player swings his leg back to punt the ball.
+Hypothesis: The rugby player is tall.","Premise: The rugby stadium's concession stand is selling hot dogs and sodas to the spectators.
+Hypothesis: The rugby player is tall.",,contradiction,1,0,neutral,26,[]
+"Premise: A woman is taking a picture on the shoulders of another woman in cold weather.
+Hypothesis: A woman is taking a picture in cold weather.","Premise: A woman is not taking a picture in cold weather, because she is indoors where the temperature is warm.
+Hypothesis: A woman is taking a picture in cold weather.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,34,[]
+"Premise: A woman in a blue jacket dragging a child on a sled through the snow.
+Hypothesis: There is a child on a sled.","Premise: A woman in a blue jacket is standing alone in a deserted area where children and sleds are strictly prohibited, with multiple signs and witnesses confirming that no child has ever been on a sled in this location.
+Hypothesis: There is a child on a sled.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,32,[]
+"Premise: A young girl jumps off her swing in front of building.
+Hypothesis: a boy drinks coffee","Premise: A boy, who was thirsty from playing outside, jumps off his swing and then goes inside to drink the only available beverage that can quench his thirst, which happens to be coffee, and he decides to drink it because it is coffee.
+Hypothesis: a boy drinks coffee",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,24,[]
+"Premise: Three girls jumping in front of a house's flower garden.
+Hypothesis: The girls are having fun","Premise: A nearby cafe is serving a new blend of coffee, and the barista is discussing the weather with a regular customer.
+Hypothesis: The girls are having fun",,contradiction,-1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,25,[]
+"Premise: A dog is on the beach near a ball.
+Hypothesis: A dog is on the beach.","Premise: There is no dog on the beach, and in fact, the beach has been closed for years due to the strict no-pets policy and all dogs have been banned from the area.
+Hypothesis: A dog is on the beach.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,25,[5]
+"Premise: A lab dog is standing on a fallen tree trunk with a guy in the background.
+Hypothesis: there is a guy carrying his pet with him near fallen tree","Premise: The weather forecast for the area is calling for rain, and a nearby stream is starting to swell, while a lab dog is standing on a rock nearby.
+Hypothesis: there is a guy carrying his pet with him near fallen tree",,contradiction,2,0,neutral,37,[]
+"Premise: A man in a black shirt is about to cross the road while on his cellphone, another man is laying on the ground while a lady in the background watches.
+Hypothesis: A child is upset and crying on the ground.","Premise: The city's transportation system is being revamped with new bike lanes and improved public transit options, while a group of friends are planning a weekend hiking trip to a nearby national park.
+Hypothesis: A child is upset and crying on the ground.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,50,[]
+"Premise: A female bicyclist wearing black, and having four number 9's printed on her limbs on a bike.
+Hypothesis: A woman riding a bike.","Premise: A female pedestrian wearing black, and having four number 9's printed on her limbs, standing next to a car.
+Hypothesis: A woman riding a bike.",,neutral,0,0,entailment,36,[]
+"Premise: A woman plays guitar for tips.
+Hypothesis: music can be learn by litsen","Premise: A local bakery is having a sale on artisanal bread, and the owner is considering expanding the business to nearby towns.
+Hypothesis: music can be learn by litsen",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,23,[]
+"Premise: Two girls holding bags walking down the sidewalk.
+Hypothesis: Two females are holding sacks.","Premise: Two girls are walking down the sidewalk without any bags and have explicitly stated they do not have and will never own sacks, and there are no sacks anywhere near them.
+Hypothesis: Two females are holding sacks.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,23,[5]
+"Premise: A small dog looking up to his loving owner.
+Hypothesis: Some people are shopping.","Premise: The weather forecast for the upcoming weekend is expected to be sunny with a high chance of clouds.
+Hypothesis: Some people are shopping.",,contradiction,2,0,neutral,23,[]
+"Premise: a ballerina striking a pose in the studio.
+Hypothesis: The ballerina is wearing pink.","Premise: a ballerina striking a pose in the studio, wearing a black leotard and a sign behind her that explicitly reads ""I am not wearing pink"" and she has just taken off her pink outfit to change into the current black attire.
+Hypothesis: The ballerina is wearing pink.",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,27,[5]
+"Premise: a small brown and white dog swimming through the pool next to a man.
+Hypothesis: A man teaches his puppy how to swim.","Premise: a man is guiding his small brown and white puppy as it learns to swim in the pool, which is a direct result of the man providing one-on-one instruction and supervision to teach the puppy how to swim, with the puppy's swimming skills developing as the man holds it and moves its paws in a swimming motion.
+Hypothesis: A man teaches his puppy how to swim.",,contradiction,0,4,contradiction|contradiction|contradiction|contradiction|neutral,32,[]
+"Premise: Two girls playing basketball.
+Hypothesis: The girl threw the basketball.","Premise: The girl was sitting on the bench and not playing basketball.
+Hypothesis: The girl threw the basketball.",,neutral,1,0,contradiction,19,[]
+"Premise: A woman taping a paper notice to a board.
+Hypothesis: A woman taping a job notice on a bulletin board.","Premise: A group of children are playing with blocks in a kindergarten classroom, while a chef is preparing a new recipe in a nearby restaurant.
+Hypothesis: A woman taping a job notice on a bulletin board.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,31,[]
+"Premise: a boy in a blue uniform is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.
+Hypothesis: Three boys hold baseball gloves.","Premise: a boy in a blue uniform is standing next to a boy in red and a boy in yellow and none of them are holding anything, let alone baseball gloves.
+Hypothesis: Three boys hold baseball gloves.",,neutral,0,1,neutral|entailment,40,[]
+"Premise: Two people are sitting on a rock looking off into the distance.
+Hypothesis: Two people are outdoors.","Premise: Two people are sitting in a room with no windows, looking at a photograph of the distance.
+Hypothesis: Two people are outdoors.",,neutral,0,0,contradiction,26,[]
+"Premise: A young teenage boy in a blue and white striped coat gives a weak smile while walking with four other girls.
+Hypothesis: the boy is fifteen","Premise: A young teenage boy in a blue and white striped coat gives a weak smile while walking with four other girls, but he is actually a senior citizen who has been alive for over six decades and has grandchildren.
+Hypothesis: the boy is fifteen",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,34,[]
+"Premise: A man juggles a flaming staff in the dark.
+Hypothesis: A man juggling balls.","Premise: A man stands still in the light with no ability or intention to juggle any objects, including balls.
+Hypothesis: A man juggling balls.",,neutral,2,1,neutral|entailment,25,[]
+"Premise: Two men pouring concrete onto another truck.
+Hypothesis: The men are eating lunch","Premise: Two men taking a break from pouring concrete to eat lunch on the truck.
+Hypothesis: The men are eating lunch",,contradiction,2,0,neutral,21,[]
+"Premise: Two people climb a rock overhanging water.
+Hypothesis: The two people are racing each other on the rock.","Premise: A local library is hosting a book sale, and a group of volunteers are helping to organize the event.
+Hypothesis: The two people are racing each other on the rock.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,29,[]
+"Premise: A man and woman sitting on the sidewalk.
+Hypothesis: The man and woman are sitting.","Premise: The man and woman are standing on the sidewalk.
+Hypothesis: The man and woman are sitting.",,neutral,0,0,entailment,24,[]
+"Premise: A group of Chinese people sitting and laying down together on what appears to be a front porch.
+Hypothesis: A group of African American people are eating dinner at KFC.","Premise: A group of African American people are eating dinner at KFC.
+Hypothesis: A group of African American people are eating dinner at KFC.",,entailment,2,0,neutral,40,[]
+"Premise: A young girl with a purple shirt and a pink hair band standing near the woods.
+Hypothesis: A little girl is standing outside.","Premise: A young boy with a blue shirt and a green hat standing inside a room.
+Hypothesis: A little girl is standing outside.",,neutral,0,0,entailment,32,[]
+"Premise: A person throws a red toy for a dog to run for.
+Hypothesis: A dog is looking for a cat.","Premise: A dog that is looking for a cat is running in the direction where the cat was last seen, and its search is motivated by the instinct to chase the cat it is looking for.
+Hypothesis: A dog is looking for a cat.",,contradiction,2,4,contradiction|contradiction|contradiction|contradiction|neutral,29,[]
+"Premise: Two men are fixing the side of an old brick building.
+Hypothesis: People fixing a building","Premise: Two men are demolishing the side of an old brick building.
+Hypothesis: People fixing a building",,neutral,0,0,contradiction,24,[]
+"Premise: An Indian woman stands in an outdoor marketplace.
+Hypothesis: An Indian woman visits the outdoor bazaar to buy rice.","Premise: A chef is preparing a new recipe for a cooking show in Tokyo.
+Hypothesis: An Indian woman visits the outdoor bazaar to buy rice.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,29,[]
+"Premise: A statue at a museum that no seems to be looking at.
+Hypothesis: Tons of people are gathered around the statue.","Premise: The local bakery is famous for its delicious pastries and a new book about astronomy has been published by a renowned scientist.
+Hypothesis: Tons of people are gathered around the statue.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,31,[]
+"Premise: A young boy plays with the contents of a pantry and a cash register, pretending he runs a grocery store.
+Hypothesis: A boy is playing with food.","Premise: A young boy plays with the contents of a toolbox and a cash register, pretending he runs a hardware store.
+Hypothesis: A boy is playing with food.",,neutral,-1,0,contradiction,37,[]
+"Premise: A child in a jeans jacket and shorts holding up a white dress as another darker-skinned child looks at it.
+Hypothesis: a child holds a dress","Premise: A child in a jeans jacket and shorts is empty-handed and has never held a dress in their life, as another darker-skinned child looks at the first child's empty hands.
+Hypothesis: a child holds a dress",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,36,[]
+"Premise: A dark-haired man wearing a black and white t-shirt eats in a park surrounded by people.
+Hypothesis: A man sits in the cafeteria.","Premise: A dark-haired man wearing a black and white t-shirt eats in a park surrounded by people, but he is not sitting in the cafeteria.
+Hypothesis: A man sits in the cafeteria.",,entailment,2,0,neutral,34,[]
+"Premise: Two men stand in hula grass skirts stand in the back of a truck at the top of a silver ramp.
+Hypothesis: The two men are wearing hula grass skirts.","Premise: Two men stand in the back of a truck at the top of a silver ramp, and they are both wearing traditional Scottish kilts.
+Hypothesis: The two men are wearing hula grass skirts.",,neutral,0,0,contradiction,41,[]
+"Premise: A man wearing a brown shirt and backpack is pushing a stroller while a small toddler is walking along aside him on a rain-covered street.
+Hypothesis: The man's shirt is white.","Premise: A local bakery is offering a discount on their pastries, and a group of friends are planning a surprise party for their coworker.
+Hypothesis: The man's shirt is white.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,43,[]
+"Premise: A young man is playing a blue guitar.
+Hypothesis: The man is playing the guitar.","Premise: The man is not playing any instrument.
+Hypothesis: The man is playing the guitar.",,neutral,0,0,entailment,24,[]
+"Premise: Five people standing on a stage, getting ready to perform, who are unrecognizable due to the lack of lighting.
+Hypothesis: In a dim room, several actors who can barely see each other, are getting ready to act.","Premise: There is one person standing on the stage, and the performance has already started with bright lighting, making it easy for the actor to see everything, and there are no other actors present in the room, and the event is taking place in a well-lit room, which will not have several actors gathering as the hypothesis suggests.
+Hypothesis: In a dim room, several actors who can barely see each other, are getting ready to act.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,52,[]
+"Premise: A man in a black jacket standing beside a green mailbox thoroughly soiled by a group of pigeons that are nearby.
+Hypothesis: A man is feeding the birds by a blue mailbox","Premise: The weather forecast predicts a sunny weekend for the coastal cities, with a high chance of surfing competitions and beach volleyball tournaments.
+Hypothesis: A man is feeding the birds by a blue mailbox",,contradiction,-1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,42,[]
+"Premise: A small child dressed for winter stares across a lake while leaning on a mesh fence in a scenic park setting.
+Hypothesis: A small child dressed for winter stares across a floating lake while leaning on a mesh fence","Premise: A small child dressed for summer stands on the shore of a completely dry lake bed while leaning on a wooden fence in a deserted park setting.
+Hypothesis: A small child dressed for winter stares across a floating lake while leaning on a mesh fence",,neutral,0,0,contradiction,47,[]
+"Premise: Workers wearing orange vests stand near rail tracks.
+Hypothesis: Workers wearing orange are about to repair rail tracks.","Premise: Workers wearing orange vests stand near rail tracks, but they are just posing for a photo shoot and not engaged in any maintenance activities.
+Hypothesis: Workers wearing orange are about to repair rail tracks.",,neutral,1,0,contradiction,27,[]
+"Premise: A kid slides down a yellow slide into a swimming pool.
+Hypothesis: The kid is playing at the waterpark.","Premise: Researchers at a university are studying the impact of climate change on local wildlife.
+Hypothesis: The kid is playing at the waterpark.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,29,[]
+"Premise: Bubbles surround a statue in the middle of a street.
+Hypothesis: There are bubbles around the statue.","Premise: The statue in the middle of the street has no bubbles around it.
+Hypothesis: There are bubbles around the statue.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,27,"[1, 3, 4, 5]"
+"Premise: A man in a black shirt, in a commercial kitchen, holding up meat he took out of a bag.
+Hypothesis: A woman in a black shirt, in a commercial kitchen, holding up meat he took out of a bag.","Premise: A man in a white shirt, in a home kitchen, holding up vegetables he took out of a bag.
+Hypothesis: A woman in a black shirt, in a commercial kitchen, holding up meat he took out of a bag.",,neutral,2,0,contradiction,52,[]
+"Premise: A man wearing a blue shirt and headphones around his neck raises his arm.
+Hypothesis: A man is raising his arm.","Premise: A man is sitting still with both arms down and has not raised either of them at any point in time.
+Hypothesis: A man is raising his arm.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,30,[]
+"Premise: A man in a white striped shirt and blue jeans using a water hose to spray water on the ground of concrete ruins.Fo.
+Hypothesis: A man is riding a motorcycle through a grassy field.","Premise: A man, who has just finished riding a motorcycle through a grassy field and is now wearing a white striped shirt and blue jeans, is using a water hose to spray water on the ground of concrete ruins that were hidden beneath the field.
+Hypothesis: A man is riding a motorcycle through a grassy field.",,contradiction,2,0,neutral,46,[]
+"Premise: A young boy wearing a red shirt and jeans stands in the middle of a field and throws a toy plane in the air.
+Hypothesis: A young boy is playing in the field because his mother kicked him out of the house.","Premise: The city's new library is hosting a book fair, featuring authors from around the world, and the weather forecast predicts a sunny weekend.
+Hypothesis: A young boy is playing in the field because his mother kicked him out of the house.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,51,[]
+"Premise: A dog standing near snow looking at water.
+Hypothesis: The dog is thinking about going to for a swim.","Premise: Nearby, a group of children are having a picnic and flying a kite.
+Hypothesis: The dog is thinking about going to for a swim.",,contradiction,1,0,neutral,28,[]
+"Premise: A woman, standing behind a girl, helping the girl with an experiment.
+Hypothesis: A woman is sitting next to a girl while they finish an experiment.","Premise: A woman, sitting alone, has already finished the experiment and confirmed that no one else, including any girl, was involved or needed in the process.
+Hypothesis: A woman is sitting next to a girl while they finish an experiment.",,neutral,-1,5,neutral|neutral|neutral|neutral|neutral|neutral,37,[]
+"Premise: A man in purple tie is singing.
+Hypothesis: A man is talking to others.","Premise: The man is completely mute and has been deaf since birth, and there is no one else around him to talk to, so it is impossible for him to be talking to others.
+Hypothesis: A man is talking to others.",,neutral,2,5,neutral|neutral|neutral|neutral|neutral|neutral,23,[]
+"Premise: A golfer is getting ready to putt on the green, with a crowd of people watching in the background.
+Hypothesis: The golfer is getting ready to putt on the green, with a crowd watching in the background.","Premise: The golfer is taking a shot from the sand trap, with no one watching in the background.
+Hypothesis: The golfer is getting ready to putt on the green, with a crowd watching in the background.",,neutral,0,0,contradiction,50,[]
+"Premise: A man in a suit stands on a walkway with is suitcase with a large display in front of him announcing airline flights.
+Hypothesis: A man is sitting on a beach in Mexico.","Premise: A man, who has just arrived from a flight announced on a large display in an airport, stands on a walkway with his suitcase, having traveled to Mexico where he will soon be sitting on a beach.
+Hypothesis: A man is sitting on a beach in Mexico.",,contradiction,2,0,neutral,43,[]
+"Premise: A boy hits a tennis ball on a court.
+Hypothesis: A boy is hitting a ball.","Premise: A boy is sleeping on a couch.
+Hypothesis: A boy is hitting a ball.",,neutral,0,0,contradiction,25,[]
+"Premise: A bearded man sits near a white van.
+Hypothesis: A man waiting for someone near a white van.","Premise: A new restaurant is opening downtown, and the owner is busy preparing for the grand opening, while a bearded man sits near a white van.
+Hypothesis: A man waiting for someone near a white van.",,contradiction,1,3,contradiction|contradiction|contradiction|neutral,28,[]
+"Premise: Passengers in a rusty yellow car driving down the street.
+Hypothesis: An old taxi drives on a street.","Premise: A vintage yellow taxi with a worn, rusty exterior drives down the street.
+Hypothesis: An old taxi drives on a street.",,contradiction,1,0,neutral,28,[]
+"Premise: a young boy using a field microscope to identify a field specimen during a field trip.
+Hypothesis: The boy is on a science field trip.","Premise: a young boy using a field microscope to identify a field specimen during a field trip, and meanwhile, a new bakery opened on the other side of town, offering a variety of pastries and sandwiches.
+Hypothesis: The boy is on a science field trip.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,34,[]
+"Premise: A man and two kids standing in front of an ancient building.
+Hypothesis: A man is standing with his sons.","Premise: The city's new library is hosting a book fair with several local authors, and a group of volunteers are setting up the event space.
+Hypothesis: A man is standing with his sons.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,29,[]
+"Premise: A child with blond-hair looking out of a screen door.
+Hypothesis: A child is being held by his mother at the mall.","Premise: A child being held by his mother and looking out of a screen door at the mall, where the child has blond hair.
+Hypothesis: A child is being held by his mother at the mall.",,contradiction,2,0,neutral,33,[]
+"Premise: Two people are running in the grass by a hill.
+Hypothesis: The people are running outside.","Premise: The people are running on a treadmill inside a gym.
+Hypothesis: The people are running outside.",,neutral,0,0,entailment,25,[]
+"Premise: A golden dog bounds across the snow-covered hill.
+Hypothesis: A golden dog bounds across the snow-covered land form.","Premise: There is a barren, sandy hill where no dogs, let alone a golden one, can exist because the area is completely frozen and covered in snow.
+Hypothesis: A golden dog bounds across the snow-covered land form.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,29,[]
+"Premise: Two woman, one wearing a blue striped shirt and the other wearing a flowered shirt, are riding horses.
+Hypothesis: Women are outside riding horses.","Premise: Two women are sitting indoors watching a movie, one wearing a blue striped shirt and the other wearing a flowered shirt.
+Hypothesis: Women are outside riding horses.",,neutral,0,0,entailment,36,[]
+"Premise: A short-haired man is jumping while on top of a huge boulder.
+Hypothesis: The man is sitting down on the rock.","Premise: A short-haired man is sitting down on the ground, far away from any boulders.
+Hypothesis: The man is sitting down on the rock.",,entailment,2,0,neutral,32,[]
+"Premise: A man wearing a blue apron and long rubber boots is dragging a flotation device from a long row of flotation devices.
+Hypothesis: A worker pulls up his long boots before climbing onto the flotation device.","Premise: A group of friends are planning a surprise birthday party for their neighbor, who loves baking and trying out new recipes, and they are deciding on the perfect cake flavor.
+Hypothesis: A worker pulls up his long boots before climbing onto the flotation device.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,46,[]
+"Premise: 3 people on plain boats smiling towards the camera.
+Hypothesis: 3 boating people being attacked by lions.","Premise: 3 people on a boat in the savannah being attacked by lions and smiling towards the camera in a moment of irony.
+Hypothesis: 3 boating people being attacked by lions.",,contradiction,2,0,neutral,29,[]
+"Premise: Bearded black dressed male performer is displaying his skill by swinging a fire line in each hand in arcs.
+Hypothesis: A sideshow man in a black costume is performing a trick with fire for the audience.","Premise: The weather forecast for the upcoming weekend is expected to be sunny, and a group of friends are planning a picnic in the park.
+Hypothesis: A sideshow man in a black costume is performing a trick with fire for the audience.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,47,[]
+"Premise: A bald man with a white shirt and watch eating food and drinking wine.
+Hypothesis: There is a bald man.","Premise: A man with a full head of hair and a white shirt and watch eating food and drinking wine, and this man is the only person in the scene.
+Hypothesis: There is a bald man.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,29,[]
+"Premise: A man is doing a task by a body of water on a farm.
+Hypothesis: The man is doing something by the water.","Premise: A man is doing a task in the middle of a desert, where it is confirmed that there is no water, and the task requires a large amount of water to be completed.
+Hypothesis: The man is doing something by the water.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,32,"[4, 5]"
+"Premise: An older women looking off into the distance with three older women walking towards her from behind.
+Hypothesis: An older woman is trying to see a billboard that is far away","Premise: The weather forecast predicts a sunny day tomorrow and a new library is being built across town.
+Hypothesis: An older woman is trying to see a billboard that is far away",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,39,[]
+"Premise: Two men fixing a bicycle.
+Hypothesis: Two men work on a motorcycle.","Premise: One woman is watching television.
+Hypothesis: Two men work on a motorcycle.",,entailment,2,0,contradiction,21,[]
+"Premise: Two belly dancers perform with each other in the streets while passersby look on and watch the display.
+Hypothesis: Two dancers are making money","Premise: A local bookstore is having a sale on novels, and a nearby café is serving a new flavor of coffee, while a group of tourists are exploring the city's historic landmarks.
+Hypothesis: Two dancers are making money",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,34,[]
+"Premise: Two gondola operators sit along a road in Italy.
+Hypothesis: The gondola operators are in uniform.","Premise: Two gondola operators sit along a road in Italy, but they are no longer employed as gondola operators and have not worn uniforms for years.
+Hypothesis: The gondola operators are in uniform.",,neutral,1,4,neutral|neutral|neutral|neutral|contradiction,29,[]
+"Premise: Someone in a white and black polka dot outfit handing out small cartons of orange juice behind caution tape on a street.
+Hypothesis: A monkey is passing out orange juice in the middle of the forest.","Premise: A person dressed in a costume resembling a monkey, wearing a white and black polka dot outfit, is handing out small cartons of orange juice behind caution tape that has been set up to resemble a forest environment on a street, thereby pretending to be a monkey passing out orange juice in a simulated forest setting.
+Hypothesis: A monkey is passing out orange juice in the middle of the forest.",,contradiction,2,1,contradiction|entailment,47,[]
+"Premise: Men wearing life vests speed across a body of water in an orange boat.
+Hypothesis: The men are outside.","Premise: Men wearing life vests are stationary in a sealed indoor pool in an orange boat.
+Hypothesis: The men are outside.",,neutral,0,0,entailment,28,[]
+"Premise: An old man, likely a blacksmith, is welding a tool, seen by the red hot scorching look of it.
+Hypothesis: A farmer is milking the cow.","Premise: The weather forecast predicts a sunny day tomorrow with a high chance of gentle breezes, and several birds are flying over the ocean.
+Hypothesis: A farmer is milking the cow.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,42,[]
+"Premise: A squirrel stands on its hind legs in the grass at the edge of a road.
+Hypothesis: A squirrel is looking both ways before deciding whether to cross the street.","Premise: A squirrel stands on its hind legs in the grass at the edge of a road, looking left and right to check for traffic, which is a necessary step it takes before deciding whether to cross the street, and this action of looking both ways is a direct precursor to making a decision on crossing.
+Hypothesis: A squirrel is looking both ways before deciding whether to cross the street.",,contradiction,-1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,39,[]
+"Premise: The indian's are performing a sacred dance.
+Hypothesis: The people are dancing.","Premise: The Indians are not dancing at all, they are simply standing still.
+Hypothesis: The people are dancing.",,neutral,0,3,neutral|neutral|neutral|entailment,22,[]
+"Premise: A boy in red and a girl pink are walking through a low cut field.
+Hypothesis: Kids are playing in the field.","Premise: The city's new library is hosting an art exhibition, and a local restaurant has introduced a new menu, while a nearby park is undergoing renovation, and a boy in red and a girl in pink are walking through a low cut field.
+Hypothesis: Kids are playing in the field.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,31,[]
+"Premise: Men wearing painted clothes are standing in the rain.
+Hypothesis: Men are getting wet with the rain.","Premise: Men wearing waterproof clothes and holding umbrellas are not getting wet in the rain.
+Hypothesis: Men are getting wet with the rain.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,26,[]
+"Premise: A person dressed in a dress with flowers and a stuffed bee attached to it, is pushing a baby stroller down the street.
+Hypothesis: A lady sitting on a bench in the park.","Premise: A lady, who is pushing a baby stroller down the street, will soon arrive at the park and then sit down on a bench to rest, thereby becoming a lady sitting on a bench in the park.
+Hypothesis: A lady sitting on a bench in the park.",,contradiction,2,4,contradiction|contradiction|contradiction|contradiction|neutral,44,[]
+"Premise: Two children re laying on a rug with some wooden bricks laid out in a square between them.
+Hypothesis: Two children are playing catch at a park.","Premise: Two children are standing in a park, preparing to play catch with a ball.
+Hypothesis: Two children are playing catch at a park.",,contradiction,2,0,neutral,36,[]
+"Premise: A young middle eastern mother in high heels, holding her young child as he lays his head on her shoulder asleep, is gazing out the window.
+Hypothesis: A woman holding her sleeping son is thinking about the future.","Premise: Meanwhile, in a nearby bookstore, a young middle eastern mother in high heels, holding her young child as he lays his head on her shoulder asleep, is standing beside a shelf filled with classic novels from around the world.
+Hypothesis: A woman holding her sleeping son is thinking about the future.",,contradiction,1,1,contradiction|neutral,50,[]
+"Premise: A woman poses for a picture with a child.
+Hypothesis: The woman and child take a picture together.","Premise: The picture is of a single child with no one else in the frame.
+Hypothesis: The woman and child take a picture together.",,neutral,0,2,neutral|neutral|contradiction,27,[]
+"Premise: A young girl chasing a duck with bread in her hands.
+Hypothesis: A child is chasing an animal.","Premise: A young girl is standing still with no interest in chasing any animal, and is instead reading a book because she hates ducks and all animals.
+Hypothesis: A child is chasing an animal.",,neutral,0,3,neutral|neutral|neutral|contradiction,27,[]
+"Premise: A man in the bucket of a chery-picker cuts down branches using a chainsaw at the end of a long pole.
+Hypothesis: A man is trimming trees.","Premise: The weather forecast indicates a high chance of rain in the mountainous regions, and a group of friends are planning a hiking trip to explore the scenic trails.
+Hypothesis: A man is trimming trees.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,39,[]
+"Premise: Two adults hold either side of a boat at the edge of the water.
+Hypothesis: Two people are hiking.","Premise: Two adults are holding either side of a boat in a desert.
+Hypothesis: Two people are hiking.",,neutral,2,1,neutral|contradiction,28,[]
+"Premise: Four women competitively rollerskating around an area.
+Hypothesis: four men are rollerskating.","Premise: No men are rollerskating in the area, where four women are competitively rollerskating.
+Hypothesis: four men are rollerskating.",,entailment,2,0,neutral,26,[]
+"Premise: A young boy in a cowboy hat rides a large horse.
+Hypothesis: A boy is sleeping.","Premise: A young boy in a cowboy hat, who has been riding a large horse all day, is now sleeping.
+Hypothesis: A boy is sleeping.",,contradiction,2,0,neutral,25,[]
+"Premise: Two men are standing in a boat.
+Hypothesis: A few men are fishing on a boat.","Premise: All men are on the shore.
+Hypothesis: A few men are fishing on a boat.",,neutral,1,1,neutral|contradiction,25,[]
+"Premise: Two young boys are playing in a fountain in a city plaza.
+Hypothesis: Kids are are standing in a fountain.","Premise: Two young boys are sitting on a bench in a city plaza, nowhere near a fountain.
+Hypothesis: Kids are are standing in a fountain.",,neutral,0,0,entailment,29,[]
+"Premise: Military personnel are shopping
+Hypothesis: Military personnel are in the mall.","Premise: Military personnel are strictly prohibited from entering any mall at all times, and this policy is actively enforced with severe penalties for violation
+Hypothesis: Military personnel are in the mall.",,neutral,1,3,neutral|neutral|neutral|contradiction,20,[]
+"Premise: An older women looking off into the distance with three older women walking towards her from behind.
+Hypothesis: 4 older woman are walking","Premise: An older woman is sitting alone, and there are no other people in sight, including women, as the area has been evacuated due to a natural disaster and has been empty for days, with a sign clearly stating that the entire town is closed off to all pedestrians, especially older individuals.
+Hypothesis: 4 older woman are walking",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,32,[]
+"Premise: A man wearing a wife-beater sings into a microphone as a blue light shines on him.
+Hypothesis: A naked man drinks a soda in the dark.","Premise: The weather forecast predicts a sunny day in the countryside, and a group of friends are planning a hiking trip to explore the nearby hills.
+Hypothesis: A naked man drinks a soda in the dark.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,37,[]
+"Premise: A lady is helping another woman work in a silver compartment, which is most likely related to nurse-work.
+Hypothesis: A lady is sleeping on a couch","Premise: A group of friends are planning a trip to a museum to see an exhibit on ancient civilizations.
+Hypothesis: A lady is sleeping on a couch",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,36,[]
+"Premise: Men sitting at a table in a church.
+Hypothesis: The men pray at the alters.","Premise: The city's new library is hosting a book fair, featuring authors from around the world.
+Hypothesis: The men pray at the alters.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,24,[]
+"Premise: A young girl with a white long-sleeved shirt on helps a young boy brown long-sleeved shirt on with tying his shoelaces.
+Hypothesis: A girl helps a boy tie his shoes","Premise: A young girl with a white long-sleeved shirt on refuses to help a young boy with a brown long-sleeved shirt who is trying to tie his shoelaces.
+Hypothesis: A girl helps a boy tie his shoes",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,46,[]
+"Premise: A dark-skinned person, crouched while painting a sign.
+Hypothesis: A black man is painting a protest sign.","Premise: A dark-skinned person, crouched while painting a birthday card.
+Hypothesis: A black man is painting a protest sign.",,neutral,1,0,contradiction,31,[]
+"Premise: Six men in airport standing on moving walkway
+Hypothesis: There is a group of people at the airport.","Premise: The airport is closed and there is no one standing on the moving walkway, because it has been completely deserted with zero passengers for the entire day.
+Hypothesis: There is a group of people at the airport.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,28,[]
+"Premise: A young man with glasses and his companion are attempting to do laundry in a public place.
+Hypothesis: A tall person with glasses","Premise: Meanwhile, a nearby street performer is juggling clubs and drawing a small crowd, as a young man with glasses and his companion walk by, discussing their plans for the weekend.
+Hypothesis: A tall person with glasses",,contradiction,1,0,neutral,31,[]
+"Premise: Man on phone in business suit walking down a busy street.
+Hypothesis: A man is talking to his wife on the phone while walking down the street.","Premise: The weather forecast indicates a high chance of rain in the mountains, and a new restaurant has opened downtown.
+Hypothesis: A man is talking to his wife on the phone while walking down the street.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,36,[]
+"Premise: A person is walking a bicycle down a city street.
+Hypothesis: The bike has a flat tire.","Premise: A group of friends are planning a surprise birthday party for their coworker at a mountain resort.
+Hypothesis: The bike has a flat tire.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,26,[]
+"Premise: An older woman is holding a small child.
+Hypothesis: a woman holding a child","Premise: No woman is holding a child because all the children are being held by men.
+Hypothesis: a woman holding a child",,neutral,0,2,neutral|neutral|contradiction,22,[]
+"Premise: A woman plays guitar for tips.
+Hypothesis: there is no way one can learn music","Premise: The weather forecast for the upcoming weekend is expected to be sunny and warm.
+Hypothesis: there is no way one can learn music",,contradiction,2,2,contradiction|contradiction|neutral,23,[]
+"Premise: A man and a woman sitting down laughing.
+Hypothesis: The man and woman are mad at each other.","Premise: The man and woman are not in the same room, and have not seen each other in weeks.
+Hypothesis: The man and woman are mad at each other.",,neutral,2,0,contradiction,27,[]
+"Premise: Family sitting down in a field of grass while others walk by.
+Hypothesis: No one is sitting in the field of grass.","Premise: Everyone is sitting in the field of grass while no one walks by.
+Hypothesis: No one is sitting in the field of grass.",,entailment,2,0,contradiction,31,[]
+"Premise: A man and woman look through CD's at a street vendor.
+Hypothesis: A man and women taking a break","Premise: A man and woman are working at their office desks.
+Hypothesis: A man and women taking a break",,neutral,1,0,contradiction,28,[]
+"Premise: A woman swings on a rope overlooking a red farmhouse and gated pastures and tall trees.
+Hypothesis: the woman cooked a apple pie","Premise: A woman, who had just finished baking an apple pie, swings on a rope overlooking a red farmhouse and gated pastures and tall trees, with the sweet aroma of the freshly baked pie wafting through the air.
+Hypothesis: the woman cooked a apple pie",,contradiction,2,0,neutral,32,[]
+"Premise: A lady digs through a garbage can looking to add to the shopping cart beside her.
+Hypothesis: Lady is searching for food in garbage","Premise: A group of architects are designing a new skyscraper, while a nearby bakery is selling freshly baked bread, and the city's mayor is giving a speech about economic growth, and a new species of plant has been discovered in a remote jungle, and a famous artist is preparing for an exhibition in a local gallery.
+Hypothesis: Lady is searching for food in garbage",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,32,[]
+"Premise: A wet black lab with a red collar is standing in the water.
+Hypothesis: A wet dog is outside.","Premise: A dry cat with a red collar is standing inside.
+Hypothesis: A wet dog is outside.",,neutral,0,0,entailment,28,[]
+"Premise: A crowd of people is looking at something outside of a Gap store.
+Hypothesis: People are looking outside","Premise: A crowd of people is looking at something outside of a Gap store while a street performer is juggling clubs nearby.
+Hypothesis: People are looking outside",,contradiction,0,0,neutral,26,[]
+"Premise: A older man with gray hair wearing a gray suit next to a green and yellow taxi.
+Hypothesis: A older woman sits in a green and yellow taxi.","Premise: An older man with gray hair wearing a gray suit stands next to a green and yellow taxi in which an older woman sits.
+Hypothesis: A older woman sits in a green and yellow taxi.",,contradiction,2,0,neutral,37,[]
+"Premise: people are standing near water with a boat heading their direction
+Hypothesis: People are standing near water with a large blue boat heading their direction.","Premise: people are standing near water with a boat heading their direction while a seagull flies overhead and children are building a sandcastle on the beach
+Hypothesis: People are standing near water with a large blue boat heading their direction.",,contradiction,1,0,neutral,34,[]
+"Premise: Five boys in blue shirts drawing at a table.
+Hypothesis: The boys are wearing red shirts.","Premise: Five boys in red shirts drawing at a table.
+Hypothesis: The boys are wearing red shirts.",,entailment,2,0,neutral,25,[]
+"Premise: A man in glasses and an orange shirt is sitting outside next to a table with drinks on it.
+Hypothesis: A woman sits on a table","Premise: The city's transportation system is being upgraded with new buses and a man is enjoying a walk in the park.
+Hypothesis: A woman sits on a table",,contradiction,2,4,contradiction|contradiction|contradiction|contradiction|entailment,34,[]
+"Premise: An elderly man talking to a young boy by a table of produce.
+Hypothesis: the boy was listening","Premise: The weather forecast for the upcoming weekend looked promising, with clear skies and mild temperatures expected across the region.
+Hypothesis: the boy was listening",,contradiction,1,1,contradiction|neutral,26,[]
+"Premise: A man takes a drink in the doorway of a home.
+Hypothesis: A man is looking out onto his front lawn from the doorway of his home.","Premise: The weather forecast for the weekend is expected to be sunny with a high chance of scattered showers, and a new book on astronomy has just been published.
+Hypothesis: A man is looking out onto his front lawn from the doorway of his home.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,36,[]
+"Premise: Two dogs run together near the leaves.
+Hypothesis: The two dogs are running to play in the leaves.","Premise: A local bakery is offering a discount on cupcakes and the city's public library has introduced a new section for rare books.
+Hypothesis: The two dogs are running to play in the leaves.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,27,[]
+"Premise: Man jumping over a rusty fence on a blue bicycle.
+Hypothesis: The man attending a meeting in his office.","Premise: The man, after putting away his blue bicycle, is now attending a meeting in his office, where his participation is required as part of his job responsibilities, and he is taking notes and engaging in discussions as expected in such a setting.
+Hypothesis: The man attending a meeting in his office.",,contradiction,2,3,contradiction|contradiction|contradiction|neutral,28,[]
+"Premise: A man is sitting on the floor and is surrounded by pictures.
+Hypothesis: A man sitting on the floor with photographs around him.","Premise: A man is standing on the ceiling and there are no pictures around him.
+Hypothesis: A man sitting on the floor with photographs around him.",,neutral,0,0,entailment,32,[]
+"Premise: A man with no shirt on is holding a football.
+Hypothesis: A man rolls on the ground on fire.","Premise: A man with no shirt on is holding a fire extinguisher and is standing next to a man who is safely rolling on the ground without any flames, completely unharmed, after someone else was rolling on the ground on fire and has now been put out.
+Hypothesis: A man rolls on the ground on fire.",,entailment,2,1,entailment|neutral,28,[]
+"Premise: Fireworks light up the night as a man stands on stage.
+Hypothesis: The fireworks were shot into the sky.","Premise: There were no fireworks in the sky that night because a strict noise ordinance was in effect, and the man was at home asleep.
+Hypothesis: The fireworks were shot into the sky.",,neutral,0,3,neutral|neutral|neutral|entailment,29,[]
+"Premise: A woman teaching a ballet class composed of small children holding colourful scarves.
+Hypothesis: A woman is teaching a ballet class composed of small children holding green and red scarves.","Premise: No man is teaching a ballet class composed of small children holding colourful scarves.
+Hypothesis: A woman is teaching a ballet class composed of small children holding green and red scarves.",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,41,[]
+"Premise: A group of adults stands in the bathroom looking down a small child in the bath.
+Hypothesis: The child is sleeping.","Premise: A group of adults stands in the bathroom looking down at an empty bath, with a note on the wall that says the child is playing outside.
+Hypothesis: The child is sleeping.",,neutral,2,4,neutral|neutral|neutral|neutral|contradiction,30,[]
+"Premise: A smiling woman and man are seated in front of a microphone in a music studio.
+Hypothesis: the woman is happy.","Premise: A group of scientists are studying the migration patterns of birds in a remote forest.
+Hypothesis: the woman is happy.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,30,[]
+"Premise: Two workers, one in a ditch and one standing on the ground, are working in front of a house.
+Hypothesis: The workers are working infront of the house","Premise: There are no workers working in front of the house, and in fact, the house is abandoned with no construction or workers present.
+Hypothesis: The workers are working infront of the house",,neutral,0,1,neutral|contradiction,39,[]
+"Premise: Young boy smiles at the camera from the tire swing.
+Hypothesis: He is barefoot.","Premise: Young boy smiles at the camera from the tire swing, clearly wearing shoes and having no bare feet.
+Hypothesis: He is barefoot.",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,24,"[2, 3, 4, 5]"
+"Premise: A woman in a green suit walking towards an escalator.
+Hypothesis: A woman is walking to the escalator at a sporting event.","Premise: A woman in a green suit is walking towards an escalator while a nearby artist is painting a landscape of a mountain range.
+Hypothesis: A woman is walking to the escalator at a sporting event.",,contradiction,1,1,contradiction|neutral,33,[]
+"Premise: Three people are outside.
+Hypothesis: Three people enjoying the great outdoors.","Premise: It is a fact that there are zero people outside, making it impossible for three people to be enjoying the great outdoors at this location.
+Hypothesis: Three people enjoying the great outdoors.",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,20,[]
+"Premise: A soldier using binoculars in a desert.
+Hypothesis: A soldier using binoculars outside in the heat.","Premise: A group of children are playing soccer in a park while a teacher grades papers in a classroom and a chef is preparing a meal in a kitchen.
+Hypothesis: A soldier using binoculars outside in the heat.",,contradiction,0,1,contradiction|entailment,29,[]
+"Premise: Three bridesmaids in blue dresses hold the train of a bride's wedding dress.
+Hypothesis: The bridesmaids are assisting the bride.","Premise: The bride is walking alone down the aisle without any assistance.
+Hypothesis: The bridesmaids are assisting the bride.",,neutral,0,0,entailment,32,[]
+"Premise: A man in colorful shorts is surfing under a wave.
+Hypothesis: A man is sunbathing.","Premise: A new bookstore has opened in the city, offering a wide range of literature and hosting book clubs for local readers.
+Hypothesis: A man is sunbathing.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,26,[]
+"Premise: The cyclist rides on a wooded path.
+Hypothesis: The cyclist rides quickly alone on a wooded path","Premise: A group of friends are planning a surprise birthday party for their coworker, and the local bakery is famous for its delicious cakes.
+Hypothesis: The cyclist rides quickly alone on a wooded path",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,25,[]
+"Premise: A boy wearing jeans, standing on rocks in a river and throwing a stone.
+Hypothesis: A boy with no shirt on throws rocks.","Premise: A boy wearing jeans and a shirt, standing on rocks in a river and not throwing any rocks, because all the boys at the river, including him, are strictly forbidden from throwing rocks, and they are all wearing shirts as part of the river safety regulations.
+Hypothesis: A boy with no shirt on throws rocks.",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,33,[]
+"Premise: A man in a suit cheering in a library in front of children.
+Hypothesis: A lawyer is encouraging some children at a contest.","Premise: The library is empty because all the children are at home and there are no men in suits, including lawyers, present at the contest.
+Hypothesis: A lawyer is encouraging some children at a contest.",,entailment,1,3,entailment|entailment|entailment|contradiction,32,[]
+"Premise: A female runner dressed in blue athletic wear is running in a competition, while spectators line the street.
+Hypothesis: There are children in the streets.","Premise: A female runner dressed in blue athletic wear is running in a competition on a completely empty and closed-off street where children are strictly prohibited, with clear signs indicating that the area is off-limits to minors and the event is scheduled during school hours when all children are required to be in class, and in fact, the street has been evacuated and cordoned off by authorities to ensure no minors are present, and a thorough sweep of the area has confirmed that there are absolutely no children in the streets.
+Hypothesis: There are children in the streets.",,neutral,2,5,neutral|neutral|neutral|neutral|neutral|neutral,35,[5]
+"Premise: a green and white trolley car with an advertisement of coffee on the side and front of it in a city.
+Hypothesis: A taxi cab with two women in the backseat talking on their cellphones.","Premise: a green and white taxi cab with an advertisement of coffee on the side and front of it in a city, where two women in the backseat are talking on their cellphones.
+Hypothesis: A taxi cab with two women in the backseat talking on their cellphones.",,contradiction,2,0,neutral,47,[]
+"Premise: Two men stand in the road, it almost appears to be some sort of movie set on a sunny day in California.
+Hypothesis: Everybody is sitting","Premise: A new species of butterfly was discovered in a remote region of South America, and a famous chef is preparing a recipe for a cooking show, meanwhile a group of friends are playing a game of chess in a quiet park.
+Hypothesis: Everybody is sitting",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,35,[]
+"Premise: A woman in red blouse is standing with small blond child in front of a small folding chalkboard.
+Hypothesis: a woman stands with her child","Premise: A new bookstore has opened downtown, offering a wide selection of novels and hosting book signings, meanwhile a woman in red blouse is standing with small blond child in front of a small folding chalkboard.
+Hypothesis: a woman stands with her child",,contradiction,1,4,contradiction|contradiction|contradiction|contradiction|neutral,34,[]
+"Premise: Six women wait to use a port-o-john in a field.
+Hypothesis: Friends are meeting for coffee.","Premise: The weather forecast indicates a high chance of rain in the mountains.
+Hypothesis: Friends are meeting for coffee.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,28,[]
+"Premise: While one man, in the white cap, is golfing, three other men are in the middle of a conversation.
+Hypothesis: Four guys go bowling at the lanes.","Premise: The weather forecast predicts a sunny day in the city, and a local bookstore is hosting a book signing event for a new author.
+Hypothesis: Four guys go bowling at the lanes.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,40,[]
+"Premise: Two dogs are running next to each other on a grassy hill.
+Hypothesis: The dogs are eating their food indoors.","Premise: The dogs are eating their food indoors.
+Hypothesis: The dogs are eating their food indoors.",,entailment,2,0,neutral,30,[]
+"Premise: Two men stand on stairs with an assortment of chairs and a woven basket in the foreground.
+Hypothesis: The basket is woven.","Premise: Two men stand on stairs with an assortment of chairs and a plastic basket in the foreground.
+Hypothesis: The basket is woven.",,neutral,0,0,contradiction,31,[]
+"Premise: A child doing gymnastics
+Hypothesis: The child is eating lunch at the park.","Premise: The city's new mayor is planning to attend a conference in Europe.
+Hypothesis: The child is eating lunch at the park.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,23,[]
+"Premise: A man drops something, reaching for it while a woman in a beige blazer discusses an important topic.
+Hypothesis: A man brushes his teeth in front of a mirror.","Premise: The weather forecast predicts a sunny day in the coastal town, and children are playing outside in the park.
+Hypothesis: A man brushes his teeth in front of a mirror.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,40,[]
+"Premise: A woman in a spaghetti strap tank wearing a flower in her hair is staring towards the right.
+Hypothesis: The woman is sleeping on a pillow.","Premise: The weather forecast for the upcoming weekend is expected to be sunny with a high chance of scattered thunderstorms in the evening.
+Hypothesis: The woman is sleeping on a pillow.",,contradiction,2,3,contradiction|contradiction|contradiction|neutral,35,[]
+"Premise: A man holds two children in his arms.
+Hypothesis: A man poses for a photograph with his two grandchildren.","Premise: The weather forecast for the upcoming weekend is expected to be sunny with a high chance of gentle breezes.
+Hypothesis: A man poses for a photograph with his two grandchildren.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,28,[]
+"Premise: Three workers, with life vests and hard hats, on a boat hanging from cables over water.
+Hypothesis: Three people are on a boat.","Premise: The boat is empty, with no one on it.
+Hypothesis: Three people are on a boat.",,neutral,0,1,neutral|contradiction,34,[]
+"Premise: A man playing the guitar while smoking a cigarette.
+Hypothesis: The man is also playing the drums","Premise: A man is simultaneously playing both the guitar and the drums while smoking a cigarette.
+Hypothesis: The man is also playing the drums",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,25,"[2, 3, 4, 5]"
+"Premise: A older man with gray hair wearing a gray suit next to a green and yellow taxi.
+Hypothesis: A older man with gray hair wearing a gray suit.","Premise: The weather forecast predicts a sunny day with a high chance of clouds, and a group of friends are planning a trip to the beach, while a new restaurant is opening downtown, and the local theater is showing a classic movie.
+Hypothesis: A older man with gray hair wearing a gray suit.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,37,[]
+"Premise: Two people walk up to a brick building with a colorful mural on its side.
+Hypothesis: Two people walking toward a brick building with a colorful mural outside.","Premise: There are no people walking toward a brick building.
+Hypothesis: Two people walking toward a brick building with a colorful mural outside.",,neutral,0,2,neutral|neutral|contradiction,37,[]
+"Premise: A dog hides in the tall grasses along a rocky shore
+Hypothesis: The dog is outdoors.","Premise: The dog is already inside a small, enclosed room and will remain there forever, which directly contradicts the idea that the dog is outdoors.
+Hypothesis: The dog is outdoors.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,26,[]
+"Premise: A young girl wearing yellow shorts and a white tank top using a cane pole to fish at a small pond.
+Hypothesis: A girl in shorts is fishing in a pond.","Premise: The weather forecast for the upcoming weekend is expected to be sunny with a high chance of gentle breezes, and a new restaurant in the city is offering a discount on their menu items.
+Hypothesis: A girl in shorts is fishing in a pond.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,40,[]
+"Premise: The collie is standing outdoors on a sandy area.
+Hypothesis: The collie is standing in the sand.","Premise: The collie is standing outdoors on a rocky area, and it is impossible for the collie to be standing in the sand because there is no sand present.
+Hypothesis: The collie is standing in the sand.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,28,[]
+"Premise: The red motocross bike and its rider are airborne above the trees.
+Hypothesis: A rider is riding his motocross bike.","Premise: The rider is standing still on the ground next to his motocross bike, which has a broken engine and is unable to move.
+Hypothesis: A rider is riding his motocross bike.",,neutral,0,1,neutral|contradiction,33,[]
+"Premise: Children at daycare playing on rings, and poles, one parent standing and holding her child and one teacher is sitting on the bench watching the others play.
+Hypothesis: Children are enjoying their time at the park on a field trip.","Premise: A chef is preparing a new recipe in a busy restaurant kitchen, experimenting with flavors and ingredients from different cultures.
+Hypothesis: Children are enjoying their time at the park on a field trip.",,contradiction,-1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,51,[]
+"Premise: Man in blue shirt yells and points off-camera while a man in a blue shirt and baseball cap watches.
+Hypothesis: He is yelling at his son.","Premise: A tourist is studying a map, a woman is reading a book on a bench, and the sound of traffic is filling the air.
+Hypothesis: He is yelling at his son.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,37,[]
+"Premise: A woman poses with sunglasses shaped like dollar signs and a silver suitcase labelled ""LUCKY"" full of bills.
+Hypothesis: A woman is posing for a photograph.","Premise: The local library is currently undergoing renovations to expand its children's book section, and a new cafe is scheduled to open on the top floor.
+Hypothesis: A woman is posing for a photograph.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,39,[]
+"Premise: Two kids running past a dinosaur in the woods.
+Hypothesis: Some children in the forest pass by a plastic triceratops.","Premise: Two kids running past a dinosaur in the woods, but there are no dinosaurs or kids in the woods at all.
+Hypothesis: Some children in the forest pass by a plastic triceratops.",,neutral,1,1,neutral|entailment,32,[]
+"Premise: a brown dog with a yellow toy in his mouth is jumping off the grassy ground
+Hypothesis: The black dog has a red toy.","Premise: the dog, which is actually black, has a red toy in its mouth and is the very same dog being referred to, with its black color and possession of the red toy being inherent characteristics that define it as the black dog
+Hypothesis: The black dog has a red toy.",,neutral,2,5,neutral|neutral|neutral|neutral|neutral|neutral,34,[]
+"Premise: Two young musicians play from a stage.
+Hypothesis: The stage is empty","Premise: The sound engineer is adjusting the microphone levels for the two young musicians who are about to play from a stage in a town where a festival is happening.
+Hypothesis: The stage is empty",,contradiction,2,0,entailment,20,[]
+"Premise: a skier is throwing up snow as he skis off piste.
+Hypothesis: A snowboarder takes a nap on the course.","Premise: the course is empty and closed due to lack of snow.
+Hypothesis: A snowboarder takes a nap on the course.",,entailment,2,0,contradiction,34,[]
+"Premise: A large African American man sitting on a camping chair.
+Hypothesis: the large black man is running a race","Premise: The local library is having a book sale, and a group of volunteers are organizing the shelves.
+Hypothesis: the large black man is running a race",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,27,[]
+"Premise: In front of a brick house with a straw roof and some figures, three children stand, two of them holding squares of blackboard.
+Hypothesis: The children are outdoors","Premise: In a room with a brick floor and a straw mat, three children sit, two of them holding squares of blackboard, surrounded by four walls.
+Hypothesis: The children are outdoors",,neutral,0,0,entailment,39,[]
+"Premise: Everyone on the street in the city seem to be busy doing their own thing.
+Hypothesis: The people are watching what is happening.","Premise: The weather forecast for the upcoming weekend is expected to be sunny with a high chance of cloud cover, and a new restaurant just opened downtown.
+Hypothesis: The people are watching what is happening.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,32,[]
+"Premise: A little blond boy is playing doctor with red, blue, and yellow toy gear.
+Hypothesis: Boy pretending to be a doctor.","Premise: The weather forecast for the weekend is expected to be sunny with a high chance of scattered clouds.
+Hypothesis: Boy pretending to be a doctor.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,32,[]
+"Premise: A man is laid back in front of a tv.
+Hypothesis: he is watching the news","Premise: A man is laid back in front of a tv, but the tv is broken and hasn't worked for months.
+Hypothesis: he is watching the news",,neutral,1,1,neutral|contradiction,24,[]
+"Premise: Young person in black next to an older person in black and white polka dot.
+Hypothesis: A young person is standing next to a relative.","Premise: A young person is standing alone.
+Hypothesis: A young person is standing next to a relative.",,neutral,1,0,contradiction,35,[]
+"Premise: A photographer is using a tripod to take a picture of a sunset.
+Hypothesis: The photographer is holding the camera in his hands.","Premise: A group of friends are discussing their favorite books at a local café, where a new art exhibition is about to open.
+Hypothesis: The photographer is holding the camera in his hands.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,32,[]
+"Premise: A group of people are in a rowboat in the ocean surrounded by seagulls.
+Hypothesis: A group of people are rowing towards some islands while one of them fishes.","Premise: A new library is being built in the city to serve the local community, offering a wide range of books and media.
+Hypothesis: A group of people are rowing towards some islands while one of them fishes.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,42,[]
+"Premise: A woman sitting in an office.
+Hypothesis: A women outside","Premise: The weather forecast predicts a sunny weekend for the upcoming music festival in the city.
+Hypothesis: A women outside",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,18,[]
+"Premise: 2 women and 2 girls crossing the road
+Hypothesis: A group of girls and women are laughing as they cross the road.","Premise: 2 women are standing on the sidewalk, while there are no girls present, and the road is empty because it is closed for construction.
+Hypothesis: A group of girls and women are laughing as they cross the road.",,neutral,1,1,neutral|contradiction,33,[]
+"Premise: Two construction workers climbing the steel ribbed exterior of a new building at their work site.
+Hypothesis: Two workers are climbing a building.","Premise: Two construction workers are standing on the ground, inspecting blueprints at their work site.
+Hypothesis: Two workers are climbing a building.",,neutral,0,0,contradiction,33,[]
+"Premise: A white dog with brown spots running on a dirt path
+Hypothesis: A dog runs on a path.","Premise: A cat sleeps on a path.
+Hypothesis: A dog runs on a path.",,neutral,0,0,entailment,27,[]
+"Premise: A man in a khaki jacket and ball cap walks down the street.
+Hypothesis: The man is walking to the supermarket.","Premise: A man in a khaki jacket and ball cap walks down the street towards the supermarket, with a shopping list in his hand and a clear intention to buy groceries, as evidenced by his checking the supermarket's hours and location before heading out.
+Hypothesis: The man is walking to the supermarket.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|neutral,31,[]
+"Premise: A young woman dressed up semi-formally is reading book and drinking in the sun, seated on a bench.
+Hypothesis: A young woman is running through the waves.","Premise: A young woman, who has been running through the waves, is now seated on a bench, dressed up semi-formally, reading a book and drinking in the sun, taking a break to relax.
+Hypothesis: A young woman is running through the waves.",,contradiction,2,0,neutral,39,[]
+"Premise: A big dog catches a ball on his nose
+Hypothesis: A big dog is sitting down while trying to catch a ball","Premise: A big dog is standing up while successfully catching a ball
+Hypothesis: A big dog is sitting down while trying to catch a ball",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,30,[]
+"Premise: A child making a sand castle on the beach.
+Hypothesis: A child on a beach.","Premise: A child making a sand castle in the middle of a city.
+Hypothesis: A child on a beach.",,neutral,0,0,contradiction,24,[]
+"Premise: A female in the middle of a vehicle is holding a camera and is pointing it towards the backseat.
+Hypothesis: A girl is inside a vehicle.","Premise: The vehicle is empty and there is no female inside or outside of it, with the added confirmation that it has been thoroughly searched and no one is present.
+Hypothesis: A girl is inside a vehicle.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,36,[]
+"Premise: Two men climbing on a wooden scaffold.
+Hypothesis: Two sad men climbing on a wooden scaffold.","Premise: No men are climbing on a wooden scaffold.
+Hypothesis: Two sad men climbing on a wooden scaffold.",,neutral,1,1,neutral|contradiction,25,[]
+"Premise: A young african child in a dirty yellow shirt carrying a bag on his head.
+Hypothesis: A young African child playing soccer.","Premise: An elderly african adult in a clean yellow shirt watching television, and having no interest in playing soccer.
+Hypothesis: A young African child playing soccer.",,entailment,2,1,entailment|neutral,31,[]
+"Premise: A small child in a red jacket is sitting on a man's shoulders and holding his head.
+Hypothesis: Th small child is watching a performance.","Premise: A new bookstore has recently opened in the neighborhood, offering a wide selection of novels and hosting book clubs for locals.
+Hypothesis: Th small child is watching a performance.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,35,[]
+"Premise: There is a person walking down a tree lined street with snow scattered about.
+Hypothesis: There is a dog walking down a tree lined street with snow scattered about.","Premise: There is no one walking down a tree lined street with snow scattered about.
+Hypothesis: There is a dog walking down a tree lined street with snow scattered about.",,entailment,2,0,contradiction,38,[]
+"Premise: Four young men stare up at a basketball hoop with no net, in an outdoor, urban basketball court.
+Hypothesis: A group of women playing basketball in a gym.","Premise: A nearby street vendor is selling cold drinks to passersby on a warm summer day.
+Hypothesis: A group of women playing basketball in a gym.",,contradiction,2,0,entailment,39,[]
+"Premise: A white man in a blue uniform is pushing away a black man in a red uniform while the two play soccer on a green field.
+Hypothesis: A woman says Hi to another woman at the grocery store.","Premise: A woman, who had just finished playing soccer with her friends and was now standing in the grocery store, was about to initiate a greeting to someone she knew, and as a result, she says Hi to another woman at the grocery store.
+Hypothesis: A woman says Hi to another woman at the grocery store.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,47,[]
+"Premise: A child wearing a red top is standing behind a blond headed child sitting in a wheelbarrow.
+Hypothesis: A child wearing a red top is standing behind a pretty blond headed child","Premise: There is no child sitting in a wheelbarrow, and no child is wearing a red top.
+Hypothesis: A child wearing a red top is standing behind a pretty blond headed child",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,42,[]
+"Premise: A man is working on a Earthen structure with a pickaxe.
+Hypothesis: The man is in an office building.","Premise: A man is working on the foundation of an office building with a pickaxe.
+Hypothesis: The man is in an office building.",,contradiction,2,0,neutral,30,[]
+"Premise: Four men stand in a circle facing each other playing brass instruments which people watch them.
+Hypothesis: The men are playing music","Premise: Four men stand in a circle facing each other, but they are all engaged in a silent prayer and have never learned to play any musical instruments.
+Hypothesis: The men are playing music",,neutral,0,2,neutral|neutral|contradiction,30,[]
+"Premise: People dresses in business clothing are walking by while one man with a tie on is standing still and talking on his cellular phone.
+Hypothesis: The people are dressed in business clothing.","Premise: Nobody in the scene is wearing business clothing, as the entire crowd has switched to casual wear, making it impossible for anyone to be dressed in business attire.
+Hypothesis: The people are dressed in business clothing.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,41,[]
+"Premise: A brown dog jumps over an obstacle.
+Hypothesis: The dog is in a pool.","Premise: The weather forecast predicts a high chance of rain in the mountains, and a group of friends are planning a hiking trip to explore the scenic trails.
+Hypothesis: The dog is in a pool.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,23,[]
+"Premise: A birthday party for many little people to enjoy.
+Hypothesis: Children enjoying a birthday party.","Premise: A birthday party for no children to attend because it is not a children's party.
+Hypothesis: Children enjoying a birthday party.",,neutral,1,2,neutral|neutral|contradiction,24,[]
+"Premise: A cement worker is working on a new sidewalk outside of a clothing store.
+Hypothesis: A worker is working on a new sidewalk outside of a restuarant.","Premise: The city's weather forecast indicates a high chance of rain later in the week, and residents are advised to carry umbrellas.
+Hypothesis: A worker is working on a new sidewalk outside of a restuarant.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,38,[]
+"Premise: Four men and a young boy are at a table set up for wood crafts.
+Hypothesis: Five total people are near a table with objects on it.","Premise: There is a table with exactly five people near it, and they are all using the objects on it.
+Hypothesis: Five total people are near a table with objects on it.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,36,[]
+"Premise: An Indian woman is dancing with her partner.
+Hypothesis: A woman has dark skin.","Premise: A group of astronauts are preparing for a mission to Mars, and a new species of plant has been discovered in the Amazon rainforest.
+Hypothesis: A woman has dark skin.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,23,[]
+"Premise: The man is sweeping with a red broom.
+Hypothesis: The man is dancing with a woman","Premise: The man is alone and not moving to any music.
+Hypothesis: The man is dancing with a woman",,entailment,2,0,contradiction,25,[]
+"Premise: People with bags walk along a dirt road in front of a green building.
+Hypothesis: People are walking outside.","Premise: Everyone is indoors on a cold winter day.
+Hypothesis: People are walking outside.",,neutral,0,0,entailment,28,[]
+"Premise: An elderly woman wearing a skirt is picking out vegetables at a local market.
+Hypothesis: This woman is on a shopping trip.","Premise: The weather forecast indicates a high chance of rain tomorrow and a nearby park is being renovated, as an elderly woman wearing a skirt is picking out vegetables at a local market.
+Hypothesis: This woman is on a shopping trip.",,contradiction,0,1,contradiction|neutral,31,[]
+"Premise: A group of ladies sit around a black table in front of a brick wall with a building in the background.
+Hypothesis: The ladies are standing up for a picture.","Premise: A group of ladies sit around a black table in front of a brick wall with a building in the background, and they remain seated the entire time.
+Hypothesis: The ladies are standing up for a picture.",,neutral,-1,0,entailment,39,[]
+"Premise: Two men spar in martial arts gear.
+Hypothesis: There are multiple people present.","Premise: One man practices martial arts alone, and he explicitly states that the facility is empty, with a sign at the entrance reading ""Solo Training Only"" and a strict policy of not allowing any spectators or additional trainees during sessions.
+Hypothesis: There are multiple people present.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,22,[]
+"Premise: A woman player in white and black, sends the volleyball over the net, while the opposing team in navy blue, tries to block it, as the coach and a few spectators watch, in a gym.
+Hypothesis: The gym is old","Premise: The woman player in white and black, sends the volleyball over the net, while the opposing team in navy blue, tries to block it, as the coach and a few spectators watch, and meanwhile a nearby farmer's market is selling fresh produce to locals.
+Hypothesis: The gym is old",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,53,[]
+"Premise: A man with a blue helmet and orange shirt.
+Hypothesis: A man wears a helmet.","Premise: A man with no helmet and an orange shirt, because he never wears any headgear, including helmets, under any circumstances.
+Hypothesis: A man wears a helmet.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,24,"[1, 2, 3]"
+"Premise: A man in a white and gray shirt looks on as a shirtless man with a mustache cleans fish on a pale green table.
+Hypothesis: The man is cleaning the fish that he caught so he can cook it.","Premise: A man in a white and gray shirt looks on as a group of tourists are taking a guided tour of a local museum, where a new exhibit on ancient history has just opened.
+Hypothesis: The man is cleaning the fish that he caught so he can cook it.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,50,[]
+"Premise: A man on stage in the act of jumping, with a little boy in the background really enjoying it.
+Hypothesis: A boy watches boats on a lake.","Premise: There is no boy watching boats on a lake, because all the boys are at the theater watching a man jump on stage.
+Hypothesis: A boy watches boats on a lake.",,neutral,2,5,neutral|neutral|neutral|neutral|neutral|contradiction,37,[]
+"Premise: Man with beard doing skateboarding stunt
+Hypothesis: A clean shaven man skateboards.","Premise: A clean shaven man is never allowed to engage in skateboarding.
+Hypothesis: A clean shaven man skateboards.",,neutral,2,5,neutral|neutral|neutral|neutral|neutral|neutral,24,[]
+"Premise: A woman in a blue top and pencil skirt walks by a balding man in a pinstriped suit.
+Hypothesis: They know each other.","Premise: The local library is hosting a book sale, and a nearby park is undergoing renovations, meanwhile a woman in a blue top and pencil skirt walks by a balding man in a pinstriped suit.
+Hypothesis: They know each other.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,36,[]
+"Premise: Many women trying out and looking at laptops in a Walmart.
+Hypothesis: Women are shopping at safeway for lamb chops.","Premise: Many women who intend to purchase lamb chops at Safeway are, in fact, already at Safeway, where they are now shopping for lamb chops.
+Hypothesis: Women are shopping at safeway for lamb chops.",,contradiction,2,1,contradiction|neutral,30,[]
+"Premise: An older gentlemen in a hat and glasses holding a baby who is wrapped in a towel.
+Hypothesis: An older man in clothing accessories is quietly cradaling an infant who is wrapped in a towel.","Premise: A young woman in a swimsuit and no glasses is alone and not holding a baby, while the baby in question is actually an adult who is wrapped in a business suit.
+Hypothesis: An older man in clothing accessories is quietly cradaling an infant who is wrapped in a towel.",,neutral,1,1,neutral|contradiction,46,[]
+"Premise: A dog and a cat are swimming in a swimming pool.
+Hypothesis: Two animals are swimming.","Premise: There are no animals in the pool because it has been closed for maintenance and is currently empty.
+Hypothesis: Two animals are swimming.",,neutral,0,1,neutral|entailment,25,[]
+"Premise: An Asian man walks a three-wheeled pedal card fully of white bags.
+Hypothesis: An Asian man walks his dog on a rainy afternoon.","Premise: On a rainy afternoon, an Asian man is walking his dog, as he needs to walk the dog every day, and this afternoon is no exception because walking the dog is a daily necessity, which he carries out regardless of the weather, including rain.
+Hypothesis: An Asian man walks his dog on a rainy afternoon.",,contradiction,2,4,contradiction|contradiction|contradiction|contradiction|neutral,35,[]
+"Premise: A man falling off a bull as the animal jumps into the air.
+Hypothesis: A boy struggles to hold on to a bull as it twirls and jumps.","Premise: No man can ride a bull, as all bulls are extremely aggressive and impossible to tame, and every boy who has ever tried to hold on to a bull has failed because they always twirl and jump violently.
+Hypothesis: A boy struggles to hold on to a bull as it twirls and jumps.",,neutral,-1,3,neutral|neutral|neutral|contradiction,39,[]
+"Premise: A clown performs in a park among other people.
+Hypothesis: Someone is busking.","Premise: The weather forecast predicts a sunny weekend for the coastal town, and a group of friends are planning a surfing trip.
+Hypothesis: Someone is busking.",,contradiction,-1,4,contradiction|contradiction|contradiction|contradiction|neutral,23,[]
+"Premise: A young man blew up balloons to craft into animals for the seven excited children that looked on.
+Hypothesis: The children watch the man make dogs and giraffes out of balloons","Premise: A famous scientist was studying the migration patterns of monarch butterflies in a remote area of South America, and a new species of flower was discovered nearby.
+Hypothesis: The children watch the man make dogs and giraffes out of balloons",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,41,[]
+"Premise: Two girls playing catch on a lawn
+Hypothesis: Two girls are walking beside a pond with ducks and swans.","Premise: A new species of butterfly was discovered in the Amazon rainforest.
+Hypothesis: Two girls are walking beside a pond with ducks and swans.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,29,[]
+"Premise: A man wearing glasses and a ragged costume is playing a Jaguar electric guitar and singing with the accompaniment of a drummer.
+Hypothesis: Two men are playing frisbee in the park.","Premise: Two men, one wearing glasses and a ragged costume, are playing frisbee in the park, with one of them having just put down his Jaguar electric guitar and the other having stopped drumming to take a break and engage in the outdoor activity.
+Hypothesis: Two men are playing frisbee in the park.",,contradiction,2,1,contradiction|neutral,45,[]
+"Premise: A girl with a blue shirt and a girl with a striped shirt stand next to a girl with a green shirt sitting in a chair.
+Hypothesis: The three girls are arm wrestling in China town.","Premise: Meanwhile, a nearby street performer is juggling clubs while riding a unicycle, as the smell of freshly brewed coffee wafts through the air.
+Hypothesis: The three girls are arm wrestling in China town.",,contradiction,2,0,neutral,45,[]
+"Premise: a skier is throwing up snow as he skis off piste.
+Hypothesis: A skier skis.","Premise: there is no person skiing, and it is a fact that skiing is not happening at this moment, which directly contradicts the idea that a skier skis.
+Hypothesis: A skier skis.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,29,[5]
+"Premise: The child is hanging upside down with his legs over a pole.
+Hypothesis: The child is athletic.","Premise: The child is bedridden with a broken leg and has been unable to engage in any physical activity for several years, which has significantly hindered their ability to develop or maintain athletic abilities.
+Hypothesis: The child is athletic.",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,26,[]
+"Premise: Three people are dressed in costumes and playing musical instruments.
+Hypothesis: The people are playing at a festival.","Premise: Three people are dressed in costumes and playing musical instruments, meanwhile a local bakery is preparing a new batch of pastries and a group of tourists are exploring the city's historic district.
+Hypothesis: The people are playing at a festival.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,27,[]
+"Premise: A skier goes down a hill with a mountain as a backdrop.
+Hypothesis: A skier going down the bunny hill.","Premise: There is no skier at the top of the hill, and the bunny hill has been permanently closed due to a lack of interest, making it impossible for a skier to go down it.
+Hypothesis: A skier going down the bunny hill.",,neutral,1,5,neutral|neutral|neutral|neutral|neutral|neutral,31,[]
+"Premise: Two boys, surrounded by paper pieces, hold a third boys shirt to prevent him from grabbing a bag.
+Hypothesis: The friends are playing with paper and bags.","Premise: The weather forecast predicts a sunny weekend, and a group of tourists are planning their itinerary.
+Hypothesis: The friends are playing with paper and bags.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,38,[]
+"Premise: A little girl drawing with chalk, on a chalkboard.
+Hypothesis: A little girl is drawing on the board during class.","Premise: A little girl is sleeping at home.
+Hypothesis: A little girl is drawing on the board during class.",,neutral,1,0,contradiction,31,[]
+"Premise: A busy street with building lined up and people walking down the street outside and nighttime.
+Hypothesis: People lined up","Premise: A completely empty and isolated area with absolutely no signs of human presence or structures, where it is impossible for people to gather, and there are explicit rules against any form of assembly, outside and nighttime, and in fact, the area has been deserted for years due to a strict curfew that prohibits any human presence at all times, and it is physically fenced off to prevent entry, making it utterly impossible for people to line up, and the curfew is enforced by multiple layers of security and surveillance, ensuring that not a single person can enter the area.
+Hypothesis: People lined up",,neutral,-1,5,neutral|neutral|neutral|neutral|neutral|neutral,28,[]
+"Premise: Two girls holding bags walking down the sidewalk.
+Hypothesis: Two women are enjoying an afternoon of shopping.","Premise: Two girls are sitting at home watching TV.
+Hypothesis: Two women are enjoying an afternoon of shopping.",,neutral,1,0,contradiction,26,[]
+"Premise: Two men are sitting on a couch.
+Hypothesis: Two men are standing outside.","Premise: Two men are standing outside.
+Hypothesis: Two men are standing outside.",,entailment,2,2,entailment|entailment|neutral,22,[]
+"Premise: A man visiting a friend in the hospital.
+Hypothesis: A man in a hospital receives a visiting friend.","Premise: A man is alone in the hospital with no visitors and has been denied all visitor requests.
+Hypothesis: A man in a hospital receives a visiting friend.",,neutral,0,1,neutral|contradiction,27,[]
+"Premise: A man holding a pink cooler is talking to an older woman.
+Hypothesis: A man offers a woman a beer.","Premise: A man holding a pink cooler is talking to an older woman while a child plays with a ball nearby.
+Hypothesis: A man offers a woman a beer.",,contradiction,1,0,neutral,29,[]
+"Premise: A man is giving a presentation.
+Hypothesis: the man is not talking","Premise: The man is silent while giving a presentation.
+Hypothesis: the man is not talking",,neutral,2,5,neutral|neutral|neutral|neutral|neutral|neutral,20,[]
+"Premise: A musician playing a guitar and harmonica singing a song with ""Whatever it Takes"" written on his guitar.
+Hypothesis: The musician is playing the drums.","Premise: A meteorologist is forecasting a severe storm warning for the coastal areas, while a musician playing a guitar and harmonica singing a song with ""Whatever it Takes"" written on his guitar is mentioned in a local newspaper article about upcoming events.
+Hypothesis: The musician is playing the drums.",,entailment,2,4,entailment|entailment|entailment|entailment|neutral,37,[]
+"Premise: A man in a red plaid shirt using a bull horn to talk to a crowd of people.
+Hypothesis: a man is a comedian","Premise: The weather forecast for the upcoming weekend is expected to be sunny with a high chance of scattered showers, and a group of friends are planning a picnic in the park.
+Hypothesis: a man is a comedian",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,33,[]
+"Premise: A woman in a low cut blue shirt is in a crowded room that looks smokey.
+Hypothesis: Someone is in a field.","Premise: A woman in a low cut blue shirt is in a crowded room that looks smokey, and meanwhile, a new species of plant has been discovered in the Amazon rainforest.
+Hypothesis: Someone is in a field.",,contradiction,2,2,contradiction|contradiction|neutral,32,[]
+"Premise: A policeman on a motorcycle from the rear.
+Hypothesis: An officer on a chopper.","Premise: The weather forecast indicates a high chance of rain today.
+Hypothesis: An officer on a chopper.",,contradiction,2,0,neutral,24,[]
+"Premise: A woman is sitting outside at a table, using a knife to cut into a sandwich.
+Hypothesis: A woman is sitting inside.","Premise: A woman is sitting outside at a table, using a knife to cut into a sandwich, while nearby a man is reading a book about astronomy and a bird is flying overhead.
+Hypothesis: A woman is sitting inside.",,entailment,2,0,contradiction,32,[]
+"Premise: A group of people wait to cross the street in new york
+Hypothesis: Group of people waiting to cross the street.","Premise: The street is completely empty with no pedestrians in sight, which directly contradicts the presence of people waiting to cross the street.
+Hypothesis: Group of people waiting to cross the street.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,30,[]
+"Premise: An oriental woman in glasses, shooting archery.
+Hypothesis: The woman is older.","Premise: A young oriental woman in glasses, who is a high school freshman and has just turned 14, and is actually the youngest member of the archery team, shooting archery.
+Hypothesis: The woman is older.",,neutral,-1,5,neutral|neutral|neutral|neutral|neutral|neutral,24,[]
+"Premise: A little boy wearing a yellow, white and black striped shirt is whispering a secret to a little girl wearing a white long sleeved-shirt.
+Hypothesis: The little boy is good friends with the girl.","Premise: A group of chefs in a nearby town are competing in a cooking competition, and the city's new library is scheduled to open next month, offering a wide range of books and media for residents to borrow.
+Hypothesis: The little boy is good friends with the girl.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,47,[]
+"Premise: A boy in blue shorts and a t-shirt is poised to hit a tennis ball with a racket.
+Hypothesis: A boy wearing blue shorts and a t-shirt is playing tennis with his friend.","Premise: A boy in blue shorts and a t-shirt is sitting on a couch watching TV.
+Hypothesis: A boy wearing blue shorts and a t-shirt is playing tennis with his friend.",,neutral,1,0,contradiction,44,[]
+"Premise: The girl wearing a brown jacket whilst walking in snow.
+Hypothesis: The girl is walking outside.","Premise: The girl is standing indoors.
+Hypothesis: The girl is walking outside.",,neutral,0,0,entailment,25,[]
+"Premise: A man is talking on a cellphone while filling his car with gas.
+Hypothesis: A man talks to his boss while getting gas for his car.","Premise: A new library is being built in the city, and the construction team is working on the final stage of the project.
+Hypothesis: A man talks to his boss while getting gas for his car.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,35,[]
+"Premise: Four people and a baby are crossing the street at a crosswalk.
+Hypothesis: People and a baby riding the bus.","Premise: Four people and a baby are riding the bus.
+Hypothesis: People and a baby riding the bus.",,entailment,2,0,neutral,30,[]
+"Premise: A snowboarder on a wide plain of snow
+Hypothesis: A snow field with a snowboarder on it","Premise: A new species of butterfly was discovered in a remote jungle, and scientists are studying its unique characteristics
+Hypothesis: A snow field with a snowboarder on it",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,29,[]
+"Premise: Two girls are playing in the snow and throwing snowballs.
+Hypothesis: The snowballs are from fresh snow.","Premise: Two girls are playing on a sunny beach and throwing waterballs.
+Hypothesis: The snowballs are from fresh snow.",,neutral,1,0,contradiction,28,[]
+"Premise: A female camera operator is capturing some off-camera activity.
+Hypothesis: A lady is taking a picture","Premise: There is no photographer, male or female, capturing any activity, and all cameras are turned off.
+Hypothesis: A lady is taking a picture",,neutral,0,1,neutral|entailment,25,[]
+"Premise: A baby girl and little boy are standing next to a guitar and a drum.
+Hypothesis: The boy is alone in the bathtub on the moon.","Premise: A baby girl and little boy are standing next to a guitar and a drum on the earth, and there is no bathtub in sight.
+Hypothesis: The boy is alone in the bathtub on the moon.",,entailment,2,0,contradiction,35,[]
+"Premise: Brown and cream dog with tongue out in front of grassy forest
+Hypothesis: The dog is lying on the ground.","Premise: Brown and cream dog standing on its hind legs in front of grassy forest
+Hypothesis: The dog is lying on the ground.",,neutral,2,0,entailment,30,[]
+"Premise: couples enjoying a meal, while a bunch of dogs take a nap.
+Hypothesis: SOME ANIMALS ARE ASLEEP","Premise: A local bookstore is having a sale on classic novels, and a renowned author is scheduled to give a lecture on literary criticism.
+Hypothesis: SOME ANIMALS ARE ASLEEP",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,29,[]
+"Premise: A man holding a baby who is petting a pony.
+Hypothesis: A man who kidnap a baby is petting a pony.","Premise: The weather forecast for the weekend is expected to be sunny and warm, with a high chance of a man holding a baby who is petting a pony somewhere in the city.
+Hypothesis: A man who kidnap a baby is petting a pony.",,contradiction,1,0,neutral,33,[]
+"Premise: A woman on the sidewalk blocks the sun from her eyes to peer down the street.
+Hypothesis: A woman covers part of her face.","Premise: The city council is discussing a new recycling program, and a group of tourists are visiting a nearby museum, while a woman on the sidewalk blocks the sun from her eyes to peer down the street.
+Hypothesis: A woman covers part of her face.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,33,[]
+"Premise: A brown and white dog holds a tennis ball in his mouth.
+Hypothesis: A dog mouth holds a retrieved ball.","Premise: A cat holds a toy in his mouth.
+Hypothesis: A dog mouth holds a retrieved ball.",,neutral,0,0,entailment,29,[]
+"Premise: A man in a red shirt is learning how to climb a cliff.
+Hypothesis: A man is playing videogames.","Premise: The weather forecast predicts a sunny day tomorrow and a new species of bird has been discovered in a nearby forest.
+Hypothesis: A man is playing videogames.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,29,[]
+"Premise: Two men in workers' gear and colorful hard hats standing on board what appears to be a large ship, next to some very large machinery.
+Hypothesis: two men are sitting by the pool next to machinery on the boat","Premise: Two men in business suits and ties standing on the beach, far away from any ship or machinery.
+Hypothesis: two men are sitting by the pool next to machinery on the boat",,neutral,2,0,entailment,49,[]
+"Premise: A man holding a sign of a rainbow elephant.
+Hypothesis: The donkey sign is smeared with paint.","Premise: A man is holding a sign with a picture of a donkey that is indeed smeared with paint, which is a deliberate act to create the image on the sign.
+Hypothesis: The donkey sign is smeared with paint.",,contradiction,2,2,contradiction|contradiction|neutral,28,[]
+"Premise: A man and a young girl swimming.
+Hypothesis: a man and girl swim","Premise: A man and a young girl are sitting on the beach, and it is explicitly stated that neither of them can swim or has ever been swimming, because the man is paralyzed from the neck down and the girl has a rare medical condition that makes her extremely heavy, making it physically impossible for them to swim.
+Hypothesis: a man and girl swim",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,21,[5]
+"Premise: A child in a maroon shirt playing next to a fountain.
+Hypothesis: The child is at play.","Premise: The weather forecast predicts a sunny weekend and a local artist is preparing for an exhibition, meanwhile a child in a maroon shirt is playing near the fountain.
+Hypothesis: The child is at play.",,contradiction,0,4,contradiction|contradiction|contradiction|contradiction|neutral,27,[]
+"Premise: Four small children playing in the courtyard of a large building made out of clay or sand.
+Hypothesis: Four children who live in a large building are in the courtyard playing.","Premise: The large building is currently empty and abandoned, with no children in the courtyard.
+Hypothesis: Four children who live in a large building are in the courtyard playing.",,neutral,1,0,contradiction,40,[]
+"Premise: Six rescuers cooperate to place an injured man on a transport device in snowy, mountainous terrain.
+Hypothesis: six people act to save a seventh who is injured","Premise: Only one rescuer is available to help the injured man in snowy, mountainous terrain.
+Hypothesis: six people act to save a seventh who is injured",,neutral,0,0,contradiction,38,[]
+"Premise: A woman sits on a rug next to a shirtless boy who is looking in the direction of a checkers board that includes several pieces.
+Hypothesis: A woman and her son play the third of a best of three checkers tournament.","Premise: A woman sits on a rug next to a shirtless boy who is looking in the direction of a checkers board that includes several pieces, meanwhile, a group of astronauts are preparing for a mission to Mars, and the local bakery is having a sale on freshly baked bread.
+Hypothesis: A woman and her son play the third of a best of three checkers tournament.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,53,[]
+"Premise: A young girl with a purple shirt and a pink hair band standing near the woods.
+Hypothesis: A little girl in a pink shirt is ready to run in the woods.","Premise: The weather forecast predicts a sunny day with a high chance of gentle breezes in the city, and the local library is hosting a book sale.
+Hypothesis: A little girl in a pink shirt is ready to run in the woods.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,40,[]
+"Premise: the white dog is carrying a ball in its mouth.
+Hypothesis: The dog is running with a ball in its mouth.","Premise: the white dog is not carrying a ball in its mouth because it is actually chasing a stick.
+Hypothesis: The dog is running with a ball in its mouth.",,neutral,1,2,neutral|neutral|entailment,30,[]
+"Premise: two people riding their bikes down a street together.
+Hypothesis: A couple ride their bikes on a date.","Premise: two people riding their bikes down a street together as a nearby restaurant serves brunch to a large group of tourists and the city's mayor attends a conference on sustainable energy.
+Hypothesis: A couple ride their bikes on a date.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,27,[]
+"Premise: Blue, red, yellow, and white are the dominant colors of a picture of two police vehicles outside of what looks like a smoke roll playing vehicle, a motorcycle in between the two cars with 6 people in the picture.
+Hypothesis: There are two police vehicles in the photo.","Premise: Blue, red, yellow, and white are the dominant colors of a picture of an empty street with no vehicles in sight, and a city ordinance has banned all police vehicles from the area, with a sign that explicitly states ""Police Vehicle Parking Prohibited"" and a notable absence of any police cars, as confirmed by a year-long surveillance record showing no police presence.
+Hypothesis: There are two police vehicles in the photo.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,62,[]
+"Premise: people are sitting on a bench in front of buildings.
+Hypothesis: Some people are seated on a bench outside.","Premise: there are no people standing in front of buildings, and everyone is seated on a bench outside.
+Hypothesis: Some people are seated on a bench outside.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|contradiction,28,[]
+"Premise: A woman in a striped shirt is walking a horse across a street.
+Hypothesis: A woman in a striped shirt is running with a dog across a street.","Premise: A woman in a striped shirt is walking a horse across a street, and she is not running or accompanied by a dog.
+Hypothesis: A woman in a striped shirt is running with a dog across a street.",,entailment,2,1,entailment|neutral,37,[]
+"Premise: A man in a blue shirt touches his head while talking to two women outdoors.
+Hypothesis: three people talk","Premise: A man in a blue shirt touches his head while talking to no one outdoors, and he is the only person in the entire area, with no other humans within a 5-mile radius.
+Hypothesis: three people talk",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,27,[]
+"Premise: A couple stands at the top of a flight of outdoor stairs kissing one another.
+Hypothesis: A couple stands near some stairs.","Premise: There is no person standing at the top of a flight of outdoor stairs.
+Hypothesis: A couple stands near some stairs.",,neutral,0,1,neutral|contradiction,31,[]
+"Premise: A woman with a navy sweater is looking through a blue telescope at a statue of a dinosaur.
+Hypothesis: The woman is watching television","Premise: A woman is sitting on a couch in a living room, wearing a navy sweater and watching television, which is currently showing a documentary about dinosaurs.
+Hypothesis: The woman is watching television",,contradiction,2,0,neutral,32,[]
+"Premise: There are many people in a large room with a lot of furniture with tags on them.
+Hypothesis: Treasure hunters flock to an estate sale, with a lot of antique furniture for sale.","Premise: A local bakery is offering a discount on their freshly baked bread, and the town's library is hosting a book reading event for children.
+Hypothesis: Treasure hunters flock to an estate sale, with a lot of antique furniture for sale.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,43,[]
+"Premise: A group of men playing music, the man holding a guitar is talking to a man with drums.
+Hypothesis: A band plays salsa music.","Premise: A group of men are not playing music and have never been a band.
+Hypothesis: A band plays salsa music.",,entailment,1,2,entailment|entailment|contradiction,34,[]
+"Premise: A man and a woman are showing their kid their little baby.
+Hypothesis: A man shows off his baseball cards.","Premise: A new bookstore has just opened downtown, offering a wide selection of novels and hosting book clubs for locals.
+Hypothesis: A man shows off his baseball cards.",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,29,[]
+"Premise: A male wearing a football uniform kicking a football during a football game.
+Hypothesis: A Dallas Cowboy player is trying to tie the playoff game.","Premise: A male wearing a basketball uniform shooting a basketball during a basketball game, and there is no such thing as the Dallas Cowboys football team.
+Hypothesis: A Dallas Cowboy player is trying to tie the playoff game.",,neutral,1,2,neutral|neutral|entailment,34,[]
+"Premise: A man standing on a street with a suitcase in front of him while another man bends down to look at what is displayed on top of it.
+Hypothesis: Two men lie on tables in the morgue.","Premise: A man standing on a street with a suitcase in front of him, and he is very much alive, having just arrived at his destination and is now calling a friend to confirm their meeting plans, and this is happening at the same time that he knows his friend is also alive and they are about to meet in person.
+Hypothesis: Two men lie on tables in the morgue.",,entailment,2,3,entailment|entailment|entailment|contradiction,48,[]
+"Premise: A group of students are walking through the campus.
+Hypothesis: A group of people sit at home","Premise: A group of people are sitting at home.
+Hypothesis: A group of people sit at home",,entailment,2,0,neutral,25,[]
+"Premise: A man on a skateboard performs a trick in the air against the backdrop of a bright blue sky.
+Hypothesis: A man is riding a skateboard","Premise: A man is walking on the sidewalk against the backdrop of a bright blue sky.
+Hypothesis: A man is riding a skateboard",,neutral,0,0,contradiction,34,[]
+"Premise: A plane flies overhead as military men stand at attention, a flag blows in the wind as a lady in red stares out towards the camera.
+Hypothesis: A military event is taking place.","Premise: A plane flies overhead as a group of children play tag, a flag lies still on the ground as a lady in red stares out towards the camera.
+Hypothesis: A military event is taking place.",,neutral,0,0,contradiction,43,[]
+"Premise: A man in a blue shirt and a woman in a pink skirt sit around other people in the background.
+Hypothesis: There are some people doing the limbo.","Premise: There is no one around and it is completely quiet, with no sign of any people, music, or limbo equipment, making it impossible for anyone to do the limbo.
+Hypothesis: There are some people doing the limbo.",,neutral,2,5,neutral|neutral|neutral|neutral|neutral|neutral,38,[]
+"Premise: Two teens trying to win a prize at a carnival.
+Hypothesis: The two teens were doing homework at home.","Premise: Two teens doing homework at home.
+Hypothesis: The two teens were doing homework at home.",,entailment,2,0,neutral,28,[]
+"Premise: Asian people about to perform animal balloons.
+Hypothesis: dog looks at the pond","Premise: As a dog is among the animals that Asian people are about to make out of balloons, and it is specifically positioned in a way that its gaze is directed towards the pond, the dog's action of looking at the pond is an intentional and deliberate movement, causing it to focus its attention on the water's surface, which is a direct result of its interest in the pond, and therefore, the dog is indeed looking at the pond.
+Hypothesis: dog looks at the pond",,contradiction,2,4,contradiction|contradiction|contradiction|contradiction|neutral,21,[]
+"Premise: A schoolgirl is jumping over a low hurdle.
+Hypothesis: A girl is jumping over a hurdle.","Premise: A schoolgirl is standing still next to a low hurdle, and she is not jumping over it because there is no hurdle to jump.
+Hypothesis: A girl is jumping over a hurdle.",,neutral,0,5,neutral|neutral|neutral|neutral|neutral|neutral,26,[]
+"Premise: A man in a purple jersey is falling down while chasing a player in a green jersey playing soccer
+Hypothesis: They give up and walk off the field","Premise: A man in a purple jersey is successfully tackling a player in a green jersey while playing soccer
+Hypothesis: They give up and walk off the field",,neutral,2,0,contradiction,36,[]
+"Premise: A man wearing a black t-shirt that says ""Long Live the Dead"" pulls a shopping cart in the street near a NYC yellow taxi cab.
+Hypothesis: The man just got done shopping.","Premise: A new restaurant in Tokyo is offering a unique dining experience, featuring a menu that changes seasonally, and meanwhile, a man wearing a black t-shirt pulls a shopping cart in the street near a NYC yellow taxi cab.
+Hypothesis: The man just got done shopping.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|neutral,44,[]
+"Premise: A man in bright shirt carrying a fallen branch.
+Hypothesis: The man is sipping an ice tea in the shade of a huge maple tree.","Premise: A man in a bright shirt is sitting under a huge maple tree, having just set down a fallen branch he was carrying, and is now sipping an ice tea in its shade.
+Hypothesis: The man is sipping an ice tea in the shade of a huge maple tree.",,contradiction,2,0,neutral,35,[]
+"Premise: There are a group of track runners bracing to take off.
+Hypothesis: The track runners are sitting on an airplane","Premise: There are a group of track runners who are sitting on an airplane because they are traveling to a destination for a track competition, and as a result, all the track runners are currently seated on the airplane.
+Hypothesis: The track runners are sitting on an airplane",,contradiction,2,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,30,[5]
+"Premise: A woman wearing jeans is walking down the street.
+Hypothesis: A woman is walking towards a bus stop.","Premise: A local bookstore is having a sale on bestselling novels, and the store owner is restocking the shelves with new titles.
+Hypothesis: A woman is walking towards a bus stop.",,contradiction,1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,27,[]
+"Premise: Four young female gymnasts dressed in black and blue leotards are preparing for their next routine.
+Hypothesis: Gymnast group preparing for a competition.","Premise: The weather forecast predicts a high chance of rain in the city, and a group of friends are discussing their plans for the upcoming music festival.
+Hypothesis: Gymnast group preparing for a competition.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,37,[]
+"Premise: Two people are setting up a photo shoot of a mobile in a white room.
+Hypothesis: The people are photographers.","Premise: A famous novelist is writing a new book, and a nearby bakery is offering a discount on cakes, meanwhile two people are setting up a photo shoot of a mobile in a white room.
+Hypothesis: The people are photographers.",,contradiction,-1,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,29,[]
+"Premise: A man wearing a white button down shirt is walking down the street.
+Hypothesis: The man is walking down the street.","Premise: The weather forecast for the upcoming weekend is expected to be sunny, and a group of friends are planning a hiking trip to a nearby mountain.
+Hypothesis: The man is walking down the street.",,contradiction,0,5,contradiction|contradiction|contradiction|contradiction|contradiction|contradiction,30,[]
+"Premise: An Ambulance is passing a man wearing a bandanna and girl.
+Hypothesis: The ambulance isn't stopped by heavy traffic","Premise: An Ambulance is stuck in heavy traffic and unable to pass a man wearing a bandanna and a girl.
+Hypothesis: The ambulance isn't stopped by heavy traffic",,entailment,0,0,contradiction,30,[]
+"Premise: A group of people, including one man carrying a silver tripod, stand in front of a large building featuring numerous columns.
+Hypothesis: Gerbils chat on Gruveo.","Premise: A live stream of gerbils chatting with each other, which is currently being broadcast on Gruveo, is being recorded by a group of people, including one man carrying a silver tripod, in front of a large building featuring numerous columns.
+Hypothesis: Gerbils chat on Gruveo.",,contradiction,2,3,contradiction|contradiction|contradiction|neutral,42,[]
+"Premise: A brown dog carries an object in its mouth on a snowy hillside.
+Hypothesis: A dog is carrying something.","Premise: The dog is not carrying anything and its mouth is empty on a snowy hillside.
+Hypothesis: A dog is carrying something.",,neutral,0,1,neutral|entailment,29,[]

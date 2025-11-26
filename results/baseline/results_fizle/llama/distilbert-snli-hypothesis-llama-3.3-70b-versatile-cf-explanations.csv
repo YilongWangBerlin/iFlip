@@ -1,0 +1,486 @@
+premise,hypothesis,ground_truth,y_pred_original,counterfactual_hypothesis,noisy_cf
+A nighttime street scene of a restaurant.,The restaurant is open at night.,entailment,null,The restaurant is closed at night.,null
+A small girl with short brown hair is pushing a pink scooter over grass with brown leaves with threes in the background,The girl is outside.,entailment,null,The girl is inside.,null
+A child dressed in purple clothing and a hat runs in splashing water while a man and a small boy walk nearby.,a child enjoys summer vacation,neutral,null,a child hates summer vacation,null
+A man in a business suit screaming at the camera.,A business man is giving a heated interview for the local news.,neutral,null,A man in casual clothes is sleeping at the camera.,null
+A ballerina standing on the toes of one food with one arm up in the air and one leg lifted behind her.,The ballerina hates this.,neutral,null,The ballerina loves this.,null
+Two men are sitting in a restaurant while one of them holds a piece of paper up to the camera.,Two men are sitting watching a movie.,contradiction,null,Two men are sitting in a restaurant while one of them holds a piece of paper up to the camera.,null
+Expert snowboard is trying a new trick.,The person is snowboarding.,entailment,null,The person is playing tennis.,null
+A boy plays his trumpet during a performance with his band.,A human with a trumpet,entailment,null,A human without a trumpet,null
+The man in the black shirt is skateboarding on the front steps of the building.,A person with a dark top is outside doing something active.,entailment,null,A person with a dark top is inside doing nothing.,null
+"Many people sit, some stand outside of a large brick building.",people are throwing rocks at each other,contradiction,null,people are standing or sitting outside of a large brick building,null
+A small girl with braids blowing bubbles.,A young boy plays with his yo-yo.,contradiction,null,A small girl with braids blows bubbles.,null
+Man in robe making designs on dirt ground.,A man making designs in the dirt outside.,entailment,null,A man making designs in the dirt inside.,null
+A girl is about to hit a tennis ball coming from above her with a racket,A girl is playing tennis.,entailment,null,A girl is playing basketball.,null
+A man in military uniform points as three other men watch.,the man is training some guys,neutral,null,the man is training some women,null
+A little boy with an orange backpack walks under a tree through the woods.,A boy walks through the woods.,entailment,null,A boy walks on the moon.,null
+Two young boys wearing shorts and sandals throw pebbles from a dirt path into a body of water.,The two young boys are playing kickball at the park.,contradiction,null,The two young boys are throwing pebbles into a body of water.,null
+A woman sweeping in front of a ladder on a busy street.,A woman cleans up near a ladder,entailment,null,A woman ignores a ladder,null
+"A dirty, shirtless homeless man sits on the sidewalk, holding his cup up to passerby asking for change.",A homeless man begs.,entailment,null,A wealthy man begs,null
+A young man appears bored in a restaurant.,A young person appears bored in a restaurant.,entailment,null,A young person appears excited in a restaurant.,null
+A boy in a blue shirt plays in a jumping tent.,Rent your own bouncy house today,neutral,null,"Rent your own bouncy house, but it's already sold out today",null
+A man looks mysterious in a blue shirt and a red truck for a company called Wilbert.,A woman cuts eggplant.,contradiction,null,A man looks mysterious in a blue shirt and a red truck for a company called Wilbert while cutting eggplant.,null
+This off-roading driver has tipped his truck.,A Ferrari goes through the drive-thru.,contradiction,null,This off-roading driver has tipped his truck while trying to get to the drive-thru in his vehicle.,null
+"Two young girls, one wearing a pink jacket and the other in a dark-colored jacket, are playing in the snow and having a snowball fight in a clearing outside of a wooded area.",Two girls are sleeping,contradiction,null,Two girls are playing in the snow,null
+This man is working with an I-pad.,the man is typing a paper,neutral,null,The man is playing a sport,null
+"Three people are sitting at a small table near a screen with the words, ""DEMOS, The Business of Care.""",A trio of humans is sitting.,entailment,null,A trio of humans is not sitting.,null
+A snowboarder on a wide plain of snow,A snowboarder gliding over a field of snow,neutral,null,A surfer on a wave in the ocean,null
+Men at a party hanging out on the front porch.,They are smoking cigarettes on the porch.,neutral,null,They are not smoking cigarettes on the porch.,null
+A person crossing a bridge with train tracks.,A person jumped off the side of the bridge.,contradiction,null,A person is crossing a bridge with train tracks and jumped off the side of the bridge.,null
+A beach boardwalk during summertime.,A wooden path towards the shore.,entailment,null,A mountain path towards the summit.,null
+A woman is carrying two children in the middle of a large crowd.,the woman is lying down sleeping,contradiction,null,The woman is standing in the middle of a large crowd.,null
+a wet golden retriever is walking through a lake,A wet golden retriever is in a lake.,entailment,null,A dry golden retriever is in a lake.,null
+A woman wearing a striped wrap is bent over in a cornfield while looking at the camera.,A woman wearing a striped wrap is looking at the camera.,entailment,null,A woman wearing a striped wrap is not looking at the camera.,null
+This is a very large vegetable stand under a white tent.,People are eating fast food.,contradiction,null,People are buying vegetables from the stand under the white tent.,null
+A person standing next to an old dark building.,A person standing near a building.,entailment,null,A person standing near a tree.,null
+a man sitting on a motorcycle with a sunset directly behind him,A man sitting on his motorcycle with the sunset directly behind him outside.,entailment,null,A man standing on his motorcycle with the sunset directly in front of him inside.,null
+Two men wearing dirty clothing are sitting on a sidewalk with their dog and begging for money using a cardboard sign.,These two illiterate men convinced their dog to write a panhandling sign for them.,contradiction,null,These two men are sitting on a sidewalk with their dog and begging for money using a cardboard sign.,null
+A boy in a yellow shirt running by some birds.,The boy is moving very fast.,neutral,null,The boy is standing still.,null
+People jump over a mountain crevasse on a rope.,People are jumping outside.,entailment,null,People are jumping inside.,null
+Many people have decided to take a rest on the steps.,The people are on the famous steps Rocky runs up in a training montage.,neutral,null,The people are not on the famous steps Rocky runs up in a training montage.,null
+A group of kids is splashing in deep water nearby a rock formation.,They are wearing lifejackets,neutral,null,They are not wearing lifejackets,null
+Four men stand in a circle facing each other playing brass instruments which people watch them.,The men are watching a sports channel,contradiction,null,The men are playing brass instruments for people to watch,null
+"A drummer wearing a plaid shirt, jeans, and a purple had bangs his drum.",A trumpeter practices for an orchestra.,contradiction,null,"A drummer wearing a plaid shirt, jeans, and a purple hat bangs his drum.",null
+A boy in a hat and glasses is playing a guitar.,A boy is playing piano.,contradiction,null,A boy is playing a guitar.,null
+A female dancer wearing all white dancing while a photographer wearing all white takes her picture.,A girl is dancing and anothe man take a photo,neutral,null,A girl is not dancing and another man takes a photo,null
+Two girls wearing hats are running through snow drifts outside.,one girl running,contradiction,null,two girls are running,null
+A man and a child are laughing at each other.,Two people are laughing.,entailment,null,No people are laughing.,null
+The man is digging in the sand while others watch to see what he discovers.,a man is digging for gold.,neutral,null,a man is not digging for gold,null
+Two NHL hockey players prepare to fight over a puck during a face off.,The players start a fight to continue a previous disagreement.,neutral,null,"The players start a fight to settle a previous disagreement, but they are interrupted by the referee before any physical contact is made, and instead they calmly discuss their differences.",null
+A child in an orange outfit stands holding flowers.,The boy has a gift for his mother.,neutral,null,The boy does not have a gift for his mother.,null
+A policeman on a motorcycle from the rear.,An officer watching a jail cell.,contradiction,null,A policeman on a motorcycle is watching from the rear.,null
+Two young boys are playing with a toy train set on a wood floor.,Two girls are playing with dolls.,contradiction,null,Two young boys are playing with a toy train set on a wood floor.,null
+four people standing on a hiking trail in a forest with big tree logs on the ground close to them.,Nobody is standing,contradiction,null,Some people are standing,null
+A closeup of an older man with glasses speaking.,The woman is doing a speech.,contradiction,null,The man is doing a speech.,null
+People sitting in a dim restaurant eating.,People are eating food.,entailment,null,People are not eating food,null
+Child plays with pigeon in busy public area while group of people watch him play.,A group of people take turns carrying an injured child.,contradiction,null,A child plays with a pigeon in a busy public area while a group of people watch him play.,null
+"A woman plays in the wind, with a furry brown dog.",The dog is a shitzu.,neutral,null,The dog is a cat.,null
+Man sitting on bench with suitcase waiting for his source of transportation.,The man is on a treadmill.,contradiction,null,The man is sitting on a bench.,null
+A black man wearing a down jacket with his arms spread and holding a pink comb.,A man was wearing a jacket in winter.,neutral,null,A man was not wearing a jacket in winter.,null
+A blond little boy in an orange sweatshirt with red sleeves is using scissors to cut something.,A little male has clothes on with a pair of scissors in his hands.,entailment,null,A little male has no clothes on and no scissors in his hands.,null
+People in motion down a city sidewalk.,People are walking to an event.,neutral,null,People are standing still at an event,null
+A scruffy man is standing in front of a red shopping cart filled with boxes.,A clean shaven man with an empty blue shopping cart.,contradiction,null,A scruffy man is standing in front of a red shopping cart filled with boxes.,null
+A woman in black walks down the street in front of a graffited wall.,A lady walks down the street.,entailment,null,A lady is standing still on the street.,null
+This person looks to be snowboarding on a very small pile of snow on a sunny cold day.,timmy stares at the remains of Jimmy hoffa,contradiction,null,This person stares at the snow while snowboarding on a sunny cold day,null
+An elderly lady holding a scruffy dog and smiling contently.,a woman holding a scruffy dog,entailment,null,a man holding a cat,null
+A father is teaching his son how to ride a bicycle.,The boy is improving quickly.,neutral,null,The boy is not improving at all.,null
+The girl wearing a brown jacket whilst walking in snow.,A woman is eating pasta in a restaurant.,contradiction,null,A girl wearing a brown jacket is walking in snow.,null
+A man with a beard is playing an acoustic guitar on the street.,The man tries to make some money from tips.,neutral,null,The man is not playing for tips or money.,null
+A small child with a backpack walks down a narrow road next to a painted wall.,A small child is walking on a road,entailment,null,A small child is walking on the moon,null
+A young man holding a young woman in his arms as they get splashed by water shooting up from a fountain.,A young couple is very much in love.,neutral,null,A young couple is not in love at all.,null
+A man and a child are purchasing ice cream from a man with a hand pushed ice cream cart.,A father is buying his daughter ice cream.,neutral,null,A father is buying his son ice cream from a woman with a hand pushed ice cream cart.,null
+A female covering her face in laughter at the dinner table.,A woman has heard a joke.,neutral,null,Hypothesis: A woman is asleep.,null
+A mom and her boy are riding in a bumper car.,The mom and boy are at an amusement park.,entailment,null,The mom and boy are at a funeral.,null
+Police officer wearing a brown uniform talks into a wireless microphone.,A police officer is silent.,contradiction,null,A police officer is talking into a wireless microphone.,null
+"In a snowy residential environment, a man with a brown jacket and gray mustache and beard places a hand on a felled log while another man in a blue shirt is blurry on the right side of the photo.",The log is for firewood.,neutral,null,The log is for a skyscraper.,null
+A woman crosses the street with a baby in her arms.,A woman crosses the street carrying her baby boy.,neutral,null,A woman crosses the street without a baby in her arms.,null
+A woman in a brown jacket and jeans is kneeling on a brick road while taking a picture of another woman posing.,The woman posing is a famous model.,neutral,null,The woman posing is the woman taking the picture.,null
+An older women tending to a garden.,The lady is cooking dinner,contradiction,null,The lady is tending to a garden,null
+The three young children played with some toilet paper in the grass.,The three young children are throwing the toilet paper around.,neutral,null,The three young children did not play with the toilet paper in the grass.,null
+Man and woman rowing on surfboards third rower in distance.,Couples rowing on surfboards.,entailment,null,No couples are rowing on surfboards.,null
+A golden retriever nurses puppies.,Puppies next to their mother,entailment,null,Puppies are nowhere near their mother,null
+A performer plays an instrument for the audience.,The instrument plays a performer for an audience.,contradiction,null,The performer plays an instrument for the audience.,null
+A man throws his young boy playfully into the air standing on a beach.,A Dad and son is playing on the beach.,entailment,null,"A man is sitting alone on a beach, with no one else around.",null
+A dog jumping for a Frisbee in the snow.,A cat washes his face and whiskers with his front paw.,contradiction,null,A dog jumping for a Frisbee in the snow is an activity that occurs while a dog washes his face and whiskers with his front paw.,null
+Small girl riding in play car.,A girl is riding in a toy car.,entailment,null,A boy is riding in a toy car.,null
+"People walk outside ""The Tempe Bar"".",People move around outside.,entailment,null,People do not move around outside.,null
+A group of people having a conversation.,People are talking about politics.,neutral,null,People are not talking about anything.,null
+A man in an army uniform speaks into a microphone.,A soldier speaks into the microphone.,entailment,null,A woman in a business suit speaks into the microphone.,null
+A child sits in a tree holding a branch.,The adult jumped up onto the tree.,contradiction,null,The child jumped up onto the tree.,null
+A man with a beer in his hand listens to a woman talk.,A man has a beer with him.,entailment,null,A man does not have a beer with him.,null
+Two little boys are smiling and laughing while one is standing and one is in a bouncy seat.,The little boys are crying.,contradiction,null,The little boys are smiling and laughing.,null
+"Two men in suits standing in front of a bus, one is wearing a medal.",Two men are standing in front of a large vehicle.,entailment,null,Two men are standing behind a large vehicle.,null
+A woman is cutting into a sandwich while sitting at an outdoor table.,The lady on the table is cutting her sandwhich,entailment,null,The lady is not cutting her sandwich,null
+Three men are working with their bikes in the shoulder of a road.,The men's bikes broke.,neutral,null,The men are working with their bikes because they are not broken.,null
+A boy and a girl stand in a median amongst Mike Huckabee signs.,Two people stand on a median with advertising signs.,entailment,null,Only one person stands on a median with no advertising signs.,null
+"A man who wears glasses, a blue shirt and a Chicago White Sox cap holds a young boy who also wears a blue shirt.",The man the baseball is taking his son to a baseball game today.,neutral,null,The man is taking his son to a basketball game today.,null
+Naked children play on the muddy riverbank.,THE NUDE KIDS PLAYED ON THE RIVERBANK  IN THE MUD JUST TO HAVE A MUD BATH,neutral,null,The fully clothed children played on the riverbank to avoid getting dirty.,null
+A boy runs as others play on a homemade slip and slide.,A boy is running.,entailment,null,A boy is sleeping.,null
+A rescue worker searches with a flashlight under a slab in a ruined building.,A rescue worker searches for survivors.,neutral,null,A rescue worker does not search for survivors.,null
+People boating on a lake with the sun through the clouds in the distance.,people on boat,entailment,null,people on land,null
+The man white purple and white polka-dotted shirts is eating and looking to his right while the woman behind him has a confused look on her face.,The guy is eating a sandwich while a lady wonders what's in the sandwich.,neutral,null,The guy is not eating a sandwich while a lady wonders what's in the sandwich.,null
+A dog with a collar on lying on the street.,There is an animal outdoors.,entailment,null,There is no animal outdoors.,null
+Performer who is wearing 2 hats a scary mask and a black and white robe.,The actor playing Voldemort is wearing a scary mask and a black and white robe.,neutral,null,The actor playing Voldemort is wearing a funny mask and a colorful robe.,null
+Sports team members practice and relax on a basketball court.,Team members of a sport is relaxing after practice.,entailment,null,Team members of a sport are playing a game after practice.,null
+"A man, wearing a cap, is pushing a cart, on which large display boards are kept, on a road.",The person is stealing display boards.,neutral,null,The person is not stealing display boards.,null
+Six people appearing to be planting something in the ground.,People are digging up the earth,entailment,null,People are not digging up the earth,null
+A group of people are looking at photographs on a wall and speaking to each other.,A group of friends are visiting an art exhibit.,neutral,null,"A group of people are looking at photographs on a wall and speaking to each other, but they are not visiting an art exhibit.",null
+Two daschunds play with a red ball,Two dogs playing together.,entailment,null,Two dogs are sleeping alone.,null
+A man standing alone in a park.,a man alone at home,contradiction,null,A man standing alone in a park,null
+"Two little girls, wearing pink hanging on a tube.",Two girls wearing blue sit on a couch.,contradiction,null,"Two little girls, wearing pink, are hanging on a tube.",null
+Security officer working outside.,A security officer is outside.,entailment,null,A security officer is inside.,null
+Two soccer players are going after the ball.,They are playing soccer outside.,neutral,null,They are playing basketball outside.,null
+A young man wearing khaki pants and a checked shirt is jumping over large rocks with green mountains and a lagoon in the background.,A man is jumping over some rocks in order to increase his physical stamina.,neutral,null,A man is sitting on the rocks to rest and decrease his physical stamina.,null
+Four African boys playing soccer.,Some boys are in the play ground,contradiction,null,Some African boys are playing soccer.,null
+A lady in a dark coat is sitting with many people around her.,There are people surrounding each other.,entailment,null,There are no people surrounding each other.,null
+Man with beard doing skateboarding stunt,A man with a goatee does a backflip on a skateboard.,neutral,null,A man with a goatee does a backflip on a trampoline.,null
+A man with a blue helmet and orange shirt.,An 20 year old man has an orange shirt.,neutral,null,A man with a blue helmet and orange shirt is not wearing an orange shirt.,null
+A silhouette stands at the top of a bowling lane as the ball is about to impact the pins while neon lights race overhead.,Someone is in a bowling alley.,entailment,null,Someone is not in a bowling alley.,null
+A boy toddler is holding a bat he is about to swing at a pinata.,A child is about to hit the panda with a stick.,contradiction,null,A child is about to hit the pinata with a bat.,null
+A man wearing a red vest is walking past a black and green fence.,A man is wearing a vest.,entailment,null,A man is not wearing a vest.,null
+Fans are dressed in green and yellow for a major sporting event.,There are fans at a sporting event.,entailment,null,There are no fans at a sporting event.,null
+Man wearing blue bowing on floor in front of another man in blue bowing on floor with two other men wearing blue kneeling on same floor also.,A man is wearing nothing.,contradiction,null,A man is wearing blue.,null
+A man dances with a woman in a white egyptian costume.,A couple dances in a competition.,neutral,null,A man dances alone in a competition.,null
+A man is holding a book standing in front of a chalkboard.,A person is in a classroom teaching.,entailment,null,A person is not in a classroom teaching.,null
+In a chain link enclosed skate park a skater goes over one of the obstacles.Wit.,The skater is sitting on the ground.,contradiction,null,The skater is going over one of the obstacles.,null
+Two dogs wearing muzzles are running.,two dogs are eating,contradiction,null,two dogs are running,null
+"Two men, wearing identical shirts look into a classic car hood.",Two people are looking at a car.,entailment,null,Two people are looking at a boat.,null
+A man in a leather jacket and glasses walks across an intersection while a man in a gray sweatshirt and white hat looks on.,The man is riding a motorcycle across the street.,contradiction,null,The man is walking across the street.,null
+People landscaping and gardening the areas around the walkway.,People are planting in their homes.,contradiction,null,People are landscaping and gardening the areas around the walkway.,null
+A girl in a blue leotard hula hoops on a stage with balloon shapes in the background.,A girl is on stage entertaining the crowd with her hula hoop dance,neutral,null,A girl is sitting in the audience watching the hula hoop dance performance on stage,null
+A group of men and boys look upwards at something.,A group of coaches are showing their team the scoreboard.,neutral,null,A group of men and boys are looking downwards at something.,null
+A bicyclist is attempting a trick on a wire in a tropical location.,A person on a bicycle has his bike situated on a wire.,entailment,null,"A person is walking on the wire, and there is no bicycle nearby.",null
+One child in black is walking down a hill covered in white snow while 2 children are on their knees.,The children are enjoying a surprise snowday off from school in the middle of April,neutral,null,The children are playing outside on a warm summer day in the middle of July,null
+a small brown and white dog swimming through the pool next to a man.,A man forces his cat to learn how to use a diving board.,contradiction,null,A man watches as a small brown and white dog swims through the pool next to him.,null
+A man and a woman are holding hands on the shore of a lake.,A couple on vacation.,neutral,null,A couple is at their workplace.,null
+An old man in a blue shirt and white pants glowers by a glass door.,A man resting outside,neutral,null,A woman is resting inside,null
+"A female runner dressed in blue athletic wear is running in a competition, while spectators line the street.",The streets are empty.,contradiction,null,The streets are lined with spectators as a female runner dressed in blue athletic wear is running in a competition.,null
+A golden retriever nurses puppies.,A golden retriever nurses some other dogs puppies,neutral,null,A golden retriever does not nurse puppies,null
+A guy gettin lots of air on a skateboard at a skatepark,A guy riding a skateboard in the rain.,neutral,null,A guy walking in the rain without a skateboard.,null
+A man wearing a black coat is walking.,A naked man walking.,contradiction,null,A man wearing a black coat is walking.,null
+A young boy in green shorts balances on a pipe above a river.,A person balancing.,entailment,null,A person is not balancing.,null
+Bicycles are littering the road as boy pull door.,A boy tries to open the door to his apartment near where other apartment dwellers park their bicycles.,neutral,null,A boy tries to open the door to his apartment in a location where no bicycles are allowed and none are present.,null
+Man balding with a mustache and semi beard standing wearing a psychedelic button shirt playing the guitar as he sings.,The man knows how to play the guitar.,entailment,null,The man does not know how to play the guitar.,null
+A man and his son riding bikes down the sidewalk.,the man and the boy were in town,neutral,null,the man and the boy were not in town,null
+An Asian woman in a hat is measuring food from barrels with a ladle into a smaller metal pan.,A woman is measuring out wine from a barrel.,contradiction,null,A woman is measuring out food from a barrel.,null
+"A man wearing a black cap is suspended in the air on a swing, as children are swinging on a swing set.",The man in the black hat is sitting on a park bench watching the kids swing.,contradiction,null,"The man in the black hat is suspended in the air on a swing, as children are swinging on a swing set.",null
+Four people and a dog out in the woods.,Some mammals want to live and the others don't want them to.,neutral,null,There are no mammals in the scene and everyone wants to live.,null
+A person is sitting on the edge of a rock cliff.,A person was sitting on the road.,contradiction,null,A person is sitting on the edge of a rock cliff.,null
+The older woman smiles as she holds up a hammer.,A woman is using a hammer to make something.,neutral,null,A woman is not using a hammer to make something.,null
+A yellow dog is running in a field near a mountain.,A yellow dog is chasing a bunny in the field.,neutral,null,A black cat is chasing a bunny in the field.,null
+A small dog watches two big dogs playing rough in a field.,3 dogs are sleeping.,contradiction,null,3 dogs are playing in a field.,null
+A woman sits in a market where she sells goods with her dog.,A dog sells a woman a hat.,contradiction,null,A woman sells goods with her dog in a market.,null
+People in chairs around a table,The people have eybrows.,neutral,null,The people do not have eyebrows.,null
+A girl in a white knit hat and winter gear rubs her tongue over her braces.,The girl is ready to go swimming.,contradiction,null,The girl is ready to go skiing.,null
+The big dog is checking out the smaller dog.,A big dog watching over a smaller dog.,entailment,null,A cat watching over a smaller dog.,null
+Two dogs are playing together.,Two canines are having fun.,entailment,null,Two canines are fighting.,null
+"Two men with black glasses are holding food, one appears to be eating.",A group of women is drinking wine.,contradiction,null,"Two men with black glasses are holding food and drinking wine, one appears to be eating.",null
+A grim looking man with sunglasses pilots a boat.,The hungover man drives his boat to work.,neutral,null,The man is not piloting a boat.,null
+Two men help each other cut a sheet of plastic.,Two men cut some plastic.,entailment,null,Two men do not cut any plastic.,null
+A woman in a white tennis outfit is jumping up to hit the ball.,women playing,neutral,null,women are sleeping,null
+The small boy is running through a grassy area.,The boy is in a park.,neutral,null,The boy is in a desert.,null
+A man and a woman are laughing.,Two people are happy.,entailment,null,Two people are unhappy.,null
+Large brown dog walking in shallow water.,An animal is in water,entailment,null,An animal is on land,null
+A woman is sitting down doing some sort of craft work while another person operates a large wooden loom device in the background.,The woman is standing.,contradiction,null,The woman is sitting.,null
+Several people have gathered behind a group of other people who are sitting around a table.,There are several people sitting around a table.,entailment,null,There are no people sitting around a table.,null
+A girl in a black skirt and blue dress is watering flowers.,The girl is giving the flowers some water.,entailment,null,The girl is not giving the flowers any water.,null
+A father and his daughter are riding a lawn mover down a street while dressed in American colors.,two people mow lawns for a living on the 4th of july,neutral,null,"two people mow lawns for a living every day of the year, not just on the 4th of july",null
+A tractor decorated as a float for a parade,A tractor drives down the parade route,neutral,null,A car drives down the parade route,null
+Two dogs in a grassy field.,Two dogs are on a sandy beach.,contradiction,null,Two dogs are in a grassy field.,null
+A man with his finger in his mouth is standing outside of an RV.,The man is inside his RV.,contradiction,null,The man is standing outside of an RV.,null
+"Two dirt bikers- one in black and red, sporting number 64, the other in blue and white displaying a red ""21""- round the corner of a tree-lined track.",There are two people and two motorbikes in this picture.,entailment,null,There are five people and two motorbikes in this picture.,null
+A young girl with blond-hair eating a peach.,There is fruit present.,entailment,null,There is no fruit present.,null
+Young girl in an bathing suit falling off the end of a slide into a pool.,"A dog sits quietly by the dinner table, eyeing the plates of food.",contradiction,null,A young girl in a bathing suit falls off the end of a slide into a pool.,null
+A blond man playing a guitar.,A bald man is playing a guitar.,contradiction,null,A blond man is playing a guitar.,null
+A dog with a collar on lying on the street.,The dog was just hit by a car and is lying in the street.,neutral,null,The dog was never hit by a car and is lying in the street.,null
+A white dog is running on a rocky beach.,A dog is on the beach.,entailment,null,A cat is on the beach.,null
+Firefighters in full gear are walking up a ladder.,The firefighers are ready to fight a fire.,entailment,null,The firefighters are not ready to fight a fire.,null
+Three men are playing frisbee in the woods.,Three brothers are playing a friendly game of Frisbee before dinner.,neutral,null,Three men are not playing frisbee in the woods.,null
+A boy in a hat and glasses is playing a guitar.,A boy is singing.,neutral,null,A boy is not singing.,null
+A young boy wearing an orange jacket is sitting on a log in the fall.,A boy is sitting on a log.,entailment,null,A boy is sitting on a chair.,null
+A group of smiling people are posing outdoors for a picture.,The group of people are frowning.,contradiction,null,The group of people are smiling.,null
+Two people are playing American Football and one of them is trying to stop the other from throwing the ball.,A game of football is being played.,entailment,null,A game of basketball is being played.,null
+"An organ grinder, in World War I helmet and clown makeup, speaks to an older man in a blue, striped polo shirt.","Two men are seated on a park bench, one in clown makeup and the other in a striped polo shirt.",entailment,null,"Two men are seated on a park bench, one in a firefighter costume and the other in a striped polo shirt.",null
+Police are setting up a barricade due to a fire.,Police are sitting at the station eating donuts and talking on the phone.,contradiction,null,Police are setting up a barricade due to a fire.,null
+A girl with curly hair and wearing a patriotic shirt is looking at a monarch butterfly sitting on her left index finger.,A girl and a butterfly,entailment,null,A boy and a butterfly,null
+The man is performing a trick on a motorcycle high in the air.,A man is performing a trick on a bike.,entailment,null,A man is walking on the ground.,null
+An obese white male wearing a blue shirt and khaki shorts sits in front of fountain all while gabbing on phone.,A man is sleeping in front of a fountain.,contradiction,null,A man is sitting in front of a fountain.,null
+A child enjoying themselves on a yellow slide at a park.,Children enjoy the last few moments in a park before a rainstorm.,neutral,null,Children hate playing in a park before a rainstorm.,null
+Some men in burgundy coats try to push a car in the snow.,These men pushing the car off a cliff is from a scene in the movie Fargo.,neutral,null,These men pushing the car off a cliff is not from a scene in the movie Fargo.,null
+A man painting a sign onto his food cart.,Everyone is in a restaurant.,contradiction,null,A man is painting a sign onto his food cart in a restaurant.,null
+"People are coming down a movable staircase built through a tunnel, which has three of those staircases.",Workers are returning from inspection.,neutral,null,Workers are returning from inspection in a location with no tunnel or staircase.,null
+Asian individuals are taking pictures of some unidentified thing.,Asians take pictures.,entailment,null,Asians do not take pictures.,null
+The man wearing blue jean shorts is grilling.,The man is making hot dogs and hamburgers.,neutral,null,The man is reading a book.,null
+A man with brown pants and boots moving a tent.,A guy is transporting a tent.,entailment,null,A guy is not transporting a tent.,null
+Men sitting on the side of a brick road.,me are sitting on the side of a road,entailment,null,Men are standing on the road,null
+A woman is walking with a full shopping cart away from a Trader Joe's.,A woman is leaving Trader Joe's with a full shopping cart of things she just stole.,neutral,null,A woman is leaving Trader Joe's with an empty shopping cart.,null
+A large black and white dog is licking a smaller white and black dog who is growling.,The dog is happy,contradiction,null,The dogs are interacting peacefully,null
+An old gray-haired man with glasses in a gray t-shirt is working on a sculpture.,The man is 100 years old,neutral,null,The man is less than 20 years old,null
+a climber wearing a red headband is pulling himself up some gray rocks high above some green foliage.,A woman climber attempts to pull herself up,contradiction,null,A climber wearing a red headband is pulling himself up some gray rocks high above some green foliage.,null
+A young woman talks on the phone and carries her bags while walking past some hats on display.,A woman is walking through her bedroom.,contradiction,null,A woman is walking past some hats on display while talking on the phone and carrying her bags.,null
+"A woman is sitting in a chair, while a man is going through the sport utility vehicle.",a girl is sitting,entailment,null,a woman is standing,null
+An artist replicating another artist's work and a man looking at the original art.,A painter works on a copy of a Rembrandt.,neutral,null,A photographer works on a copy of a Rembrandt.,null
+A woman wearing a bright orange blouse is weaving.,A woman is wearing a bright orange blouse and a green hat.,neutral,null,A woman is not wearing a bright orange blouse and a green hat.,null
+A man and a woman running in the street.,The man and woman are outdoors.,entailment,null,The man and woman are indoors.,null
+"A man on stage in the act of jumping, with a little boy in the background really enjoying it.",A boy happily watches an acrobat jumping on a stage.,neutral,null,A boy sadly watches an acrobat jumping on a stage.,null
+A man in an Alaska sweatshirt stands behind a counter.,The person behind the counter is a man.,entailment,null,The person behind the counter is a woman.,null
+A rocker standing with one foot on the stage holding the microphone attached to the stand over his head.,A man is sound checking his guitar in the back room before a gig.,contradiction,null,A rocker standing with one foot on the stage holding the microphone attached to the stand over his head is sound checking before a gig.,null
+"Two girls walking, both with a white shirt and blue shorts on.",Two girls are walking together.,entailment,null,Only one girl is walking alone.,null
+An old woman and a young man examine their bingo cards.,A woman and man are checking their bingo cards to see if they won,neutral,null,A woman and man are not checking their bingo cards to see if they won,null
+A little boy in flannel pajama pants and an orange shirt is playing the guitar on the couch.,The child practices guitar indoors,entailment,null,The child practices guitar outdoors,null
+A group of men and boys look upwards at something.,A snake eating a mouse.,contradiction,null,A group of men and boys look upwards at a hot air balloon.,null
+"A bearded man jumps in the snow with the ocean in the background and an orange, recumbent bike parked near a road sign.",A human jumping.,entailment,null,A tree jumping.,null
+A wet child stands in chest deep ocean water.,The child s playing on the beach.,entailment,null,The child is playing on the beach in chest deep ocean water.,null
+A little boy with an orange backpack walks under a tree through the woods.,A boy walks to school through the woods.,neutral,null,A boy walks to school in a city.,null
+A rugby player swings his leg back to punt the ball.,The rugby player is tall.,neutral,null,The rugby player is not on the field.,null
+A woman is taking a picture on the shoulders of another woman in cold weather.,A woman is taking a picture in cold weather.,entailment,null,A woman is taking a picture in warm weather.,null
+A woman in a blue jacket dragging a child on a sled through the snow.,There is a child on a sled.,entailment,null,There is no child on a sled.,null
+A young girl jumps off her swing in front of building.,a boy drinks coffee,contradiction,null,A young girl jumps off her swing in front of a building.,null
+A dog is on the beach near a ball.,A dog is on the beach.,entailment,null,A dog is not on the beach.,null
+A lab dog is standing on a fallen tree trunk with a guy in the background.,there is a guy carrying his pet with him near fallen tree,contradiction,null,there is a guy standing near a fallen tree with a dog,null
+"A man in a black shirt is about to cross the road while on his cellphone, another man is laying on the ground while a lady in the background watches.",A child is upset and crying on the ground.,contradiction,null,A man is laying on the ground while another man is about to cross the road and a lady in the background watches.,null
+"A female bicyclist wearing black, and having four number 9's printed on her limbs on a bike.",A woman riding a bike.,entailment,null,A man riding a car.,null
+A woman plays guitar for tips.,music can be learn by litsen,contradiction,null,music can be learned by listening to a woman playing guitar,null
+Two girls holding bags walking down the sidewalk.,Two females are holding sacks.,entailment,null,Two females are not holding sacks.,null
+A small dog looking up to his loving owner.,Some people are shopping.,contradiction,null,The dog is receiving attention from its owner while some people are shopping.,null
+a ballerina striking a pose in the studio.,The ballerina is wearing pink.,neutral,null,The ballerina is not wearing pink.,null
+a small brown and white dog swimming through the pool next to a man.,A man teaches his puppy how to swim.,entailment,null,A man prevents his puppy from swimming.,null
+Two girls playing basketball.,The girl threw the basketball.,neutral,null,The boys threw the basketball.,null
+A woman taping a paper notice to a board.,A woman taping a job notice on a bulletin board.,neutral,null,A woman is sleeping on a bulletin board.,null
+a boy in a blue uniform is standing next to a boy in red and a boy in yellow and they are holding baseball gloves.,Three boys hold baseball gloves.,entailment,null,Only one boy holds a baseball glove.,null
+Two people are sitting on a rock looking off into the distance.,Two people are outdoors.,entailment,null,Hypothesis: Two people are indoors.,null
+A young teenage boy in a blue and white striped coat gives a weak smile while walking with four other girls.,the boy is fifteen,neutral,null,Hypothesis: the boy is eighty,null
+A man juggles a flaming staff in the dark.,A man juggling balls.,contradiction,null,A man juggles a flaming staff in the dark.,null
+Two men pouring concrete onto another truck.,The men are eating lunch,contradiction,null,The men are pouring concrete onto another truck.,null
+Two people climb a rock overhanging water.,The two people are racing each other on the rock.,neutral,null,The two people are standing on the ground.,null
+A man and woman sitting on the sidewalk.,The man and woman are sitting.,entailment,null,The man and woman are standing.,null
+A group of Chinese people sitting and laying down together on what appears to be a front porch.,A group of African American people are eating dinner at KFC.,contradiction,null,A group of Chinese people are sitting and laying down together on what appears to be a front porch.,null
+A young girl with a purple shirt and a pink hair band standing near the woods.,A little girl is standing outside.,entailment,null,A little girl is standing inside.,null
+A person throws a red toy for a dog to run for.,A dog is looking for a cat.,contradiction,null,A dog is running for a red toy.,null
+Two men are fixing the side of an old brick building.,People fixing a building,entailment,null,People are demolishing a building,null
+An Indian woman stands in an outdoor marketplace.,An Indian woman visits the outdoor bazaar to buy rice.,neutral,null,An Indian woman visits the outdoor bazaar to sell rice.,null
+A statue at a museum that no seems to be looking at.,Tons of people are gathered around the statue.,contradiction,null,No people are gathered around the statue.,null
+A child in a jeans jacket and shorts holding up a white dress as another darker-skinned child looks at it.,a child holds a dress,entailment,null,a child does not hold a dress,null
+A dark-haired man wearing a black and white t-shirt eats in a park surrounded by people.,A man sits in the cafeteria.,contradiction,null,A dark-haired man wearing a black and white t-shirt eats in a park surrounded by people.,null
+Two men stand in hula grass skirts stand in the back of a truck at the top of a silver ramp.,The two men are wearing hula grass skirts.,entailment,null,The two men are not wearing hula grass skirts.,null
+A man wearing a brown shirt and backpack is pushing a stroller while a small toddler is walking along aside him on a rain-covered street.,The man's shirt is white.,contradiction,null,The man's shirt is brown.,null
+A young man is playing a blue guitar.,The man is playing the guitar.,entailment,null,The man is not playing the guitar.,null
+"Five people standing on a stage, getting ready to perform, who are unrecognizable due to the lack of lighting.","In a dim room, several actors who can barely see each other, are getting ready to act.",entailment,null,"In a bright room, several actors who can see each other clearly, are getting ready to act.",null
+A small child dressed for winter stares across a lake while leaning on a mesh fence in a scenic park setting.,A small child dressed for winter stares across a floating lake while leaning on a mesh fence,entailment,null,A small child dressed for winter stares across a lake while leaning on a solid wall,null
+Workers wearing orange vests stand near rail tracks.,Workers wearing orange are about to repair rail tracks.,neutral,null,Workers wearing orange are not near rail tracks.,null
+A kid slides down a yellow slide into a swimming pool.,The kid is playing at the waterpark.,neutral,null,The kid is sleeping at home.,null
+Bubbles surround a statue in the middle of a street.,There are bubbles around the statue.,entailment,null,There are no bubbles around the statue.,null
+"A man in a black shirt, in a commercial kitchen, holding up meat he took out of a bag.","A woman in a black shirt, in a commercial kitchen, holding up meat he took out of a bag.",contradiction,null,"A man in a black shirt, in a commercial kitchen, holding up meat he took out of a bag.",null
+A man wearing a blue shirt and headphones around his neck raises his arm.,A man is raising his arm.,entailment,null,A man is not raising his arm.,null
+A man in a white striped shirt and blue jeans using a water hose to spray water on the ground of concrete ruins.Fo.,A man is riding a motorcycle through a grassy field.,contradiction,null,A man in a white striped shirt and blue jeans is using a water hose to spray water on the ground of concrete ruins.,null
+A young boy wearing a red shirt and jeans stands in the middle of a field and throws a toy plane in the air.,A young boy is playing in the field because his mother kicked him out of the house.,neutral,null,A young boy is standing in the field because he loves playing there and his mother is watching him from a distance.,null
+A dog standing near snow looking at water.,The dog is thinking about going to for a swim.,neutral,null,The dog is thinking about going to the desert.,null
+A man in purple tie is singing.,A man is talking to others.,contradiction,null,A man in purple tie is singing.,null
+"A golfer is getting ready to putt on the green, with a crowd of people watching in the background.","The golfer is getting ready to putt on the green, with a crowd watching in the background.",entailment,null,"The golfer is getting ready to drive on the range, with no crowd watching in the background.",null
+A man in a suit stands on a walkway with is suitcase with a large display in front of him announcing airline flights.,A man is sitting on a beach in Mexico.,contradiction,null,A man in a suit stands on a walkway with his suitcase with a large display in front of him announcing airline flights.,null
+A boy hits a tennis ball on a court.,A boy is hitting a ball.,entailment,null,A girl is hitting a ball.,null
+A bearded man sits near a white van.,A man waiting for someone near a white van.,neutral,null,A woman waiting for someone near a black van.,null
+Passengers in a rusty yellow car driving down the street.,An old taxi drives on a street.,neutral,null,An old taxi drives on the moon.,null
+a young boy using a field microscope to identify a field specimen during a field trip.,The boy is on a science field trip.,neutral,null,The boy is playing a sport during a field trip.,null
+A man and two kids standing in front of an ancient building.,A man is standing with his sons.,neutral,null,A woman is standing with her sons.,null
+A child with blond-hair looking out of a screen door.,A child is being held by his mother at the mall.,contradiction,null,A child with blond-hair is looking out of a screen door.,null
+Two people are running in the grass by a hill.,The people are running outside.,entailment,null,The people are running inside.,null
+A golden dog bounds across the snow-covered hill.,A golden dog bounds across the snow-covered land form.,entailment,null,A black dog bounds across the snow-covered land form.,null
+"Two woman, one wearing a blue striped shirt and the other wearing a flowered shirt, are riding horses.",Women are outside riding horses.,entailment,null,Women are inside riding horses.,null
+A short-haired man is jumping while on top of a huge boulder.,The man is sitting down on the rock.,contradiction,null,The man is jumping while on top of a huge boulder.,null
+A man wearing a blue apron and long rubber boots is dragging a flotation device from a long row of flotation devices.,A worker pulls up his long boots before climbing onto the flotation device.,neutral,null,A worker pulls up his long boots before climbing onto the car.,null
+3 people on plain boats smiling towards the camera.,3 boating people being attacked by lions.,contradiction,null,3 people on boats smiling towards the camera.,null
+Bearded black dressed male performer is displaying his skill by swinging a fire line in each hand in arcs.,A sideshow man in a black costume is performing a trick with fire for the audience.,entailment,null,A sideshow man in a black costume is performing a trick without fire for the audience.,null
+A bald man with a white shirt and watch eating food and drinking wine.,There is a bald man.,entailment,null,There is not a bald man.,null
+A man is doing a task by a body of water on a farm.,The man is doing something by the water.,entailment,null,The man is doing something in a city.,null
+An older women looking off into the distance with three older women walking towards her from behind.,An older woman is trying to see a billboard that is far away,neutral,null,An older woman is trying to see a billboard that is right in front of her,null
+Two men fixing a bicycle.,Two men work on a motorcycle.,contradiction,null,Two men work on a bicycle,null
+Two belly dancers perform with each other in the streets while passersby look on and watch the display.,Two dancers are making money,neutral,null,Two dancers are not making money,null
+Two gondola operators sit along a road in Italy.,The gondola operators are in uniform.,neutral,null,The gondola operators are not in uniform.,null
+Someone in a white and black polka dot outfit handing out small cartons of orange juice behind caution tape on a street.,A monkey is passing out orange juice in the middle of the forest.,contradiction,null,Someone in a white and black polka dot outfit is handing out small cartons of orange juice behind caution tape on a street.,null
+Men wearing life vests speed across a body of water in an orange boat.,The men are outside.,entailment,null,The men are inside.,null
+"An old man, likely a blacksmith, is welding a tool, seen by the red hot scorching look of it.",A farmer is milking the cow.,contradiction,null,"An old man, likely a blacksmith, is welding a tool, seen by the red hot scorching look of it, and in the background, a farmer is milking the cow.",null
+The indian's are performing a sacred dance.,The people are dancing.,entailment,null,The people are not dancing.,null
+A boy in red and a girl pink are walking through a low cut field.,Kids are playing in the field.,neutral,null,Kids are not playing in the field.,null
+Men wearing painted clothes are standing in the rain.,Men are getting wet with the rain.,entailment,null,Men are staying completely dry in the rain.,null
+"A person dressed in a dress with flowers and a stuffed bee attached to it, is pushing a baby stroller down the street.",A lady sitting on a bench in the park.,contradiction,null,"A person dressed in a dress with flowers and a stuffed bee attached to it, is pushing a baby stroller down the street.",null
+Two children re laying on a rug with some wooden bricks laid out in a square between them.,Two children are playing catch at a park.,contradiction,null,Two children are laying on a rug with some wooden bricks laid out in a square between them.,null
+"A young middle eastern mother in high heels, holding her young child as he lays his head on her shoulder asleep, is gazing out the window.",A woman holding her sleeping son is thinking about the future.,neutral,null,A woman holding her sleeping son is thinking about the past.,null
+A woman poses for a picture with a child.,The woman and child take a picture together.,entailment,null,The woman and child do not take a picture together.,null
+A young girl chasing a duck with bread in her hands.,A child is chasing an animal.,entailment,null,A child is reading a book.,null
+A man in the bucket of a chery-picker cuts down branches using a chainsaw at the end of a long pole.,A man is trimming trees.,entailment,null,A man is painting a house.,null
+Two adults hold either side of a boat at the edge of the water.,Two people are hiking.,contradiction,null,Two people are standing at the edge of the water.,null
+Four women competitively rollerskating around an area.,four men are rollerskating.,contradiction,null,Four women are rollerskating.,null
+A young boy in a cowboy hat rides a large horse.,A boy is sleeping.,contradiction,null,A boy is riding a horse.,null
+Two men are standing in a boat.,A few men are fishing on a boat.,neutral,null,No men are fishing on a boat.,null
+Two young boys are playing in a fountain in a city plaza.,Kids are are standing in a fountain.,entailment,null,Kids are standing next to a fountain.,null
+Military personnel are shopping,Military personnel are in the mall.,neutral,null,Military personnel are not in the mall.,null
+An older women looking off into the distance with three older women walking towards her from behind.,4 older woman are walking,entailment,null,Only 1 older woman is walking,null
+A man wearing a wife-beater sings into a microphone as a blue light shines on him.,A naked man drinks a soda in the dark.,contradiction,null,A man wearing a wife-beater sings into a microphone as a blue light shines on him.,null
+"A lady is helping another woman work in a silver compartment, which is most likely related to nurse-work.",A lady is sleeping on a couch,contradiction,null,A lady is helping another woman work in a silver compartment,null
+Men sitting at a table in a church.,The men pray at the alters.,contradiction,null,The men are sitting at a table in a church and are praying at the altar.,null
+A young girl with a white long-sleeved shirt on helps a young boy brown long-sleeved shirt on with tying his shoelaces.,A girl helps a boy tie his shoes,entailment,null,A girl hinders a boy from tying his shoes,null
+"A dark-skinned person, crouched while painting a sign.",A black man is painting a protest sign.,neutral,null,A white man is painting a protest sign.,null
+Six men in airport standing on moving walkway,There is a group of people at the airport.,entailment,null,There is no group of people at the airport.,null
+A young man with glasses and his companion are attempting to do laundry in a public place.,A tall person with glasses,neutral,null,A person without glasses,null
+Man on phone in business suit walking down a busy street.,A man is talking to his wife on the phone while walking down the street.,neutral,null,A man is not talking to his wife on the phone while walking down the street.,null
+A person is walking a bicycle down a city street.,The bike has a flat tire.,neutral,null,The person is walking a bicycle down a city street because the bike has a flat tire.,null
+An older woman is holding a small child.,a woman holding a child,entailment,null,a man holding a child,null
+A woman plays guitar for tips.,there is no way one can learn music,contradiction,null,one can learn music by playing guitar,null
+A man and a woman sitting down laughing.,The man and woman are mad at each other.,contradiction,null,The man and woman are laughing together.,null
+Family sitting down in a field of grass while others walk by.,No one is sitting in the field of grass.,contradiction,null,At least one person is sitting in the field of grass.,null
+A man and woman look through CD's at a street vendor.,A man and women taking a break,neutral,null,A man and woman are not present at the scene,null
+A woman swings on a rope overlooking a red farmhouse and gated pastures and tall trees.,the woman cooked a apple pie,contradiction,null,The woman is swinging on a rope overlooking a red farmhouse and gated pastures and tall trees where she will later cook a meal.,null
+A lady digs through a garbage can looking to add to the shopping cart beside her.,Lady is searching for food in garbage,neutral,null,Lady is not searching for food in garbage,null
+A wet black lab with a red collar is standing in the water.,A wet dog is outside.,entailment,null,A dry cat is inside.,null
+A crowd of people is looking at something outside of a Gap store.,People are looking outside,entailment,null,People are looking inside,null
+A older man with gray hair wearing a gray suit next to a green and yellow taxi.,A older woman sits in a green and yellow taxi.,contradiction,null,A older man with gray hair wearing a gray suit sits in a green and yellow taxi.,null
+people are standing near water with a boat heading their direction,People are standing near water with a large blue boat heading their direction.,neutral,null,People are standing near water with a boat heading away from their direction,null
+Five boys in blue shirts drawing at a table.,The boys are wearing red shirts.,contradiction,null,The boys are wearing blue shirts.,null
+A man in glasses and an orange shirt is sitting outside next to a table with drinks on it.,A woman sits on a table,contradiction,null,A man sits on a table,null
+An elderly man talking to a young boy by a table of produce.,the boy was listening,neutral,null,the boy was not listening,null
+A man takes a drink in the doorway of a home.,A man is looking out onto his front lawn from the doorway of his home.,neutral,null,A man is sitting on his couch watching TV inside his home.,null
+Two dogs run together near the leaves.,The two dogs are running to play in the leaves.,neutral,null,The two dogs are running away from the leaves.,null
+Man jumping over a rusty fence on a blue bicycle.,The man attending a meeting in his office.,contradiction,null,The man is jumping over a rusty fence on a blue bicycle.,null
+A man is sitting on the floor and is surrounded by pictures.,A man sitting on the floor with photographs around him.,entailment,null,A man is standing on the ceiling with no photographs around him.,null
+A man with no shirt on is holding a football.,A man rolls on the ground on fire.,contradiction,null,A man with no shirt on is holding a football and then he rolls on the ground on fire.,null
+Fireworks light up the night as a man stands on stage.,The fireworks were shot into the sky.,entailment,null,The fireworks were not shot into the sky.,null
+A woman teaching a ballet class composed of small children holding colourful scarves.,A woman is teaching a ballet class composed of small children holding green and red scarves.,neutral,null,A woman is teaching a ballet class composed of adults holding green and red scarves.,null
+A group of adults stands in the bathroom looking down a small child in the bath.,The child is sleeping.,contradiction,null,The child is in the bath.,null
+A smiling woman and man are seated in front of a microphone in a music studio.,the woman is happy.,neutral,null,the woman is unhappy,null
+"Two workers, one in a ditch and one standing on the ground, are working in front of a house.",The workers are working infront of the house,entailment,null,The workers are not working in front of the house,null
+Young boy smiles at the camera from the tire swing.,He is barefoot.,neutral,null,He is wearing shoes.,null
+A woman in a green suit walking towards an escalator.,A woman is walking to the escalator at a sporting event.,neutral,null,A woman is walking away from the escalator at a sporting event.,null
+Three people are outside.,Three people enjoying the great outdoors.,neutral,null,Three people are stuck inside.,null
+A soldier using binoculars in a desert.,A soldier using binoculars outside in the heat.,entailment,null,A soldier using binoculars inside in the cold.,null
+Three bridesmaids in blue dresses hold the train of a bride's wedding dress.,The bridesmaids are assisting the bride.,entailment,null,The bridesmaids are ignoring the bride.,null
+A man in colorful shorts is surfing under a wave.,A man is sunbathing.,contradiction,null,A man is surfing under a wave.,null
+The cyclist rides on a wooded path.,The cyclist rides quickly alone on a wooded path,neutral,null,The cyclist does not ride on a wooded path,null
+"A boy wearing jeans, standing on rocks in a river and throwing a stone.",A boy with no shirt on throws rocks.,neutral,null,"A boy wearing jeans, standing on rocks in a river and throwing a stone, while wearing a shirt.",null
+A man in a suit cheering in a library in front of children.,A lawyer is encouraging some children at a contest.,neutral,null,A lawyer is discouraging some children at a contest.,null
+"A female runner dressed in blue athletic wear is running in a competition, while spectators line the street.",There are children in the streets.,contradiction,null,There are spectators in the streets.,null
+a green and white trolley car with an advertisement of coffee on the side and front of it in a city.,A taxi cab with two women in the backseat talking on their cellphones.,contradiction,null,A green and white trolley car with an advertisement of coffee on the side and front of it in a city has a taxi cab with two women in the backseat talking on their cellphones.,null
+"Two men stand in the road, it almost appears to be some sort of movie set on a sunny day in California.",Everybody is sitting,contradiction,null,Two men stand in the road,null
+A woman in red blouse is standing with small blond child in front of a small folding chalkboard.,a woman stands with her child,neutral,null,a woman stands with someone else's child,null
+Six women wait to use a port-o-john in a field.,Friends are meeting for coffee.,contradiction,null,Six women wait to use a port-o-john in a field after meeting their friends for a music festival.,null
+"While one man, in the white cap, is golfing, three other men are in the middle of a conversation.",Four guys go bowling at the lanes.,contradiction,null,Four guys are golfing or in the middle of a conversation.,null
+Two dogs are running next to each other on a grassy hill.,The dogs are eating their food indoors.,contradiction,null,The dogs are running next to each other on a grassy hill.,null
+Two men stand on stairs with an assortment of chairs and a woven basket in the foreground.,The basket is woven.,entailment,null,The basket is not woven.,null
+A child doing gymnastics,The child is eating lunch at the park.,contradiction,null,The child is doing gymnastics,null
+"A man drops something, reaching for it while a woman in a beige blazer discusses an important topic.",A man brushes his teeth in front of a mirror.,contradiction,null,"A man drops something, reaching for it while a woman in a beige blazer discusses an important topic.",null
+A woman in a spaghetti strap tank wearing a flower in her hair is staring towards the right.,The woman is sleeping on a pillow.,contradiction,null,The woman is staring towards the right.,null
+A man holds two children in his arms.,A man poses for a photograph with his two grandchildren.,neutral,null,A man poses for a photograph alone.,null
+"Three workers, with life vests and hard hats, on a boat hanging from cables over water.",Three people are on a boat.,entailment,null,There are no people on a boat.,null
+A man playing the guitar while smoking a cigarette.,The man is also playing the drums,contradiction,null,The man is also playing the guitar,null
+A older man with gray hair wearing a gray suit next to a green and yellow taxi.,A older man with gray hair wearing a gray suit.,entailment,null,A younger woman with black hair wearing a black dress.,null
+Two people walk up to a brick building with a colorful mural on its side.,Two people walking toward a brick building with a colorful mural outside.,entailment,null,Two people walking toward a glass building with no mural outside.,null
+A dog hides in the tall grasses along a rocky shore,The dog is outdoors.,entailment,null,The dog is indoors.,null
+A young girl wearing yellow shorts and a white tank top using a cane pole to fish at a small pond.,A girl in shorts is fishing in a pond.,entailment,null,A boy in shorts is fishing in a pond.,null
+The collie is standing outdoors on a sandy area.,The collie is standing in the sand.,entailment,null,The collie is standing on the rocks.,null
+The red motocross bike and its rider are airborne above the trees.,A rider is riding his motocross bike.,entailment,null,A rider is walking his motocross bike.,null
+Man in blue shirt yells and points off-camera while a man in a blue shirt and baseball cap watches.,He is yelling at his son.,neutral,null,He is yelling at his daughter.,null
+"A woman poses with sunglasses shaped like dollar signs and a silver suitcase labelled ""LUCKY"" full of bills.",A woman is posing for a photograph.,entailment,null,A man is posing for a photograph.,null
+Two kids running past a dinosaur in the woods.,Some children in the forest pass by a plastic triceratops.,neutral,null,Some children in the forest pass by a real triceratops.,null
+a brown dog with a yellow toy in his mouth is jumping off the grassy ground,The black dog has a red toy.,contradiction,null,The brown dog has a yellow toy.,null
+Two young musicians play from a stage.,The stage is empty,contradiction,null,The stage has two young musicians playing on it.,null
+a skier is throwing up snow as he skis off piste.,A snowboarder takes a nap on the course.,contradiction,null,A skier is throwing up snow as he skis off piste.,null
+A large African American man sitting on a camping chair.,the large black man is running a race,contradiction,null,the large black man is sitting on a camping chair,null
+"In front of a brick house with a straw roof and some figures, three children stand, two of them holding squares of blackboard.",The children are outdoors,entailment,null,The children are indoors,null
+Everyone on the street in the city seem to be busy doing their own thing.,The people are watching what is happening.,contradiction,null,The people are busy doing their own thing.,null
+"A little blond boy is playing doctor with red, blue, and yellow toy gear.",Boy pretending to be a doctor.,entailment,null,Girl pretending to be a doctor,null
+A man is laid back in front of a tv.,he is watching the news,neutral,null,he is sleeping,null
+Young person in black next to an older person in black and white polka dot.,A young person is standing next to a relative.,neutral,null,A young person is standing alone.,null
+A photographer is using a tripod to take a picture of a sunset.,The photographer is holding the camera in his hands.,contradiction,null,The photographer is using a tripod to take a picture.,null
+A group of people are in a rowboat in the ocean surrounded by seagulls.,A group of people are rowing towards some islands while one of them fishes.,neutral,null,A group of people are on land surrounded by mountains while one of them skis.,null
+A woman sitting in an office.,A women outside,contradiction,null,A woman sitting in an office,null
+2 women and 2 girls crossing the road,A group of girls and women are laughing as they cross the road.,neutral,null,A group of boys are laughing as they cross the road.,null
+Two construction workers climbing the steel ribbed exterior of a new building at their work site.,Two workers are climbing a building.,entailment,null,Two workers are sitting in an office.,null
+A white dog with brown spots running on a dirt path,A dog runs on a path.,entailment,null,A cat runs on a path.,null
+A man in a khaki jacket and ball cap walks down the street.,The man is walking to the supermarket.,neutral,null,The man is sitting on a couch.,null
+"A young woman dressed up semi-formally is reading book and drinking in the sun, seated on a bench.",A young woman is running through the waves.,contradiction,null,"A young woman is sitting on a bench, reading a book and drinking in the sun.",null
+A big dog catches a ball on his nose,A big dog is sitting down while trying to catch a ball,neutral,null,A big dog is sitting down while not trying to catch a ball,null
+A child making a sand castle on the beach.,A child on a beach.,entailment,null,A child in a city,null
+A female in the middle of a vehicle is holding a camera and is pointing it towards the backseat.,A girl is inside a vehicle.,entailment,null,A girl is outside a vehicle.,null
+Two men climbing on a wooden scaffold.,Two sad men climbing on a wooden scaffold.,neutral,null,Two men climbing on a metal scaffold.,null
+A young african child in a dirty yellow shirt carrying a bag on his head.,A young African child playing soccer.,contradiction,null,A young African child in a dirty yellow shirt carrying a bag on his head.,null
+A small child in a red jacket is sitting on a man's shoulders and holding his head.,Th small child is watching a performance.,neutral,null,The small child is not watching a performance.,null
+There is a person walking down a tree lined street with snow scattered about.,There is a dog walking down a tree lined street with snow scattered about.,contradiction,null,There is a person walking down a tree lined street with snow scattered about.,null
+"Four young men stare up at a basketball hoop with no net, in an outdoor, urban basketball court.",A group of women playing basketball in a gym.,contradiction,null,"A group of young men stare up at a basketball hoop with no net, in an outdoor, urban basketball court.",null
+A white man in a blue uniform is pushing away a black man in a red uniform while the two play soccer on a green field.,A woman says Hi to another woman at the grocery store.,contradiction,null,A man in a blue uniform is pushing away a man in a red uniform while the two play soccer on a green field.,null
+A child wearing a red top is standing behind a blond headed child sitting in a wheelbarrow.,A child wearing a red top is standing behind a pretty blond headed child,neutral,null,A child wearing a blue top is standing behind a blond headed child sitting in a wheelbarrow,null
+A man is working on a Earthen structure with a pickaxe.,The man is in an office building.,contradiction,null,The man is working on an Earthen structure with a pickaxe.,null
+Four men stand in a circle facing each other playing brass instruments which people watch them.,The men are playing music,entailment,null,The men are not playing music,null
+People dresses in business clothing are walking by while one man with a tie on is standing still and talking on his cellular phone.,The people are dressed in business clothing.,entailment,null,The people are dressed in casual clothing.,null
+A brown dog jumps over an obstacle.,The dog is in a pool.,contradiction,null,The dog is jumping over an obstacle.,null
+A birthday party for many little people to enjoy.,Children enjoying a birthday party.,neutral,null,Adults enjoying a funeral.,null
+A cement worker is working on a new sidewalk outside of a clothing store.,A worker is working on a new sidewalk outside of a restuarant.,contradiction,null,A worker is working on a new sidewalk outside of a clothing store.,null
+Four men and a young boy are at a table set up for wood crafts.,Five total people are near a table with objects on it.,entailment,null,Only one total person is near a table with objects on it.,null
+An Indian woman is dancing with her partner.,A woman has dark skin.,neutral,null,A woman has light skin.,null
+The man is sweeping with a red broom.,The man is dancing with a woman,contradiction,null,The man is sweeping with a red broom.,null
+People with bags walk along a dirt road in front of a green building.,People are walking outside.,entailment,null,People are walking inside.,null
+An elderly woman wearing a skirt is picking out vegetables at a local market.,This woman is on a shopping trip.,entailment,null,This woman is not going on a shopping trip.,null
+Two men spar in martial arts gear.,There are multiple people present.,entailment,null,There is only one person present.,null
+"A woman player in white and black, sends the volleyball over the net, while the opposing team in navy blue, tries to block it, as the coach and a few spectators watch, in a gym.",The gym is old,neutral,null,The volleyball game is being played outdoors,null
+A man with a blue helmet and orange shirt.,A man wears a helmet.,entailment,null,A man does not wear a helmet.,null
+A man in a white and gray shirt looks on as a shirtless man with a mustache cleans fish on a pale green table.,The man is cleaning the fish that he caught so he can cook it.,neutral,null,The man is cleaning the fish that someone else caught so he can give it away.,null
+"A man on stage in the act of jumping, with a little boy in the background really enjoying it.",A boy watches boats on a lake.,contradiction,null,A boy watches a man jumping on stage.,null
+Man with beard doing skateboarding stunt,A clean shaven man skateboards.,contradiction,null,A man with a beard skateboards.,null
+A woman in a blue top and pencil skirt walks by a balding man in a pinstriped suit.,They know each other.,neutral,null,They have never met before.,null
+Many women trying out and looking at laptops in a Walmart.,Women are shopping at safeway for lamb chops.,contradiction,null,Women are shopping at Walmart for laptops.,null
+An older gentlemen in a hat and glasses holding a baby who is wrapped in a towel.,An older man in clothing accessories is quietly cradaling an infant who is wrapped in a towel.,neutral,null,An older man in clothing accessories is quietly cradling a toddler who is wearing a dress.,null
+A dog and a cat are swimming in a swimming pool.,Two animals are swimming.,entailment,null,No animals are swimming.,null
+An Asian man walks a three-wheeled pedal card fully of white bags.,An Asian man walks his dog on a rainy afternoon.,contradiction,null,An Asian man walks a three-wheeled pedal card fully of white bags.,null
+A young man blew up balloons to craft into animals for the seven excited children that looked on.,The children watch the man make dogs and giraffes out of balloons,entailment,null,The children watch the man make dogs and giraffes out of clay,null
+Two girls playing catch on a lawn,Two girls are walking beside a pond with ducks and swans.,contradiction,null,Two girls playing catch on a lawn,null
+A man wearing glasses and a ragged costume is playing a Jaguar electric guitar and singing with the accompaniment of a drummer.,Two men are playing frisbee in the park.,contradiction,null,A man wearing glasses and a ragged costume is playing a Jaguar electric guitar and singing with the accompaniment of a drummer.,null
+A girl with a blue shirt and a girl with a striped shirt stand next to a girl with a green shirt sitting in a chair.,The three girls are arm wrestling in China town.,contradiction,null,The three girls are standing next to each other.,null
+a skier is throwing up snow as he skis off piste.,A skier skis.,entailment,null,A skier does not ski.,null
+The child is hanging upside down with his legs over a pole.,The child is athletic.,neutral,null,The child is paralyzed.,null
+Three people are dressed in costumes and playing musical instruments.,The people are playing at a festival.,neutral,null,The people are not playing at a festival.,null
+A skier goes down a hill with a mountain as a backdrop.,A skier going down the bunny hill.,neutral,null,A skier stays at the top of the hill.,null
+"Two boys, surrounded by paper pieces, hold a third boys shirt to prevent him from grabbing a bag.",The friends are playing with paper and bags.,neutral,null,The friends are playing with a ball and a book.,null
+"A little girl drawing with chalk, on a chalkboard.",A little girl is drawing on the board during class.,neutral,null,A little girl is playing soccer outside during class.,null
+Two girls holding bags walking down the sidewalk.,Two women are enjoying an afternoon of shopping.,neutral,null,Two women are sitting at home watching a movie.,null
+Two men are sitting on a couch.,Two men are standing outside.,contradiction,null,Two men are sitting on a couch.,null
+A man visiting a friend in the hospital.,A man in a hospital receives a visiting friend.,entailment,null,A man in a hospital does not receive a visiting friend.,null
+A man holding a pink cooler is talking to an older woman.,A man offers a woman a beer.,neutral,null,A man refuses to offer a woman a beer.,null
+A man is giving a presentation.,the man is not talking,contradiction,null,the man is talking,null
+"A musician playing a guitar and harmonica singing a song with ""Whatever it Takes"" written on his guitar.",The musician is playing the drums.,contradiction,null,The musician is playing the guitar.,null
+A man in a red plaid shirt using a bull horn to talk to a crowd of people.,a man is a comedian,neutral,null,a man is not a comedian,null
+A woman in a low cut blue shirt is in a crowded room that looks smokey.,Someone is in a field.,contradiction,null,A woman in a low cut blue shirt is in a crowded room that looks smokey.,null
+A policeman on a motorcycle from the rear.,An officer on a chopper.,contradiction,null,An officer on a motorcycle,null
+"A woman is sitting outside at a table, using a knife to cut into a sandwich.",A woman is sitting inside.,contradiction,null,"A woman is sitting outside at a table, using a knife to cut into a sandwich.",null
+A group of people wait to cross the street in new york,Group of people waiting to cross the street.,entailment,null,Group of people waiting to cross the street in London,null
+"A little boy wearing a yellow, white and black striped shirt is whispering a secret to a little girl wearing a white long sleeved-shirt.",The little boy is good friends with the girl.,neutral,null,The little boy has never met the girl.,null
+A boy in blue shorts and a t-shirt is poised to hit a tennis ball with a racket.,A boy wearing blue shorts and a t-shirt is playing tennis with his friend.,neutral,null,A boy wearing blue shorts and a t-shirt is playing basketball with his friend.,null
+The girl wearing a brown jacket whilst walking in snow.,The girl is walking outside.,entailment,null,The girl is walking inside.,null
+A man is talking on a cellphone while filling his car with gas.,A man talks to his boss while getting gas for his car.,neutral,null,A man talks to his boss while getting gas for his car at home.,null
+Four people and a baby are crossing the street at a crosswalk.,People and a baby riding the bus.,contradiction,null,People and a baby are crossing the street at a crosswalk.,null
+A snowboarder on a wide plain of snow,A snow field with a snowboarder on it,entailment,null,A desert with no snowboarder on it,null
+Two girls are playing in the snow and throwing snowballs.,The snowballs are from fresh snow.,neutral,null,The snowballs are made from dirt.,null
+A female camera operator is capturing some off-camera activity.,A lady is taking a picture,entailment,null,A lady is not taking a picture,null
+A baby girl and little boy are standing next to a guitar and a drum.,The boy is alone in the bathtub on the moon.,contradiction,null,The baby girl and little boy are standing next to a guitar and a drum.,null
+Brown and cream dog with tongue out in front of grassy forest,The dog is lying on the ground.,contradiction,null,The dog is standing in front of a grassy forest with its tongue out.,null
+"couples enjoying a meal, while a bunch of dogs take a nap.",SOME ANIMALS ARE ASLEEP,entailment,null,No animals are asleep,null
+A man holding a baby who is petting a pony.,A man who kidnap a baby is petting a pony.,neutral,null,A man who is holding a baby is petting a pony.,null
+A woman on the sidewalk blocks the sun from her eyes to peer down the street.,A woman covers part of her face.,entailment,null,A woman does not cover any part of her face.,null
+A brown and white dog holds a tennis ball in his mouth.,A dog mouth holds a retrieved ball.,entailment,null,A cat mouth holds a retrieved ball.,null
+A man in a red shirt is learning how to climb a cliff.,A man is playing videogames.,contradiction,null,A man in a red shirt is learning how to climb a cliff.,null
+"Two men in workers' gear and colorful hard hats standing on board what appears to be a large ship, next to some very large machinery.",two men are sitting by the pool next to machinery on the boat,contradiction,null,two men are standing on a ship next to some large machinery,null
+A man holding a sign of a rainbow elephant.,The donkey sign is smeared with paint.,contradiction,null,The sign of a rainbow elephant is smeared with paint.,null
+A man and a young girl swimming.,a man and girl swim,entailment,null,a man and girl do not swim,null
+A child in a maroon shirt playing next to a fountain.,The child is at play.,entailment,null,The child is sleeping.,null
+Four small children playing in the courtyard of a large building made out of clay or sand.,Four children who live in a large building are in the courtyard playing.,neutral,null,Four children who live in a small building are in the courtyard playing,null
+"Six rescuers cooperate to place an injured man on a transport device in snowy, mountainous terrain.",six people act to save a seventh who is injured,entailment,null,six people act to save a seventh who is not injured,null
+A woman sits on a rug next to a shirtless boy who is looking in the direction of a checkers board that includes several pieces.,A woman and her son play the third of a best of three checkers tournament.,neutral,null,A woman and her son do not play a checkers tournament.,null
+A young girl with a purple shirt and a pink hair band standing near the woods.,A little girl in a pink shirt is ready to run in the woods.,neutral,null,A little girl in a pink shirt is standing far away from the woods.,null
+the white dog is carrying a ball in its mouth.,The dog is running with a ball in its mouth.,neutral,null,The dog is not carrying a ball in its mouth.,null
+two people riding their bikes down a street together.,A couple ride their bikes on a date.,neutral,null,"A couple ride their bikes on a date, but they are not together.",null
+"Blue, red, yellow, and white are the dominant colors of a picture of two police vehicles outside of what looks like a smoke roll playing vehicle, a motorcycle in between the two cars with 6 people in the picture.",There are two police vehicles in the photo.,entailment,null,There are no police vehicles in the photo.,null
+people are sitting on a bench in front of buildings.,Some people are seated on a bench outside.,entailment,null,Some people are seated on a bench inside.,null
+A woman in a striped shirt is walking a horse across a street.,A woman in a striped shirt is running with a dog across a street.,contradiction,null,A woman in a striped shirt is walking a horse across a street.,null
+A man in a blue shirt touches his head while talking to two women outdoors.,three people talk,entailment,null,only one person talks,null
+A couple stands at the top of a flight of outdoor stairs kissing one another.,A couple stands near some stairs.,entailment,null,A couple stands far away from any stairs.,null
+A woman with a navy sweater is looking through a blue telescope at a statue of a dinosaur.,The woman is watching television,contradiction,null,The woman is looking through a telescope,null
+There are many people in a large room with a lot of furniture with tags on them.,"Treasure hunters flock to an estate sale, with a lot of antique furniture for sale.",neutral,null,Treasure hunters flock to an empty estate with no furniture for sale.,null
+"A group of men playing music, the man holding a guitar is talking to a man with drums.",A band plays salsa music.,neutral,null,A band plays music in complete silence.,null
+A man and a woman are showing their kid their little baby.,A man shows off his baseball cards.,contradiction,null,A man and a woman are showing their kid their little baby.,null
+A male wearing a football uniform kicking a football during a football game.,A Dallas Cowboy player is trying to tie the playoff game.,neutral,null,A male wearing a football uniform is watching a football game from the sidelines.,null
+A man standing on a street with a suitcase in front of him while another man bends down to look at what is displayed on top of it.,Two men lie on tables in the morgue.,contradiction,null,A man standing on a street with a suitcase in front of him while another man bends down to look at what is displayed on top of it.,null
+A group of students are walking through the campus.,A group of people sit at home,contradiction,null,A group of students are walking through the campus.,null
+A man on a skateboard performs a trick in the air against the backdrop of a bright blue sky.,A man is riding a skateboard,entailment,null,A man is riding a car,null
+"A plane flies overhead as military men stand at attention, a flag blows in the wind as a lady in red stares out towards the camera.",A military event is taking place.,entailment,null,A children's birthday party is taking place.,null
+A man in a blue shirt and a woman in a pink skirt sit around other people in the background.,There are some people doing the limbo.,contradiction,null,There are some people sitting around in the background.,null
+Two teens trying to win a prize at a carnival.,The two teens were doing homework at home.,contradiction,null,The two teens were trying to win a prize at a carnival.,null
+Asian people about to perform animal balloons.,dog looks at the pond,contradiction,null,dog is about to be given an animal balloon by Asian people,null
+A schoolgirl is jumping over a low hurdle.,A girl is jumping over a hurdle.,entailment,null,A girl is sitting on a hurdle.,null
+A man in a purple jersey is falling down while chasing a player in a green jersey playing soccer,They give up and walk off the field,contradiction,null,The man in the purple jersey gives up and walks off the field,null
+"A man wearing a black t-shirt that says ""Long Live the Dead"" pulls a shopping cart in the street near a NYC yellow taxi cab.",The man just got done shopping.,neutral,null,The man just got done dumping the shopping cart in the street and has never been shopping.,null
+A man in bright shirt carrying a fallen branch.,The man is sipping an ice tea in the shade of a huge maple tree.,contradiction,null,The man is carrying a fallen branch.,null
+There are a group of track runners bracing to take off.,The  track runners are sitting on an airplane,contradiction,null,The track runners are standing at the starting line,null
+A woman wearing jeans is walking down the street.,A woman is walking towards a bus stop.,neutral,null,A woman is not walking down the street.,null
+Four young female gymnasts dressed in black and blue leotards are preparing for their next routine.,Gymnast group preparing for a competition.,entailment,null,The gymnasts are not preparing for a competition.,null
+A man wearing a white button down shirt is walking down the street.,The man is walking down the street.,entailment,null,The man is not walking down the street.,null
+An Ambulance is passing a man wearing a bandanna and girl.,The ambulance isn't stopped by heavy traffic,entailment,null,The ambulance is stopped by heavy traffic,null
+"A group of people, including one man carrying a silver tripod, stand in front of a large building featuring numerous columns.",Gerbils chat on Gruveo.,contradiction,null,"A group of people, including one man carrying a silver tripod, stand in front of a large building featuring numerous columns, and they are chatting with each other.",null
+A brown dog carries an object in its mouth on a snowy hillside.,A dog is carrying something.,entailment,null,A dog is not carrying something.,null
