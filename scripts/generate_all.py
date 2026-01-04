@@ -12,10 +12,10 @@ METHODS = ["conf", "lxt", "shap", "lime", "gradxinput","nl"]
 
 
 JOBS = [
-    #("nl",  "snli", "premise"),
-    #("nl",  "snli", "hypothesis"),
-    #("nl",  "imdb", None),
-    #("nl",  "agnews", None),
+    ("nl",  "snli", "premise"),
+    ("nl",  "snli", "hypothesis"),
+    ("nl",  "imdb", None),
+    ("nl",  "agnews", None),
 
 
     #("lxt",  "snli", "premise"),

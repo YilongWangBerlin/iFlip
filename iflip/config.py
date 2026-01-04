@@ -34,12 +34,13 @@ class GenerationConfig:
     def classifier_model(self) -> str:
         if self.task_name == "imdb":
             return "textattack/bert-base-uncased-imdb"
+            #return "textattack/roberta-base-imdb"
         elif self.task_name == "snli":
             return "textattack/bert-base-uncased-snli"
+            #return "utahnlp/snli_roberta-base_seed-2"
         elif self.task_name == "agnews":
             return "textattack/bert-base-uncased-ag-news"
-        else:
-            raise ValueError(f"Unsupported task: {self.task_name}")
+            #return "textattack/roberta-base-ag-news"
     
     token_window_size: int = 512   # window length for sliding-window voting
     token_stride: int = 256        # stride between windows

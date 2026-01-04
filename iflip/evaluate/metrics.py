@@ -8,9 +8,8 @@ from difflib import SequenceMatcher
 import evaluate
 
 from collections import defaultdict
-import Levenshtein
 from transformers import GPT2TokenizerFast
-
+from sentence_transformers import SentenceTransformer
 
 
 from ..config import config
@@ -191,42 +190,6 @@ def compute_flip_rate(
     
 
 
-def compute_edit_distance(original_texts: List[str], cf_texts: List[str]) -> float:
-    tokenizer = GPT2TokenizerFast.from_pretrained("gpt2")
-
-    def token_level_levenshtein(ids1: List[int], ids2: List[int]) -> int:
-        dp = [[0 for _ in range(len(ids2) + 1)] for _ in range(len(ids1) + 1)]
-
-        for i in range(len(ids1) + 1):
-            dp[i][0] = i
-        for j in range(len(ids2) + 1):
-            dp[0][j] = j
-
-        for i in range(1, len(ids1) + 1):
-            for j in range(1, len(ids2) + 1):
-                if ids1[i - 1] == ids2[j - 1]:
-                    dp[i][j] = dp[i - 1][j - 1]
-                else:
-                    dp[i][j] = 1 + min(
-                        dp[i - 1][j],      # Deletion
-                        dp[i][j - 1],      # Insertion
-                        dp[i - 1][j - 1],  # Substitution
-                    )
-
-        return dp[-1][-1]
-
-    distances = []
-    for o, c in zip(original_texts, cf_texts):
-        if not o.strip():
-            continue
-        ids_o = tokenizer.encode(o, add_special_tokens=False)
-        ids_c = tokenizer.encode(c, add_special_tokens=False)
-        d = token_level_levenshtein(ids_o, ids_c)
-        norm_d = d / len(ids_o) if len(ids_o) > 0 else 0
-        distances.append(norm_d)
-
-    return sum(distances) / len(distances) if distances else 0.0
-
 
 
 def compute_perplexity(
@@ -303,3 +266,64 @@ def predict_scores_with_sliding_window(
         all_outputs.append(averaged_scores)
 
     return all_outputs
+
+
+
+
+
+
+_SIM_MODEL = None
+_SIM_MODEL_NAME = None
+
+def _get_sim_model(model_name: str):
+    global _SIM_MODEL, _SIM_MODEL_NAME
+    if _SIM_MODEL is None or _SIM_MODEL_NAME != model_name:
+        
+        _SIM_MODEL = SentenceTransformer(model_name)  # device=None -> auto
+        _SIM_MODEL_NAME = model_name
+    return _SIM_MODEL
+
+
+def compute_semantic_similarity(
+    original_texts: List[str],
+    cf_texts: List[str],
+    *,
+    st_model_name: str = "sentence-transformers/all-MiniLM-L6-v2",
+    batch_size: int = 64,
+) -> float:
+    """
+    Return sim_mean only: mean cosine similarity between (original, counterfactual).
+    Empty/blank pairs are ignored. If no valid pairs, returns 0.0.
+    """
+    assert len(original_texts) == len(cf_texts), "original_texts and cf_texts must have same length"
+
+    # build valid mask (both non-empty after strip)
+    mask_valid = np.array(
+        [(o is not None and c is not None and str(o).strip() != "" and str(c).strip() != "")
+         for o, c in zip(original_texts, cf_texts)],
+        dtype=bool
+    )
+    if not mask_valid.any():
+        return 0.0
+
+    orig_valid = [str(original_texts[i]) for i in np.where(mask_valid)[0]]
+    cf_valid   = [str(cf_texts[i])      for i in np.where(mask_valid)[0]]
+
+    model = _get_sim_model(st_model_name)
+
+    # normalize_embeddings=True => dot product == cosine similarity
+    emb_o = model.encode(
+        orig_valid,
+        batch_size=batch_size,
+        show_progress_bar=False,
+        normalize_embeddings=True,
+    )
+    emb_c = model.encode(
+        cf_valid,
+        batch_size=batch_size,
+        show_progress_bar=False,
+        normalize_embeddings=True,
+    )
+
+    sims = np.sum(emb_o * emb_c, axis=1)   # row-wise dot
+    return float(np.mean(sims))
